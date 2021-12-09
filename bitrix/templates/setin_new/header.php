@@ -8,7 +8,7 @@ $rsElem = CIBlockElement::GetById(2833);
 $arElem = $rsElem->GetNextElement();
 $arProps = $arElem->GetProperties();
 
-
+//sdfs
 ?>
 
 
