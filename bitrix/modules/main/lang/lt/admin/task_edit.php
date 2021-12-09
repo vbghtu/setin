@@ -1,0 +1,35 @@
+<?
+$MESS['EDIT_TASK_TITLE'] = '';
+$MESS['NEW_TASK_TITLE'] = '';
+$MESS['RECORD_LIST'] = '';
+$MESS['STRING_ID'] = 'Simbolinis identifikatorius:';
+$MESS['NAME'] = 'Pavadinimas:';
+$MESS['DESCRIPTION'] = 'Aprašymas:';
+$MESS['MODULE_ID'] = 'Modulis:';
+$MESS['SYS_TITLE'] = 'Sisteminis';
+$MESS['LETTER'] = 'Raidė';
+$MESS['KERNEL'] = 'Pagrindinė sistemos dalis';
+$MESS['SAVE'] = 'Išsaugoti pakeitimus';
+$MESS['ADD'] = 'Pridėti';
+$MESS['RESET'] = 'Išvalyti';
+$MESS['DEFAULT'] = '< pagal nutylėjimą >';
+$MESS['TBL_GROUP_DATE'] = 'Aktyvumo laikotarpis';
+$MESS['MAIN_NEW_RECORD'] = 'Pridėti';
+$MESS['MAIN_DELETE_RECORD'] = 'Trinti';
+$MESS['MAIN_DELETE_RECORD_CONF'] = '';
+$MESS['TAB_1'] = 'Parametrai';
+$MESS['TAB_1_TITLE'] = '';
+$MESS['TAB_2'] = '';
+$MESS['TAB_2_TITLE'] = '';
+$MESS['RECORD_LIST_TITLE'] = '';
+$MESS['MAIN_NEW_RECORD_TITLE'] = '';
+$MESS['MAIN_COPY_RECORD'] = 'Nukopijuoti';
+$MESS['MAIN_COPY_RECORD_TITLE'] = '';
+$MESS['MAIN_DELETE_RECORD_TITLE'] = '';
+$MESS['TASK_BINDING'] = '';
+$MESS['TASK_BINDING_MODULE'] = 'Modulis';
+$MESS['TASK_BINDING_FILE'] = 'Byla/katalogas';
+$MESS['TASK_NAME_WARNING'] = '';
+$MESS['TASK_SAVE_ERROR'] = '';
+$MESS['TASK_NONE_OPERATIONS'] = '';
+?>

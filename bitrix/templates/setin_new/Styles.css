@@ -1,0 +1,1359 @@
+/*font-face: FuturaPT*/
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Bold.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Bold.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Book.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Book.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Demi.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Demi.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Demi.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-ExtraBold.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-ExtraBold.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-ExtraBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Heavy.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Heavy.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Heavy.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Light.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Light.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: FuturaPT;
+  src: url("fonts/FuturaPT/FuturaPT-Medium.eot") format("eot"), url("fonts/FuturaPT/FuturaPT-Medium.ttf") format("ttf"), url("fonts/FuturaPT/FuturaPT-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+/*font-face: Gilroy*/
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Black.eot") format("eot"), url("fonts/Gilroy/Gilroy-Black.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Black.woff") format("woff"), url("fonts/Gilroy/Gilroy-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-BlackItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-BlackItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-BlackItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-BlackItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Bold.eot") format("eot"), url("fonts/Gilroy/Gilroy-Bold.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Bold.woff") format("woff"), url("fonts/Gilroy/Gilroy-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-BoldItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-BoldItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-BoldItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Extrabold.eot") format("eot"), url("fonts/Gilroy/Gilroy-Extrabold.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Extrabold.woff") format("woff"), url("fonts/Gilroy/Gilroy-Extrabold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-ExtraboldItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-ExtraboldItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-ExtraboldItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-ExtraboldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Heavy.eot") format("eot"), url("fonts/Gilroy/Gilroy-Heavy.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Heavy.woff") format("woff"), url("fonts/Gilroy/Gilroy-Heavy.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-HeavyItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-HeavyItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-HeavyItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-HeavyItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Light.eot") format("eot"), url("fonts/Gilroy/Gilroy-Light.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Light.woff") format("woff"), url("fonts/Gilroy/Gilroy-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-LightItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-LightItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-LightItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-LightItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Medium.eot") format("eot"), url("fonts/Gilroy/Gilroy-Medium.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Medium.woff") format("woff"), url("fonts/Gilroy/Gilroy-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-MediumItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-MediumItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-MediumItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-MediumItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Regular.eot") format("eot"), url("fonts/Gilroy/Gilroy-Regular.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Regular.woff") format("woff"), url("fonts/Gilroy/Gilroy-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-RegularItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-RegularItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-RegularItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-RegularItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Semibold.eot") format("eot"), url("fonts/Gilroy/Gilroy-Semibold.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Semibold.woff") format("woff"), url("fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-SemiboldItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-SemiboldItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-SemiboldItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-SemiboldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-Thin.eot") format("eot"), url("fonts/Gilroy/Gilroy-Thin.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-Thin.woff") format("woff"), url("fonts/Gilroy/Gilroy-Thin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-ThinItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-ThinItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-ThinItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-ThinItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-UltraLight.eot") format("eot"), url("fonts/Gilroy/Gilroy-UltraLight.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-UltraLight.woff") format("woff"), url("fonts/Gilroy/Gilroy-UltraLight.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url("fonts/Gilroy/Gilroy-UltraLightItalic.eot") format("eot"), url("fonts/Gilroy/Gilroy-UltraLightItalic.ttf") format("ttf"), url("fonts/Gilroy/Gilroy-UltraLightItalic.woff") format("woff"), url("fonts/Gilroy/Gilroy-UltraLightItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 200;
+}
+*, body, html {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-family: Gilroy, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  color: #333333;
+}
+h2 span {
+  color: #FC0101;
+}
+
+h3 {
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+}
+
+h5 {
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+/*rem is for width
+px is for fonts, margins, paddings and heights*/
+.header {
+  font-family: FuturaPT, sans-serif;
+}
+.header .headerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 450;
+  font-style: normal;
+  padding: 6px calc(40px + 91 * (100vw - 1280px) / 640);
+  border-bottom: 1px solid #E0E1E2;
+}
+.header .headerTop .headerTopMenu {
+  width: 41.563rem;
+  margin-right: 2%;
+}
+.header .headerTop .headerTopMenu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .headerTop .headerTopMenu ul .headerTopMenuItem {
+  display: flex;
+}
+.header .headerTop .headerTopMenu ul .headerTopMenuItem a {
+  color: #7F7F7F;
+  padding: 0.938rem 0;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.header .headerTop .headerTopMenu ul .headerTopMenuItem a:hover {
+  color: black;
+}
+.header .headerTop .headerTopContacts {
+  display: flex;
+  flex-direction: row;
+  width: 38.75rem;
+  height: 50px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 25px;
+}
+.header .headerTop .headerTopContacts .headerTopContactsSearch {
+  width: 24px;
+  height: 24px;
+  padding: 25px 0;
+  background-image: url("icons/magnifier.svg");
+  background-size: 24px 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  /*&:hover {
+    #TCSearchBar {
+      display: flex;
+    }
+  }*/
+}
+.header .headerTop .headerTopContacts .headerTopContactsSearch #TCSearchBar {
+  position: relative;
+  display: none;
+  height: 40px;
+  width: 343px;
+  bottom: 20px;
+  right: 319px;
+  background-color: #F6F6F6;
+  border: none;
+  outline: none;
+  cursor: default;
+  box-sizing: border-box;
+}
+.header .headerTop .headerTopContacts .headerTopContactsSearch #TCSearchBar img:first-child {
+  width: 24px;
+  height: 24px;
+  margin: 8px 20px 8px 10px;
+}
+.header .headerTop .headerTopContacts .headerTopContactsSearch #TCSearchBar input {
+  height: 40px;
+  width: 263px;
+  background-color: #F6F6F6;
+  border: none;
+  outline: none;
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.header .headerTop .headerTopContacts .headerTopContactsSearch #TCSearchBar .TCSBCross {
+  /*todo: make it work!*/
+  width: 11px;
+  height: 11px;
+  margin: 14px 10px 14px 5px;
+  cursor: pointer;
+}
+.header .headerTop .headerTopContacts .headerTopContactsWT {
+  padding: 0.813rem 0;
+  white-space: nowrap;
+}
+.header .headerTop .headerTopContacts .headerTopContactsMail {
+  padding: 0.813rem 0;
+}
+.header .headerTop .headerTopContacts .headerTopContactsMail a {
+  text-transform: uppercase;
+  color: black;
+}
+.header .headerTop .headerTopContacts .headerTopContactsMail a:hover {
+  color: #00A8FA;
+}
+.header .headerTop .headerTopContacts .headerTopContactsTel {
+  white-space: nowrap;
+}
+.header .headerTop .headerTopContacts .headerTopContactsTel p {
+  color: #7F7F7F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: right;
+}
+.header .headerTop .headerTopContacts .headerTopContactsTel a {
+  color: black;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 31px;
+  text-align: right;
+}
+.header .headerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 calc(40px + 91 * (100vw - 1280px) / 640);
+  border-bottom: 1px solid #E0E1E2;
+}
+.header .headerBottom .headerBottomLogo {
+  padding: 19px 0 26px 0;
+}
+.header .headerBottom .headerBottomLogo img {
+  height: 54px;
+  width: 263px;
+}
+.header .headerBottom .headerBottomMenu > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 57.719rem;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem {
+  display: flex;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem > a {
+  padding: 36px 0;
+  font-family: FuturaPT, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+  color: #333333;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem > a:hover {
+  font-weight: 500;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem .hBMIDropdown {
+  /*todo: make it work!*/
+  display: none;
+  padding: 19px 0 27px 0;
+  background: #FFFFFF;
+  flex-direction: column;
+  position: absolute;
+  top: 167px;
+  border-top: 4px solid #00A8FA;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem .hBMIDropdown > li > a {
+  display: block;
+  padding: 0 28px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #7F7F7F;
+  border-left: 4px solid transparent;
+}
+.header .headerBottom .headerBottomMenu .headerBottomMenuItem .hBMIDropdown > li > a:hover {
+  color: #333333;
+  background: #F5F5F5;
+  border-left: 4px solid #00A8FA;
+}
+.header .headerBottom .headerBottomButton {
+  height: 50px;
+  width: 180px;
+  border-radius: 0;
+  padding: 14px 20px 14px 20px;
+  margin: 26px 0;
+  border: 1px solid #FF5353;
+  text-transform: uppercase;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #FF5353;
+  white-space: nowrap;
+}
+.header .headerBottom .headerBottomButton:hover {
+  background: #FF5353;
+  color: #FFFFFF;
+}
+.header .headerBottom .headerBottomButton:active {
+  background: #FC0101;
+  color: #FFFFFF;
+}
+
+/*todo: text-shadow to fix menu flex cringe!*/
+.clientsSection {
+  margin: 150px 310px 0 30px;
+  /*todo: make adaptive margins*/
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  background: #F7F9FB;
+}
+.clientsSection > div:first-child {
+  padding: 129px 115px 0 280px;
+  display: flex;
+  flex-direction: column;
+}
+.clientsSection > div:first-child h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.clientsSection > div:first-child p {
+  margin-top: 40px;
+  width: 319px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  color: #7F7F7F;
+}
+.clientsSection > div:first-child a {
+  margin-top: 50px;
+  padding: 19px 49px;
+  width: 217px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #FFFFFF;
+  background: #00A8FA;
+}
+.clientsSection .cSSlider {
+  min-width: 0;
+  position: relative;
+}
+.clientsSection .slick-slide > div {
+  height: 182px;
+}
+.clientsSection .slick-arrow {
+  position: absolute;
+  bottom: 30px;
+  font-size: 0;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+}
+.clientsSection .slick-prev {
+  left: -170px;
+  background: url("icons/cSSIArrowLeft.svg") 0 0/100% no-repeat;
+}
+.clientsSection .slick-next {
+  left: -90px;
+  background: url("icons/cSSIArrowRight.svg") 0 0/100% no-repeat;
+}
+.clientsSection > div:last-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 870px;
+}
+.clientsSection > div:last-child .cSSItem {
+  border: 1px solid #EDEDED;
+  height: 182px;
+}
+.clientsSection > div:last-child .cSSItem img {
+  display: block;
+  padding: 39px 70px 71.22px 69px;
+  background: #FFFFFF;
+}
+.clientsSection > div:last-child .cSSItem a {
+  position: relative;
+  display: none;
+  width: 281px;
+  height: 180px;
+}
+.clientsSection > div:last-child .cSSItem a h4 {
+  padding: 25px 0 0 25px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 28px;
+  text-align: left;
+  color: #00A8F9;
+}
+.clientsSection > div:last-child .cSSItem a p {
+  padding: 15px 0 0 25px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 70%;
+}
+.clientsSection > div:last-child .cSSItem a:after {
+  content: url("icons/cSSIAArrow.svg");
+  position: absolute;
+  top: 138px;
+  left: 25px;
+  width: 24px;
+  height: 20px;
+}
+.clientsSection > div:last-child .cSSItem:hover {
+  height: 182px;
+}
+.clientsSection > div:last-child .cSSItem:hover img {
+  display: none;
+}
+.clientsSection > div:last-child .cSSItem:hover a {
+  display: flex;
+  flex-direction: column;
+  background: #323348;
+}
+
+.ourAdvantagesSection {
+  margin: 150px 30px 0 30px;
+  padding: 0 320px 60px 280px;
+  background: #F7F9FB;
+}
+.ourAdvantagesSection h5 {
+  padding-top: 60px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.ourAdvantagesSection h5 span {
+  color: #FC0101;
+}
+.ourAdvantagesSection h5:after {
+  content: "";
+  display: block;
+  position: relative;
+  left: 367px;
+  bottom: 18px;
+  background-color: #333333;
+  height: 1px;
+  width: 110px;
+}
+.ourAdvantagesSection h2 {
+  margin-top: 33px;
+}
+.ourAdvantagesSection h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.ourAdvantagesSection > div {
+  margin-top: 10px;
+  padding-left: 85px;
+  display: flex;
+  flex-direction: row;
+}
+.ourAdvantagesSection > div > div {
+  margin-right: 161px;
+}
+.ourAdvantagesSection > div > div h6 {
+  margin-top: 50px;
+  position: relative;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 34px;
+  text-align: left;
+  color: #333333;
+}
+.ourAdvantagesSection > div > div .oASh6_1:before {
+  content: url("icons/oASh6icon1.svg");
+  display: block;
+  position: absolute;
+  left: -49px;
+  height: 30px;
+  width: 30px;
+}
+.ourAdvantagesSection > div > div .oASh6_2:before {
+  content: url("icons/oASh6icon2.svg");
+  display: block;
+  position: absolute;
+  left: -49px;
+  height: 30px;
+  width: 30px;
+}
+.ourAdvantagesSection > div > div .oASh6_3:before {
+  content: url("icons/oASh6icon3.svg");
+  display: block;
+  position: absolute;
+  left: -49px;
+  height: 30px;
+  width: 30px;
+}
+.ourAdvantagesSection > div > div .oASh6_4:before {
+  content: url("icons/oASh6icon4.svg");
+  display: block;
+  position: absolute;
+  left: -49px;
+  height: 30px;
+  width: 30px;
+}
+.ourAdvantagesSection > div > div p {
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #333333;
+}
+
+.aboutCompanySection {
+  margin: 150px 579px 0 579px;
+  position: relative;
+}
+.aboutCompanySection .aCSOuter {
+  position: absolute;
+  top: 137px;
+  right: 993px;
+  padding: 0;
+  font-family: FuturaPT, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #333333;
+  transform: rotate(-90deg);
+}
+.aboutCompanySection .aCSOuter span {
+  color: #FC0101;
+}
+.aboutCompanySection .aCSOuter:before {
+  content: "";
+  display: block;
+  position: relative;
+  right: 170px;
+  top: 18.5px;
+  background-color: #333333;
+  height: 1px;
+  width: 110px;
+}
+.aboutCompanySection h2 span:first-child {
+  color: #00A8FA;
+}
+.aboutCompanySection h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -579px;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.aboutCompanySection article:nth-child(3) {
+  margin-top: 40px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 34px;
+  text-align: left;
+  color: #333333;
+}
+.aboutCompanySection article:last-child {
+  margin-top: 40px;
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutCompanySection article:last-child p {
+  margin-top: auto;
+  font-family: FuturaPT, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: left;
+  color: #333333;
+}
+
+.gallerySection {
+  margin: 116px 26.5px 0 26.5px;
+  position: relative;
+}
+.gallerySection .gSOuter {
+  position: absolute;
+  top: -76px;
+  right: 282px;
+  padding: 0;
+  font-family: FuturaPT, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.gallerySection .gSOuter:before {
+  content: "";
+  display: block;
+  position: relative;
+  right: 170px;
+  top: 18.5px;
+  background-color: #333333;
+  height: 1px;
+  width: 110px;
+}
+.gallerySection div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.gallerySection div:last-child picture {
+  margin: 0 10px 6px 0;
+}
+.objectsMapSection {
+  position: relative;
+  margin: 154px 310px 0 310px;
+  width: 1280px;
+  height: 698px;
+  background-image: url("imgs/objectsMapSectionBackground.png");
+  background-size: 1280px 698px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.objectsMapSection h2 {
+  text-align: center;
+}
+.objectsMapSection h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -310px;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.objectsMapSection > div:nth-child(2) {
+  position: absolute;
+  top: 230px;
+  left: 591px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #FFFFFF;
+  max-width: 422px;
+  max-height: 506px;
+}
+.objectsMapSection > div:nth-child(2) h3 {
+  margin-top: 15px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+.objectsMapSection > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.objectsMapSection > div:nth-child(2) > div > div:first-child {
+  margin-right: 41px;
+}
+.objectsMapSection > div:nth-child(2) > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.objectsMapSection > div:nth-child(2) > div > div h4 {
+  margin-top: 20px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #7F7F7F;
+}
+.objectsMapSection > div:nth-child(2) > div > div p {
+  margin-top: 6px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+.objectsMapSection > div:nth-child(2) > div > div a {
+  margin: 47px 0 12px 0;
+  padding: 13px 41px;
+  border: 1px solid #00A8FA;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #00A8FA;
+}
+.objectsMapSection > div:last-child img {
+  z-index: 10;
+  position: absolute;
+}
+.objectsMapSection > div:last-child img:hover {
+  cursor: pointer;
+}
+.objectsMapSection > div:last-child img:nth-child(1) {
+  top: 277px;
+  left: 34px;
+}
+.objectsMapSection > div:last-child img:nth-child(2) {
+  top: 289px;
+  left: 103px;
+}
+.objectsMapSection > div:last-child img:nth-child(3) {
+  top: 288px;
+  left: 212px;
+}
+.objectsMapSection > div:last-child img:nth-child(4) {
+  top: 226px;
+  left: 202px;
+}
+.objectsMapSection > div:last-child img:nth-child(5) {
+  top: 179px;
+  left: 223px;
+}
+.objectsMapSection > div:last-child img:nth-child(6) {
+  top: 154px;
+  left: 281px;
+}
+.objectsMapSection > div:last-child img:nth-child(7) {
+  top: 227px;
+  left: 301px;
+}
+.objectsMapSection > div:last-child img:nth-child(8) {
+  top: 190px;
+  left: 415px;
+}
+.objectsMapSection > div:last-child img:nth-child(9) {
+  top: 247px;
+  left: 523px;
+}
+.objectsMapSection > div:last-child img:nth-child(10) {
+  top: 388px;
+  left: 1089px;
+}
+.objectsMapSection > div:last-child img:nth-child(11) {
+  top: 158px;
+  left: 1177px;
+}
+
+.getConsultSection {
+  position: relative;
+  margin: 276px 310px 0 310px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 168, 250, 0.05);
+}
+.getConsultSection .gCSOuter {
+  position: absolute;
+  top: -66px;
+  right: 0;
+  padding: 0;
+  font-family: FuturaPT, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: right;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.getConsultSection .gCSOuter span {
+  color: #FC0101;
+}
+.getConsultSection .gCSOuter:before {
+  content: "";
+  display: block;
+  position: relative;
+  right: 170px;
+  top: 18.5px;
+  background-color: #333333;
+  height: 1px;
+  width: 110px;
+}
+.getConsultSection div {
+  padding: 60px 112px 183px 60px;
+}
+.getConsultSection div h2 {
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  line-height: 53px;
+  text-align: left;
+}
+.getConsultSection div h2 span:first-child {
+  font-family: Gilroy, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53px;
+  text-align: left;
+  color: #00A8FA;
+}
+.getConsultSection div h2 span:last-child {
+  font-family: FuturaPT, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 53px;
+  text-align: left;
+  color: #FC0101;
+}
+.getConsultSection div h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -310px;
+  background-color: #FC0101;
+  height: 151px;
+  width: 13px;
+}
+.getConsultSection div p {
+  margin-top: 26px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 29px;
+  text-align: left;
+  color: #7F7F7F;
+}
+.getConsultSection form {
+  padding: 37px 80px 60px 0;
+}
+.getConsultSection form label p {
+  margin-top: 30px;
+  height: 28px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #333333;
+}
+.getConsultSection form label input {
+  width: 418px;
+  margin-top: 7px;
+  padding: 8px 0 8px 15px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #7F7F7F;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.getConsultSection form p {
+  margin-top: 30px;
+  height: 50px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #333333;
+}
+.getConsultSection form p a {
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 25px;
+  color: #333333;
+  text-align: left;
+  text-decoration: underline;
+}
+.getConsultSection form button {
+  margin-top: 30px;
+  padding: 19px 67px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #00A8FA;
+  cursor: pointer;
+}
+
+.articlesSection {
+  margin: 150px 40px 0 40px;
+  padding: 0 280px;
+  background-image: url("imgs/articlesSectionBackground.png");
+  background-size: 1840px 595px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.articlesSection h2 {
+  padding: 70px 0 35px 0;
+  color: #FFFFFF;
+}
+.articlesSection h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.articlesSection .articlesSectionSlider {
+  display: flex;
+  min-width: 0;
+  position: relative;
+  padding: 0 0 86px 0;
+}
+.articlesSection .articlesSectionSlider .slick-arrow {
+  position: absolute;
+  top: -97px;
+  font-size: 0;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+}
+.articlesSection .articlesSectionSlider .slick-prev {
+  right: 90px;
+  background: url("icons/aSSArrowLeft.svg") 0 0/100% no-repeat;
+}
+.articlesSection .articlesSectionSlider .slick-next {
+  right: 0;
+  background: url("icons/aSSArrowRight.svg") 0 0/100% no-repeat;
+}
+.articlesSection .articlesSectionSlider .aSSItem {
+  width: 305px;
+  margin-right: 20px;
+}
+.articlesSection .articlesSectionSlider .aSSItem div {
+  margin-top: 11px;
+  height: 111px;
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+}
+.articlesSection .articlesSectionSlider .aSSItem div p {
+  align-self: flex-start;
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.articlesSection .articlesSectionSlider .aSSItem div h5 {
+  align-self: flex-start;
+  margin-top: 2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.articlesSection .articlesSectionSlider .aSSItem div a {
+  margin-top: auto;
+  font-family: FuturaPT, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #00A8FA;
+}
+.articlesSection .articlesSectionSlider .aSSItem div a:after {
+  position: relative;
+  left: 11px;
+  content: url("icons/aSSIAafter.svg");
+  height: 1px;
+  width: 10px;
+}
+
+.contactsSection {
+  margin-top: 150px;
+  display: flex;
+  align-items: start;
+}
+.contactsSection .contactsSectionContacts {
+  margin: 0 20px 0 320px;
+  padding: 90px 0 90px 70px;
+  background: #F7F9FB;
+  height: 700px;
+  width: 433px;
+}
+.contactsSection .contactsSectionContacts h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  background-color: #FC0101;
+  height: 48px;
+  width: 13px;
+}
+.contactsSection .contactsSectionContacts h3 {
+  margin-top: 45px;
+  line-height: 29px;
+  text-align: left;
+  color: #333333;
+}
+.contactsSection .contactsSectionContacts p {
+  margin-top: 15px;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  color: #7F7F7F;
+}
+.contactsSection .contactsSectionMap img {
+  width: 827px;
+  height: 700px;
+}
+
+.footer {
+  bottom: 0;
+  margin: 150px 40px 0 40px;
+  padding-left: 280px;
+  width: 115rem;
+  background: #323348;
+}
+.footer > div {
+  display: flex;
+  justify-content: start;
+}
+.footer > div .footerBadgeSection {
+  margin-top: 98px;
+}
+.footer > div .footerBadgeSection picture img {
+  width: 263px;
+  height: 54px;
+}
+.footer > div .footerBadgeSection .footerTel {
+  margin-top: 42px;
+}
+.footer > div .footerBadgeSection .footerTel a {
+  white-space: nowrap;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 29px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer > div .footerBadgeSection .footerMail {
+  margin-top: 15px;
+}
+.footer > div .footerBadgeSection .footerMail a {
+  white-space: nowrap;
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  color: #00A8F9;
+}
+.footer > div .footerMenuSection, .footer > div .footerInfoSection {
+  margin: 117px 0 0 279px;
+}
+.footer > div .footerMenuSection .footerMenu h4, .footer > div .footerMenuSection .footerInfo h4, .footer > div .footerInfoSection .footerMenu h4, .footer > div .footerInfoSection .footerInfo h4 {
+  font-family: FuturaPT, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 31px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer > div .footerMenuSection .footerMenu ul, .footer > div .footerMenuSection .footerInfo ul, .footer > div .footerInfoSection .footerMenu ul, .footer > div .footerInfoSection .footerInfo ul {
+  margin-top: 8.4px;
+}
+.footer > div .footerMenuSection .footerMenu ul li, .footer > div .footerMenuSection .footerInfo ul li, .footer > div .footerInfoSection .footerMenu ul li, .footer > div .footerInfoSection .footerInfo ul li {
+  padding-top: 11.6px;
+}
+.footer > div .footerMenuSection .footerMenu .footerMenuItem a, .footer > div .footerMenuSection .footerMenu .footerInfoItem a, .footer > div .footerMenuSection .footerInfo .footerMenuItem a, .footer > div .footerMenuSection .footerInfo .footerInfoItem a, .footer > div .footerInfoSection .footerMenu .footerMenuItem a, .footer > div .footerInfoSection .footerMenu .footerInfoItem a, .footer > div .footerInfoSection .footerInfo .footerMenuItem a, .footer > div .footerInfoSection .footerInfo .footerInfoItem a {
+  display: block;
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.footer > div .footerMenuSection .footerMenu .footerMenuItem a:hover, .footer > div .footerMenuSection .footerMenu .footerInfoItem a:hover, .footer > div .footerMenuSection .footerInfo .footerMenuItem a:hover, .footer > div .footerMenuSection .footerInfo .footerInfoItem a:hover, .footer > div .footerInfoSection .footerMenu .footerMenuItem a:hover, .footer > div .footerInfoSection .footerMenu .footerInfoItem a:hover, .footer > div .footerInfoSection .footerInfo .footerMenuItem a:hover, .footer > div .footerInfoSection .footerInfo .footerInfoItem a:hover {
+  opacity: 1;
+}
+.footer > div .footerInfoSection {
+  margin-left: 152px;
+}
+.footer p {
+  margin-top: 49px;
+  padding: 15px 0;
+  font-family: FuturaPT, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.footer p:before {
+  content: "";
+  display: block;
+  position: relative;
+  bottom: 15px;
+  background-color: #F6F6F6;
+  height: 1px;
+  width: 1256px;
+}
+
+/*# sourceMappingURL=Styles.css.map */
+
+
+header#test{
+  max-width: 1657px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+header#test .headerBottomButton {
+  height: 50px;
+  width: 180px;
+  padding: 14px 20px 14px 20px;
+  border: 1px solid #FF5353;
+  text-transform: uppercase;
+  font-family: FuturaPT, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  color: #FF5353;
+  white-space: nowrap;
+}
+header#test  .headerBottomMenu{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+header#test .headerBottomMenu > ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header#test .headerBottomMenu > ul > li{
+  width: calc(100% / 5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+header#test .headerBottomMenu > ul > li > a{
+  width:100%;
+  text-align: center;
+
+  padding: 36px 0;
+  font-family: FuturaPT, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  color: #333333;
+
+}
+header#test .headerBottomMenu > ul > li > a:hover{
+  font-weight: 500;
+}

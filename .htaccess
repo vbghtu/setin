@@ -1,0 +1,96 @@
+#RewriteEngine On
+#RewriteCond %{ENV:HTTPS} !on
+#RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+Options -Indexes
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+  php_flag allow_call_time_pass_reference 1
+  php_flag session.use_trans_sid off
+
+  php_value display_errors 1
+  php_value max_input_vars  100000
+  php_value mbstring.func_overload 2
+  php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_php7.c>
+  php_flag allow_call_time_pass_reference 1
+  php_flag session.use_trans_sid off
+
+  php_value display_errors 1
+  php_value max_input_vars  100000
+  php_value mbstring.func_overload 2
+  php_value mbstring.internal_encoding UTF-8
+</IfModule>
+ 
+<IfModule mod_rewrite.c>
+   # Options +FollowSymLinks
+    #RewriteEngine On
+ 
+
+   # RewriteBase /
+   # RewriteCond %{REQUEST_FILENAME} !-f
+   # RewriteCond %{REQUEST_URI} !(.*)/$
+  #  RewriteCond %{REQUEST_URI} !(.html)
+  #  RewriteCond %{REQUEST_URI} !(.jpg)
+  #  RewriteCond %{REQUEST_URI} !(.txt)
+  #  RewriteCond %{REQUEST_URI} !(.xml)
+  #  RewriteCond %{REQUEST_URI} !(.gif)
+  #  RewriteCond %{REQUEST_URI} !(.png)
+  #  RewriteCond %{REQUEST_URI} !(.docx)
+  #  RewriteCond %{REQUEST_URI} !(.doc)
+  #  RewriteCond %{REQUEST_URI} !(.pdf)
+  #  RewriteCond %{REQUEST_URI} !(.jpeg)
+   # RewriteCond %{REQUEST_URI} !(.php)
+   # RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+
+ #   RewriteCond %{THE_REQUEST} ([^\s]*)\/{2,}(\?[^\s]*)?
+  #  RewriteRule (.*) %1 [R=301,L]
+
+  #    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+  #    RewriteRule ^index\.php$ http://seitn.ru/ [R=301,L]
+
+  #    RewriteCond %{HTTP_HOST} ^tehnadzor-ekspertiza\.ru$ [NC]
+  #    RewriteRule ^(.*)$ http://seitn.ru/$1 [R=301,L]
+
+  #    RewriteCond %{HTTP_HOST} ^www.tehnadzor-ekspertiza\.ru$ [NC]
+  #    RewriteRule ^(.*)$ http://seitn.ru/$1 [R=301,L]
+
+   #   RewriteCond %{HTTP_HOST} ^www\.seitn\.ru$ [NC]
+   #   RewriteRule ^(.*)$ http://seitn.ru/$1 [R=301,L]
+
+   #   RewriteCond %{REQUEST_FILENAME} !-f
+   #   RewriteCond %{REQUEST_FILENAME} !-l
+   #   RewriteCond %{REQUEST_FILENAME} !-d
+  #    RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+   #   RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+   #   RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+#Redirect 301 /nashi_raboti_na_karte_Rossii/ https://seitn.ru/nashi-raboti-na-karte-rossii/
+#Redirect 301 /nashi_raboti_na_karte_rossii/ https://seitn.ru/nashi-raboti-na-karte-rossii/
+#Redirect 301 /stroitelnaya-ekspertiza/uslugi-i-stoimost/ https://seitn.ru/obsledovanie-zdanij/
+#Redirect 301 /tehnadzor/stroitelnyy-kontrol.php https://seitn.ru/tehnadzor/stroitelnyy-kontrol/
+#Redirect 301 /stroitelnaya-ekspertiza/ekspertiza-kapitalnosti-stroeniya/ https://seitn.ru/stroitelnaya-ekspertiza/exspertiza_kapitalnosti/
+#Redirect 301 /stroitelnaya-ekspertiza/teplovizionnoe-obsledovanie/otchet.php https://seitn.ru/stroitelnaya-ekspertiza/teplovizionnoe-obsledovanie/
+#Redirect 301 /stroitelnaya-ekspertiza/exspertiza_proektnoj_dokumentacii/stoimost/ https://seitn.ru/stroitelnaya-ekspertiza/exspertiza_proektnoj_dokumentacii/
+#Redirect 301 /stroitelnaya-ekspertiza/exspertiza_proektnoj_dokumentacii/povtornaya/ https://seitn.ru/stroitelnaya-ekspertiza/exspertiza_proektnoj_dokumentacii/
+
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+</IfModule>
+
+#RewriteCond %{QUERY_STRING} ^SHOWALL_1=1
+#RewriteRule (.*) /$1? [L,R=301]
+#RewriteCond %{QUERY_STRING} ^SHOWALL_1=0
+#RewriteRule (.*) /$1? [L,R=301]
+
+

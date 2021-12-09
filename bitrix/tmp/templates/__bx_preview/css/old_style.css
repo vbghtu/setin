@@ -1,0 +1,591 @@
+/* Specialists */
+.b-block_specialists {
+  background: #fff;
+  position: relative;
+  padding: 0; }
+
+.specs-wrap {
+  width: 960px;
+  margin: 0 auto; }
+
+.b-block_specialists h2.title {
+  color: #255287; }
+
+.b-block_specialists .b-block-i {
+  height: 880px; }
+
+.b-block_specialists-controls__item {
+  position: absolute;
+  display: block;
+  vertical-align: middle;
+  opacity: 1.0;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently not supported by any browser */
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 10; }
+
+.b-block_specialists-controls__item_left {
+  width: 44px;
+  height: 85px;
+  background: transparent url(../img/arrow-left.png) no-repeat center center;
+  cursor: pointer;
+  left: -75px;
+  top: 230px; }
+
+.b-block_specialists-controls__item_left:hover {
+  opacity: 0.7; }
+
+.b-block_specialists-controls__item_right {
+  width: 44px;
+  height: 85px;
+  background: transparent url(../img/arrow-right.png) no-repeat center center;
+  cursor: pointer;
+  right: -75px;
+  top: 230px; }
+
+.b-block_specialists-controls__item_right:hover {
+  opacity: 0.7; }
+
+.b-block_specialists-people__item {
+  position: absolute;
+  top: 130px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.b-block_specialists-people__item_active {
+  z-index: 13 !important; }
+
+.b-block_specialists-people__item_hidden {
+  opacity: 0.0;
+  visibility: hidden; }
+
+.b-block_specialists-people__item_1 {
+  left: -16px;
+  width: 263px;
+  height: 289px;
+  background: transparent url(../img/specialists/people/1.png) no-repeat center bottom;
+  z-index: 12; }
+
+.b-block_specialists-people__item_1:hover, .b-block_specialists-people__item_1.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/1_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_2 {
+  left: 119px;
+  width: 229px;
+  height: 289px;
+  background: transparent url(../img/specialists/people/2.png) no-repeat center bottom;
+  z-index: 11; }
+
+.b-block_specialists-people__item_2:hover, .b-block_specialists-people__item_2.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/2_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_3 {
+  left: 273px;
+  width: 219px;
+  height: 289px;
+  background: transparent url(../img/specialists/people/3.png) no-repeat center bottom;
+  z-index: 10; }
+
+.b-block_specialists-people__item_3:hover, .b-block_specialists-people__item_3.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/3_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_4 {
+  left: 393px;
+  width: 226px;
+  height: 289px;
+  background: transparent url(../img/specialists/people/4.png) no-repeat center bottom;
+  z-index: 9; }
+
+.b-block_specialists-people__item_4:hover, .b-block_specialists-people__item_4.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/4_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_5 {
+  left: 516px;
+  width: 199px;
+  height: 289px;
+  background: transparent url(../img/specialists/people/5.png) no-repeat center bottom;
+  z-index: 8; }
+
+.b-block_specialists-people__item_5:hover, .b-block_specialists-people__item_5.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/5_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_6 {
+  left: 589px;
+  width: 286px;
+  height: 289px;
+  background-image: url(../img/specialists/people/6.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 7; }
+
+.b-block_specialists-people__item_6:hover, .b-block_specialists-people__item_6.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/6_a.png) no-repeat center bottom;
+  background-size: contain; }
+
+.b-block_specialists-people__item_7 {
+  left: 739px;
+  width: 307px;
+  height: 290px;
+  background: transparent url(../img/specialists/people/7.png) no-repeat center bottom;
+  z-index: 6; }
+
+.b-block_specialists-people__item_7:hover, .b-block_specialists-people__item_7.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/7_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_8 {
+  left: 875px;
+  width: 223px;
+  height: 290px;
+  background: transparent url(../img/specialists/people/8.png) no-repeat center bottom;
+  z-index: 5; }
+
+.b-block_specialists-people__item_8:hover, .b-block_specialists-people__item_8.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/8_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_9 {
+  left: 979px;
+  width: 238px;
+  height: 288px;
+  background: transparent url(../img/specialists/people/9.png) no-repeat center bottom;
+  z-index: 4; }
+
+.b-block_specialists-people__item_9:hover, .b-block_specialists-people__item_9.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/9_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_10 {
+  left: 1109px;
+  width: 232px;
+  height: 290px;
+  background: transparent url(../img/specialists/people/10.png) no-repeat center bottom;
+  z-index: 3; }
+
+.b-block_specialists-people__item_10:hover, .b-block_specialists-people__item_10.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/10_a.png) no-repeat center bottom; }
+
+.b-block_specialists-people__item_11 {
+  left: 1269px;
+  width: 220px;
+  height: 290px;
+  background: transparent url(../img/specialists/people/11.png) no-repeat center bottom;
+  z-index: 2; }
+
+.b-block_specialists-people__item_11:hover, .b-block_specialists-people__item_11.b-block_specialists-people__item_active {
+  background: transparent url(../img/specialists/people/11_a.png) no-repeat center bottom; }
+
+.b-block_specialists__item {
+  position: absolute;
+  left: 0px;
+  top: 360px;
+  width: 100%;
+  height: 500px;
+  opacity: 0.0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.b-block_specialists__item_active {
+  opacity: 1.0;
+  visibility: visible; }
+
+.b-block_specialists__item-i {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.b-block_specialists__item-image {
+  position: absolute;
+  top: 60px;
+  left: 50px; }
+
+.b-block_specialists__item_1 .b-block_specialists__item-image {
+  width: 465px;
+  height: 400px;
+  background: transparent url(../img/specialists/1.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_2 .b-block_specialists__item-image {
+  width: 401px;
+  height: 400px;
+  background: transparent url(../img/specialists/2.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_3 .b-block_specialists__item-image {
+  width: 405px;
+  height: 400px;
+  background: transparent url(../img/specialists/3.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_4 .b-block_specialists__item-image {
+  width: 501px;
+  height: 400px;
+  background: transparent url(../img/specialists/4.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_5 .b-block_specialists__item-image {
+  width: 426px;
+  height: 400px;
+  background: transparent url(../img/specialists/5.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_6 .b-block_specialists__item-image {
+  width: 445px;
+  height: 400px;
+  background: transparent url(../img/specialists/6.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_7 .b-block_specialists__item-image {
+  width: 425px;
+  height: 400px;
+  background: transparent url(../img/specialists/7.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_8 .b-block_specialists__item-image {
+  width: 380px;
+  height: 400px;
+  background: transparent url(../img/specialists/8.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_9 .b-block_specialists__item-image {
+  width: 381px;
+  height: 400px;
+  background: transparent url(../img/specialists/9.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_10 .b-block_specialists__item-image {
+  width: 472px;
+  height: 400px;
+  background: transparent url(../img/specialists/10.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item_11 .b-block_specialists__item-image {
+  width: 358px;
+  height: 400px;
+  background: transparent url(../img/specialists/11.jpg) no-repeat center bottom; }
+
+.b-block_specialists__item-content {
+  position: absolute;
+  left: 487px;
+  top: 90px; }
+
+.b-block_specialists__item-content-header {
+  width: 473px;
+  padding-bottom: 10px;
+  /* border-bottom: 2px solid #255287; */
+  margin-bottom: 10px; }
+
+.b-block_specialists__item-content-header-top {
+  color: #255287;
+  font-size: 30px;
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 35px;
+  line-height: 1; }
+
+.b-block_specialists__item-content-header-bottom {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-family: "RobotoLight", sans-serif;
+  margin-top: 5px; }
+
+.b-block_specialists__item-content-info {
+  color: #000;
+  font-size: 20px;
+  font-family: "RobotoLight", sans-serif;
+  font-weight: bold; }
+
+.b-block_specialists__item-content-info-item {
+  width: 190px;
+  float: left;
+  margin-top: 15px; }
+
+.b-block_specialists__item-content-info-item:before {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 2px;
+  background-color: #255287; }
+
+.b-block_specialists__item-content-info-item p {
+  font-size: 48px;
+  font-family: "RobotoRegular", sans-serif;
+  margin: 10px 0 15px;
+  line-height: 1; }
+
+.b-block_specialists__item-content-list {
+  margin-bottom: 15px; }
+
+.b-block_specialists__item-content-list-header {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  font-family: 'gotham_promedium';
+  margin-bottom: 5px; }
+
+.b-block_specialists__item-content-list__item {
+  padding-left: 40px;
+  min-height: 24px;
+  background: transparent url(../img/specialists/list.png) no-repeat left center;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000;
+  font-family: 'gotham_proregular';
+  margin-bottom: 5px; }
+
+/* \Specialists */
+/* Equipment */
+.b-block_equipment {
+  background: #fff;
+  padding: 0; }
+
+.b-block_equipment .b-block-i {
+  height: 740px; }
+
+.b-block_equipment-header {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  padding-left: 70px;
+  padding-top: 3px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 120%;
+  color: #255287;
+  font-family: 'gotham_probold';
+  text-transform: uppercase;
+  background: transparent url(../img/block_header.png) no-repeat left top; }
+
+.b-block_equipment-controls {
+  position: absolute;
+  right: 0px;
+  top: 71px;
+  font-size: 0;
+  white-space: nowrap;
+  text-align: right; }
+
+.b-block_equipment-controls__item {
+  position: absolute;
+  display: block;
+  vertical-align: middle;
+  opacity: 1.0;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently not supported by any browser */
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.b-block_equipment-controls__item_left {
+  top: 112px;
+  left: -95px;
+  width: 44px;
+  height: 85px;
+  background: transparent url(../img/arrow-left.png) no-repeat center center;
+  cursor: pointer; }
+
+.b-block_equipment-controls__item_left:hover {
+  opacity: 0.7; }
+
+.b-block_equipment-controls__item_right {
+  top: 112px;
+  right: -95px;
+  width: 44px;
+  height: 85px;
+  background: transparent url(../img/arrow-right.png) no-repeat center center;
+  cursor: pointer; }
+
+.b-block_equipment-controls__item_right:hover {
+  opacity: 0.7; }
+
+.b-block_equipment-controls__item_line {
+  width: 37px;
+  height: 7px;
+  background: transparent url(../img/sertificates/line.png) no-repeat center center;
+  margin-left: 4px;
+  margin-right: 4px; }
+
+.b-block_equipment__item {
+  position: absolute;
+  left: 0px;
+  top: 270px;
+  width: 100%;
+  height: 435px;
+  opacity: 0.0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.b-block_equipment__item_active {
+  opacity: 1.0;
+  visibility: visible; }
+
+.b-block_equipment__item-i {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.b-block_equipment__item-block {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 540px;
+  height: 411px;
+  /* border: 12px solid #b3d6ec; */ }
+
+.b-block_equipment__item-block-i {
+  padding-left: 20px;
+  padding-top: 30px;
+  width: 510px;
+  text-align: left; }
+
+.b-block_equipment__item-block-header {
+  font-size: 22px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: #255287;
+  /* font-family: 'gotham_probold'; */
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+  padding-bottom: 12px;
+  /* border-bottom: 2px solid #255287; */
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  position: relative; }
+
+.b-block_equipment__item-block-header:after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  width: 40px;
+  height: 2px;
+  background-color: #255287;
+  display: block; }
+
+.b-block_equipment__item-block-text {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.10px;
+  color: #000000;
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+  margin-top: 28px; }
+
+.b-block_equipment__item-image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 468px;
+  height: 431px;
+  /* border: 2px solid #b3d6ec; */ }
+
+.b-block_equipment__item_1 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/1.jpg) no-repeat center center; }
+
+.b-block_equipment__item_2 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/2.jpg) no-repeat center center; }
+
+.b-block_equipment__item_3 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/3.jpg) no-repeat center center; }
+
+.b-block_equipment__item_4 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/4.jpg) no-repeat center center; }
+
+.b-block_equipment__item_5 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/5.jpg) no-repeat center center; }
+
+.b-block_equipment__item_6 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/6.jpg) no-repeat center center; }
+
+.b-block_equipment__item_7 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/7.jpg) no-repeat center center; }
+
+.b-block_equipment__item_8 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/1.jpg) no-repeat center center; }
+
+.b-block_equipment__item_9 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/9.jpg) no-repeat center center; }
+
+.b-block_equipment__item_10 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/10.jpg) no-repeat center center; }
+
+.b-block_equipment__item_11 .b-block_equipment__item-image {
+  background: #fff url(../img/equipment/11.jpg) no-repeat center center; }
+
+.b-block_equipment-mini {
+  position: absolute;
+  left: 0px;
+  top: 110px;
+  width: 100%;
+  text-align: left;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.b-block_equipment-mini__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 95px;
+  height: 95px;
+  border: 2px solid #fff;
+  margin-right: 24px;
+  cursor: pointer;
+  background-size: contain !important; }
+
+.b-block_equipment-mini__item_hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0.0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.b-block_equipment-mini__item:hover {
+  border: 2px solid #d8ecf9; }
+
+.b-block_equipment-mini__item_active {
+  border: 2px solid #d8ecf9;
+  cursor: default; }
+
+.b-block_equipment-mini__item_1 {
+  background: #fff url(../img/equipment/1.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_2 {
+  background: #fff url(../img/equipment/2.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_3 {
+  background: #fff url(../img/equipment/3.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_4 {
+  background: #fff url(../img/equipment/4.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_5 {
+  background: #fff url(../img/equipment/5.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_6 {
+  background: #fff url(../img/equipment/6.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_7 {
+  background: #fff url(../img/equipment/7.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_8 {
+  background: #fff url(../img/equipment/8.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_9 {
+  background: #fff url(../img/equipment/9.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_10 {
+  background: #fff url(../img/equipment/10.jpg) no-repeat center center; }
+
+.b-block_equipment-mini__item_11 {
+  background: #fff url(../img/equipment/11.jpg) no-repeat center center; }
+
+/* \Equipment */

@@ -1,0 +1,34 @@
+<?
+$MESS['IBSEC_A_DELERR_REFERERS'] = 'Gali būti nurodantys objektai.';
+$MESS['IBSEC_A_DELERR'] = 'Nepavyko pašalinti įrašo #ID#:';
+$MESS['IBSEC_A_UPDERR'] = 'Įvyko klaida. Nepavyko atnaujinti įrašo:';
+$MESS['IBSEC_A_NAME'] = 'pavadinimas';
+$MESS['IBSEC_A_ACTIVE'] = 'Aktyvus:';
+$MESS['IBSEC_A_SORT'] = 'Rūšiavimas';
+$MESS['IBSEC_A_CODE'] = 'Simbolinis kodas';
+$MESS['IBSEC_A_XML_ID'] = 'Išorinis kodas';
+$MESS['IBSEC_A_ELEMENT_CNT'] = 'Elementų';
+$MESS['IBSEC_A_SECTION_CNT'] = 'Poskyrių';
+$MESS['IBSEC_A_TIMESTAMP'] = 'atnaujinta';
+$MESS['IBSEC_A_MODIFIED_BY'] = 'Atnaujino';
+$MESS['IBSEC_A_DATE_CREATE'] = 'Sukurta';
+$MESS['IBSEC_A_CREATED_BY'] = 'Sukūrė';
+$MESS['IBSEC_A_ID'] = 'Skyriaus ID';
+$MESS['IBSEC_A_LIST'] = 'Pereiti prie poskyrių sąrašo';
+$MESS['IBSEC_A_EDIT'] = 'Pereiti prie redagavimo';
+$MESS['IBSEC_A_ELLIST'] = 'Pereiti prie šio skyriaus elementų sarašo';
+$MESS['IBSEC_A_ELLIST_TITLE'] = 'Pereiti prie šio skyriaus elementų sarašo, įskaitant poskyrius';
+$MESS['IBSEC_A_ELADD_TITLE'] = 'Įterpti elementą į šį skyrių';
+$MESS['IBSEC_A_SECTADD_TITLE'] = 'Įterpti poskyrį';
+$MESS['IBSEC_A_CHANGE'] = 'Redaguoti';
+$MESS['IBSEC_A_DELETE'] = 'Šalinti';
+$MESS['IBSEC_A_LISTEL_TITLE'] = 'Spauskite peržiūrėti šio skyriaus elementus';
+$MESS['IBSEC_A_SECTADD_PRESS'] = 'Spauskite įterpti naują poskyrį';
+$MESS['IBSEC_A_ADDEL_TITLE'] = 'Spauskite įterpti naują elementą';
+$MESS['IBSEC_A_PARENT'] = 'Skyrius, kuriam priklauso esamas';
+$MESS['IBSEC_A_SECTION'] = 'Skyrius';
+$MESS['IBSEC_A_ROOT_SECTION'] = 'Aukščiausias lygis';
+$MESS['IBSEC_A_IBLOCK_MANAGE_HINT'] = 'Tvarkyti informacinio bloko prieeigos tesises bei nustatymus galite';
+$MESS['IBSEC_A_IBLOCK_MANAGE_HINT_HREF'] = 'Informacinių blokų nustatymuose';
+$MESS['IBSEC_A_USERINFO'] = 'Peržiūrėti naudotojo parametrus';
+?>

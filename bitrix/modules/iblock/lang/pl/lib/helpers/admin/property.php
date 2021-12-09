@@ -1,0 +1,4 @@
+<?php
+$MESS["PROPERTY_TYPE_FILE"] = "Plik";
+$MESS["PROPERTY_TYPE_LIST"] = "Lista";
+$MESS["PROPERTY_TYPE_STRING"] = "String";

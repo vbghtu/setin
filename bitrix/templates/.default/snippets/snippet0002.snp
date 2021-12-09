@@ -1,0 +1,28 @@
+<div class="inner inner_content fL w">
+<ol class="large_numbers">
+	<li>
+		<span class="large">1</span>
+		<p>
+			Текст пункт 1
+		</p>
+	</li>
+	<li>
+		<span class="large">2</span>
+		<p>
+			Текст пункт 2
+		</p>
+	</li>
+	<li>
+		<span class="large">3</span>
+		<p>
+			Текст пункт 3
+		</p>
+	</li>
+	<li>
+		<span class="large">4</span>
+		<p>
+			Текст пункт 4
+		</p>
+	</li>
+</ol>
+</div>

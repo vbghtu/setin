@@ -1,0 +1,56 @@
+.jquery-a-ya-checkbox {display: inline; font-size: 21px; line-height: 21px; cursor: pointer; cursor: hand;}
+.jquery-a-ya-checkbox .mark {display: inline;}
+
+.jquery-a-ya-checkbox img {vertical-align: middle; width: 21px; height: 21px;}
+.jquery-a-ya-checkbox img{background: transparent url(a-ya-checkbox.png) no-repeat;}
+
+.jquery-a-ya-checkbox img{
+    background-position: 0px 0px;
+}
+.jquery-a-ya-checkbox-hover img{
+    background-position: -21px 0px;
+}
+.jquery-a-ya-checkbox-checked img{
+    background-position: 0px -21px;
+}
+.jquery-a-ya-checkbox-checked .jquery-a-ya-checkbox-hover img {
+    background-position: -21px -21px;
+}
+
+.jquery-a-ya-checkbox-disabled img{
+    background-position: 0px -42px;
+}
+.jquery-a-ya-checkbox-checked .jquery-a-ya-checkbox-disabled img{
+    background-position: 0px -63px;
+}
+
+
+
+
+
+
+.jquery-a-ya-radio {display: inline; font-size: 21px; line-height: 21px; cursor: pointer; cursor: hand;}
+.jquery-a-ya-radio .mark {display: inline;}
+
+.jquery-a-ya-radio img {vertical-align: middle; width: 21px; height: 21px;}
+.jquery-a-ya-radio img{background: transparent url(a-ya-radio.png) no-repeat;}
+
+.jquery-a-ya-radio img{
+    background-position: 0px 0px;
+}
+.jquery-a-ya-radio-hover img{
+    background-position: -21px 0px;
+}
+.jquery-a-ya-radio-checked img{
+    background-position: 0px -21px;
+}
+.jquery-a-ya-radio-checked .jquery-a-ya-radio-hover img {
+    background-position: -21px -21px;
+}
+
+.jquery-a-ya-radio-disabled img{
+    background-position: 0px -42px;
+}
+.jquery-a-ya-radio-checked .jquery-a-ya-radio-disabled img{
+    background-position: 0px -63px;
+}

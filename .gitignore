@@ -1,0 +1,11 @@
+bitrix/admin/
+bitrix/cache/
+bitrix/backup/
+bitrix/themes/
+mysql_debug.sql
+**/images
+**/img
+*.jpg
+*.jpeg
+*.png
+*.gif
