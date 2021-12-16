@@ -7131,3 +7131,9 @@
 2021-11-18 23:12:19 -  - exec CUpdateClient::GetHTTPPage
 2021-11-18 23:12:19 -  - TIME GetUpdatesList(request) 0.304 sec
 2021-11-18 23:12:19 -  - exec CUpdateClient::ParseServerData
+2021-12-12 03:43:27 -  - exec CUpdateClient::GetUpdatesList
+2021-12-12 03:43:27 -  - exec CUpdateClient::CollectRequestData
+2021-12-12 03:43:27 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.400&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.400&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-12 03:43:27 -  - exec CUpdateClient::GetHTTPPage
+2021-12-12 03:43:27 -  - TIME GetUpdatesList(request) 0.504 sec
+2021-12-12 03:43:27 -  - exec CUpdateClient::ParseServerData

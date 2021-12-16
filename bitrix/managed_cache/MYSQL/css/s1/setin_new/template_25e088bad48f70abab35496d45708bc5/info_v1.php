@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/setin_new/styles.css" => "163927010379422",]; ?>

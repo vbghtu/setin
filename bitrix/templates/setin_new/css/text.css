@@ -1,0 +1,50 @@
+.title h2 {
+  display: inline;
+  font-family: “Gilroy-Semibold”;
+  font-size: 48px;
+  line-height: 1.4;
+  color: #333333;
+}
+.title h2 strong {
+  display: inline;
+  color: #00a8fa;
+}
+
+.label p {
+  display: block;
+  font-family: “FuturaPT-Demi”;
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.label p strong {
+  color: #fc0101;
+}
+.text p {
+  display: block;
+  font-family: “FuturaPT-Book”;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #7f7f7f;
+}
+.text i {
+  display: block;
+  font-family: “FuturaPT-Medium”;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #333;
+}
+.small-text p {
+  display: block;
+  font-family: “FuturaPT-Book”;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #7f7f7f;
+}
+.small-text i {
+  display: block;
+  font-family: “FuturaPT-Medium”;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 14px;
+}

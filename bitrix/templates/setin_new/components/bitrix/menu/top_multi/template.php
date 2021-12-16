@@ -1,9 +1,7 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-
 <?if (!empty($arResult)):?>
 
-    <div class="headerTopMenu">
-         <ul>
+<ul class="menu header__menu">
 <?
 $previousLevel = 0;
 
@@ -37,7 +35,6 @@ foreach($arResult as $arItem):?>
 		<?else:?>
 
 			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-
 				<li class="headerTopMenuItem"><a href="" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>" title="<?=GetMessage("MENU_ITEM_ACCESS_DENIED")?>"><?=$arItem["TEXT"]?></a></li>
 			<?else:?>
 				<li class="headerTopMenuItem"><a href="" class="denied" title="<?=GetMessage("MENU_ITEM_ACCESS_DENIED")?>"><?=$arItem["TEXT"]?></a></li>
@@ -54,9 +51,8 @@ foreach($arResult as $arItem):?>
 <?if ($previousLevel > 1)://close last item tags?>
 	<?=str_repeat("</ul></li>", ($previousLevel-1) );?>
 <?endif?>
+ </ul>
 
-    </ul>
-    </div>
 
 <?endif?>
 

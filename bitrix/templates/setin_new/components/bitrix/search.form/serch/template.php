@@ -13,10 +13,7 @@
 $this->setFrameMode(true);?>
 
 
-<div class="headerTopContactsSearch" onclick="clickOpen()">
-        <div id="TCSearchBar">
-            <img src="<?=SITE_TEMPLATE_PATH;?>/icons/magnifier.svg" alt="">
-            <form action="<?=$arResult["FORM_ACTION"]?>" type="POST">
+            <form action="<?=$arResult["FORM_ACTION"]?>" type="POST" class="search-form">
             <label>
                 <?if($arParams["USE_SUGGEST"] === "Y"):?>
                     <?$APPLICATION->IncludeComponent(
@@ -31,13 +28,19 @@ $this->setFrameMode(true);?>
                         $component, array("HIDE_ICONS" => "Y")
                     );?>
                 <?else:?>
-                    <input type="text" name="q" value="" size="15" maxlength="50" />
+                   <input autocomplete="off" type="text" name="q" data-value="Search for minimalist chair" class="search-form__text" placeholder="Поиск...">
+
                 <?endif;?>
-                <input name="s" type="submit" placeholder="Поиск..." value="<?=GetMessage("BSF_T_SEARCH_BUTTON");?>" />
+                  <button  name="s" type="submit" class="search-form__btn" value="<?=GetMessage("BSF_T_SEARCH_BUTTON");?>">
+                   <span class="icon-search"></span>
+                </button>
             </label>
+
+            <button type="reset" class="search-form__close">
+               <span></span>
+               <span></span>
+            </button>
             </form>
-            <img class="TCSBCross" src="<?=SITE_TEMPLATE_PATH;?>/icons/cross.svg" alt="" onclick="clickClose()">
-        </div>
-    </div>
+
 
 

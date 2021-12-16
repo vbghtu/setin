@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001637266344';
-$dateexpire = '001637302344';
+$datecreate = '001639269813';
+$dateexpire = '001639305813';
 $ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:10:{i:0;a:6:{s:2:"ID";s:7:"objects";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:1;a:6:{s:2:"ID";s:6:"banner";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:2;a:6:{s:2:"ID";s:5:"order";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:3;a:6:{s:2:"ID";s:7:"article";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:4;a:6:{s:2:"ID";s:5:"tools";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:5;a:6:{s:2:"ID";s:9:"construct";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:6;a:6:{s:2:"ID";s:14:"proektirovanie";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:7;a:6:{s:2:"ID";s:1:"1";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:8;a:6:{s:2:"ID";s:5:"pages";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}i:9;a:6:{s:2:"ID";s:7:"setings";s:8:"SECTIONS";s:1:"Y";s:16:"EDIT_FILE_BEFORE";s:0:"";s:15:"EDIT_FILE_AFTER";s:0:"";s:6:"IN_RSS";s:1:"N";s:4:"SORT";s:3:"500";}}}';
 return true;
 ?>
