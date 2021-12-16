@@ -264,7 +264,7 @@ export default class Uploader {
 
 		check = (check !== false);
 		files = [...files];
-		nodes = nodes ? [...nodes] : [];
+		nodes = nodes && Type.isArray(nodes) ? [...nodes] : [];
 
 		BX.onCustomEvent(this, "onAttachFiles", [files, nodes, this]);
 
@@ -329,6 +329,10 @@ export default class Uploader {
 				{
 					return;
 				}
+			}
+			if (String['normalize'])
+			{
+				file.name = String(file.name).normalize();
 			}
 
 			BX.onCustomEvent(this, "onItemIsAdded", [file, (nodes[index] || null), this]);

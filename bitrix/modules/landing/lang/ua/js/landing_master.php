@@ -262,6 +262,7 @@ $MESS["LANDING_IMAGE_UPLOAD_MENU_UPLOAD"] = "Завантажити з комп'
 $MESS["LANDING_LINKS_BLOCKS_TITLE"] = "Перехід до блоку";
 $MESS["LANDING_LINKS_BUTTON_BLOCKS"] = "Блок для переходу";
 $MESS["LANDING_LINKS_BUTTON_CATALOG"] = "Елемент каталогу";
+$MESS["LANDING_LINKS_BUTTON_DISK_FILE"] = "Файл на моєму Диску";
 $MESS["LANDING_LINKS_BUTTON_FORMS"] = "CRM-форму";
 $MESS["LANDING_LINKS_BUTTON_LANDINGS"] = "Сторінку сайту";
 $MESS["LANDING_LINKS_BUTTON_LANDINGS__KNOWLEDGE"] = "Сторінку бази знань";

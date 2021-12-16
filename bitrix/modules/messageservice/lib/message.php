@@ -66,6 +66,11 @@ class Message
 			$message->setFrom($fields['MESSAGE_FROM']);
 		if (isset($fields['MESSAGE_TO']))
 			$message->setTo($fields['MESSAGE_TO']);
+		if (isset($fields['MESSAGE_TEMPLATE']) && $sender->isConfigurable() && $sender->isTemplatesBased())
+		{
+			$fields['MESSAGE_HEADERS'] = $fields['MESSAGE_HEADERS'] ?? [];
+			$fields['MESSAGE_HEADERS']['template'] = $sender->prepareTemplate($fields['MESSAGE_TEMPLATE']);
+		}
 		if (isset($fields['MESSAGE_HEADERS']))
 			$message->setHeaders($fields['MESSAGE_HEADERS']);
 		if (isset($fields['MESSAGE_BODY']))

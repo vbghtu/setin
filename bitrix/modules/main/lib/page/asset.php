@@ -47,6 +47,7 @@ class Asset
 	private $bodyScript = false;
 	private $moveJsToBody = null;
 
+	private $templateExists = false;
 	private $siteTemplateID = '';
 	private $templatePath = '';
 	private $documentRoot = '';
@@ -293,6 +294,11 @@ class Asset
 		if ($id == '')
 		{
 			return false;
+		}
+
+		if ($id == 'TEMPLATE')
+		{
+			$this->templateExists = true;
 		}
 
 		if (
@@ -1126,13 +1132,17 @@ class Asset
 	 */
 	private function addTemplateCss()
 	{
-		if (!$this->ajax && (!defined("ADMIN_SECTION") || ADMIN_SECTION !== true))
+		if (
+			!$this->ajax
+			&& (!defined("ADMIN_SECTION") || ADMIN_SECTION !== true)
+			&& $this->templateExists
+		)
 		{
-			$this->css[$this->templatePath.'/styles.css']['TARGET'][] = 'TEMPLATE';
-			$this->css[$this->templatePath.'/styles.css']['ADDITIONAL'] = false;
+			$this->css[$this->templatePath . '/styles.css']['TARGET'][] = 'TEMPLATE';
+			$this->css[$this->templatePath . '/styles.css']['ADDITIONAL'] = false;
 
-			$this->css[$this->templatePath.'/template_styles.css']['TARGET'][] = 'TEMPLATE';
-			$this->css[$this->templatePath.'/template_styles.css']['ADDITIONAL'] = false;
+			$this->css[$this->templatePath . '/template_styles.css']['TARGET'][] = 'TEMPLATE';
+			$this->css[$this->templatePath . '/template_styles.css']['ADDITIONAL'] = false;
 		}
 	}
 
@@ -1282,7 +1292,7 @@ class Asset
 				if ($moduleInfo)
 				{
 					$cssInfo['TARGET'] = 'KERNEL';
-					if ($this->sliceKernel() && $this->optimizeCss())
+					if ($this->sliceKernel() && $this->optimizeCss() && is_array($moduleInfo))
 					{
 						$cssInfo['MODULE_ID'] = $moduleInfo['MODULE_ID'];
 						$cssInfo['TARGET'] = 'KERNEL_'.$moduleInfo['MODULE_ID'];
@@ -1313,7 +1323,10 @@ class Asset
 						];
 					}
 
-					$this->targetList['KERNEL']['CSS_LIST'][$cssInfo['TARGET']]['MODULE_NAME'] = $moduleInfo['MODULE_ID'];
+					if (is_array($moduleInfo))
+					{
+						$this->targetList['KERNEL']['CSS_LIST'][$cssInfo['TARGET']]['MODULE_NAME'] = $moduleInfo['MODULE_ID'];
+					}
 
 					// Add information about sets where used
 					foreach ($set['TARGET'] as $setID)

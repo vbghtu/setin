@@ -157,6 +157,7 @@ class RestConfigurationComponent extends CBitrixComponent
 				$analyticFrom .= '_' . mb_strtolower($code);
 			}
 		}
+		$variableList['ADDITIONAL_PARAMS'] = $this->request->get('additional') ?? [];
 
 		if (!empty($this->request->get('from')))
 		{

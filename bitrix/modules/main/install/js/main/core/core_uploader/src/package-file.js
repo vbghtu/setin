@@ -122,6 +122,7 @@ export default class PackageFile  extends EventEmitter {
 		if (this.packStatus === null)
 		{
 			result.data = this.item.getProps() || {name: this.name};
+
 			if (this.item['restored'])
 			{
 				result.data['restored'] = this.item['restored'];
@@ -173,7 +174,15 @@ export default class PackageFile  extends EventEmitter {
 		if (currentBlob)
 		{
 			result.data = (result.data || {name: this.name});
-			result.data[copyName]  = currentBlob;
+			if (currentBlob instanceof Blob)
+			{
+				result.data[copyName] = currentBlob;
+			}
+			else
+			{
+				result.data['files'] = result.data['files'] || {};
+				result.data['files'][copyName] = currentBlob;
+			}
 		}
 		if (result.data)
 		{

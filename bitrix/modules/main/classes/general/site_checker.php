@@ -1839,7 +1839,7 @@ class CSiteCheckerTest
 
 			$strRes = GetHttpResponse($res, $strRequest, $strHeaders);
 
-			if (preg_match('#Location: (.+)#', $strHeaders, $regs))
+			if (preg_match('#Location: (.+)#i', $strHeaders, $regs))
 			{
 				$url = trim($regs[1]);
 				if (!$url)
@@ -3070,13 +3070,23 @@ function InitPureDB()
 	}
 }
 
-function TableFieldConstruct($f0)
+function TableFieldConstruct($field)
 {
 	global $DB;
 
-	$tmp = '`'.$f0['Field'].'` '.$f0['Type'];
+	$tmp = '`'.$field['Field'].'` ';
 
-	if ($f0['Null'] == 'YES')
+	if (preg_match("/^(TINYINT|SMALLINT|MEDIUMINT|INT|BIGINT)\\(\d+\\)(.*)/i", $field['Type'], $matches))
+	{
+		// As of MySQL 8.0.17, the ZEROFILL attribute is deprecated for numeric data types, as is the display width attribute for integer data types
+		$tmp .= $matches[1] . $matches[2];
+	}
+	else
+	{
+		$tmp .= $field['Type'];
+	}
+
+	if ($field['Null'] == 'YES')
 	{
 		$tmp .= ' NULL';
 	}
@@ -3085,9 +3095,9 @@ function TableFieldConstruct($f0)
 		$tmp .= ' NOT NULL';
 	}
 
-	if ($f0['Default'] === NULL)
+	if ($field['Default'] === NULL)
 	{
-		if ($f0['Null'] == 'YES')
+		if ($field['Null'] == 'YES')
 		{
 			$tmp .= ' DEFAULT NULL ';
 		}
@@ -3095,22 +3105,22 @@ function TableFieldConstruct($f0)
 	else
 	{
 		$tmp .= ' DEFAULT ';
-		if (($f0['Type'] == 'timestamp' || $f0['Type'] == 'datetime') && !preg_match('#^\d{4}#', $f0['Default']))
+		if (($field['Type'] == 'timestamp' || $field['Type'] == 'datetime') && !preg_match('#^\d{4}#', $field['Default']))
 		{
-			$tmp .= $f0['Default'];
+			$tmp .= $field['Default'];
 		}
-		elseif ($f0['Type'] == 'text' && preg_match("/^'.*'$/", $f0['Default']))
+		elseif ($field['Type'] == 'text' && preg_match("/^'.*'$/", $field['Default']))
 		{
 			// MariaDB's bug with text fields default values in single quotes
-			$tmp .= $f0['Default'];
+			$tmp .= $field['Default'];
 		}
 		else
 		{
-			$tmp .= "'" . $DB->ForSQL($f0['Default']) . "'";
+			$tmp .= "'" . $DB->ForSQL($field['Default']) . "'";
 		}
-
-		$tmp .= ' ' . str_ireplace('DEFAULT_GENERATED', '', $f0['Extra']);
 	}
+
+	$tmp .= ' ' . str_ireplace('DEFAULT_GENERATED', '', $field['Extra']);
 
 	return trim($tmp);
 }

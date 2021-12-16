@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001639270584';
-$dateexpire = '001639274184';
+$datecreate = '001639695112';
+$dateexpire = '001639698712';
 $ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:6:"recent";a:5:{i:0;a:4:{s:3:"url";s:48:"/bitrix/admin/cache.php?lang=ru&back_url_pub=%2F";s:4:"text";s:30:"Автокеширование";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}i:1;a:4:{s:3:"url";s:63:"/bitrix/admin/cache.php?lang=ru&back_url_pub=%2Foborudovanie%2F";s:4:"text";s:30:"Автокеширование";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}i:2;a:4:{s:3:"url";s:140:"/bitrix/admin/iblock_list_admin.php?IBLOCK_ID=1&type=objects&lang=ru&find_section_section=9&back_url_pub=%2Fportfolio%2Fexamination%2F285%2F";s:4:"text";s:45:"Строительная экспертиза";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}i:3;a:4:{s:3:"url";s:108:"/bitrix/admin/iblock_list_admin.php?IBLOCK_ID=1&type=objects&lang=ru&find_section_section=9&back_url_pub=%2F";s:4:"text";s:45:"Строительная экспертиза";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}i:4;a:4:{s:3:"url";s:117:"/bitrix/admin/site_checker.php?lang=ru&back_url_pub=%2Fstroitelstvo%2Fdetail.php%3Fclear_cache_session%3DN%26ID%3D502";s:4:"text";s:31:"Проверка системы";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}}}}';
 return true;
 ?>

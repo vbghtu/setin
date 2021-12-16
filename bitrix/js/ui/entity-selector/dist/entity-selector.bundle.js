@@ -538,14 +538,16 @@ this.BX.UI = this.BX.UI || {};
 
 	function _classPrivateMethodGet(receiver, privateSet, fn) { if (!privateSet.has(receiver)) { throw new TypeError("attempted to get private field on non-instance"); } return fn; }
 
-	function _classStaticPrivateMethodGet(receiver, classConstructor, method) { if (receiver !== classConstructor) { throw new TypeError("Private static access of wrong provenance"); } return method; }
+	function _classStaticPrivateMethodGet(receiver, classConstructor, method) { _classCheckPrivateStaticAccess(receiver, classConstructor); return method; }
+
+	function _classCheckPrivateStaticAccess(receiver, classConstructor) { if (receiver !== classConstructor) { throw new TypeError("Private static access of wrong provenance"); } }
 	var RenderMode = function RenderMode() {
 	  babelHelpers.classCallCheck(this, RenderMode);
 	};
 	babelHelpers.defineProperty(RenderMode, "PARTIAL", 'partial');
 	babelHelpers.defineProperty(RenderMode, "OVERRIDE", 'override');
 
-	var _makeEllipsisTitle = new WeakSet();
+	var _makeEllipsisTitle = /*#__PURE__*/new WeakSet();
 
 	var ItemNode = /*#__PURE__*/function () {
 	  // for the fast access
@@ -1872,15 +1874,7 @@ this.BX.UI = this.BX.UI || {};
 	  return ItemNode;
 	}();
 
-	var _sanitizeTitle = function _sanitizeTitle(text) {
-	  return text.replace(/[\t ]+/gm, ' ').replace(/\n+/gm, '\n').trim();
-	};
-
-	var _isEllipsisActive = function _isEllipsisActive(element) {
-	  return element.offsetWidth < element.scrollWidth;
-	};
-
-	var _makeEllipsisTitle2 = function _makeEllipsisTitle2() {
+	function _makeEllipsisTitle2() {
 	  var _this19 = this;
 
 	  var _this$constructor;
@@ -1907,7 +1901,15 @@ this.BX.UI = this.BX.UI || {};
 	      main_core.Dom.attr(container, 'title', null);
 	    }
 	  });
-	};
+	}
+
+	function _isEllipsisActive(element) {
+	  return element.offsetWidth < element.scrollWidth;
+	}
+
+	function _sanitizeTitle(text) {
+	  return text.replace(/[\t ]+/gm, ' ').replace(/\n+/gm, '\n').trim();
+	}
 
 	var SearchFieldIndex = /*#__PURE__*/function () {
 	  function SearchFieldIndex(field) {
@@ -2731,7 +2733,7 @@ this.BX.UI = this.BX.UI || {};
 
 	function _classPrivateMethodGet$1(receiver, privateSet, fn) { if (!privateSet.has(receiver)) { throw new TypeError("attempted to get private field on non-instance"); } return fn; }
 
-	var _renderNodes = new WeakSet();
+	var _renderNodes = /*#__PURE__*/new WeakSet();
 
 	/**
 	 * @memberof BX.UI.EntitySelector
@@ -3535,13 +3537,13 @@ this.BX.UI = this.BX.UI || {};
 	  return Item;
 	}();
 
-	var _renderNodes2 = function _renderNodes2() {
+	function _renderNodes2() {
 	  if (this.isRendered()) {
 	    this.getNodes().forEach(function (node) {
 	      node.render();
 	    });
 	  }
-	};
+	}
 
 	var _templateObject;
 

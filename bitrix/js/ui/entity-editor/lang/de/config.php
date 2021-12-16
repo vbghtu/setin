@@ -10,6 +10,7 @@ $MESS["UI_ENTITY_EDITOR_COLLAPSE_HTML"] = "Minimieren";
 $MESS["UI_ENTITY_EDITOR_CONFIGURE"] = "Konfigurieren";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_CANCEL"] = "Abbrechen";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_COMMON"] = "Standardmäßige Profilansicht";
+$MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_FORCE_INSTALL_TO_USERS"] = "Diese Ansicht für ausgewählte Nutzer speichern";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_MEMBERS"] = "Nutzer für die neue Ansicht auswählen:";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_NAME"] = "Ansichtsname";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_NAME_PLACEHOLDER"] = "Namen eingeben";

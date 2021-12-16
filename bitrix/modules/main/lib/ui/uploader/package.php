@@ -247,7 +247,10 @@ class Package
 	 */
 	public function checkPost($fileLimits)
 	{
-		$unescapedPost = self::unescape(Context::getCurrent()->getRequest()->getPostList()->toArray());
+		$unescapedPost = self::unescape(
+		Context::getCurrent()->getRequest()->getPostList()->toArrayRaw()
+			?? Context::getCurrent()->getRequest()->getPostList()->toArray()
+		);
 		$postFiles = $unescapedPost[Uploader::FILE_NAME];
 		$post = $unescapedPost[Uploader::INFO_NAME];
 		if (!(is_array($post) &&
@@ -258,8 +261,11 @@ class Package
 		)
 			return array();
 
-		$files = Context::getCurrent()->getRequest()->getFileList()->toArray();
-		$files = self::unescape($files[Uploader::FILE_NAME]);
+		$files =  self::unescape(
+			Context::getCurrent()->getRequest()->getFileList()->toArrayRaw()
+			?? Context::getCurrent()->getRequest()->getFileList()->toArray()
+		);
+		$files = $files[Uploader::FILE_NAME];
 
 		if ($post["type"] != "brief") // If it is IE8
 		{

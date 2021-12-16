@@ -38,6 +38,8 @@
 	      } else {
 	        this.defaultSettings['currentPostSize'] = Math.max(Math.ceil(this.defaultSettings['currentPostSize'] / 2), this.defaultSettings['phpPostMinSize']);
 	      }
+
+	      this.defaultSettings['currentPostSize'] = Math.max(this.defaultSettings['currentPostSize'], this.defaultSettings['phpPostMinSize']);
 	    }
 	  }, {
 	    key: "getUploadLimits",
@@ -47,10 +49,10 @@
 	          currentPostSize: 5.5 * 1024 * 1024,
 	          phpPostMinSize: 5.5 * 1024 * 1024,
 	          // Bytes
-	          phpUploadMaxFilesize: Math.min(main_core.Loc.getMessage('phpUploadMaxFilesize') || 5 * 1024 * 1024, 5 * 1024 * 1024),
+	          phpUploadMaxFilesize: Math.min(/^d+$/.test(main_core.Loc.getMessage('phpUploadMaxFilesize')) ? main_core.Loc.getMessage('phpUploadMaxFilesize') : 5 * 1024 * 1024, 5 * 1024 * 1024),
 	          // Bytes 5MB because of Cloud
-	          phpMaxFileUploads: Math.max(main_core.Loc.getMessage('phpMaxFileUploads') || 20, 20),
-	          phpPostMaxSize: main_core.Loc.getMessage('phpPostMaxSize') || 11 * 1024 * 1024,
+	          phpMaxFileUploads: Math.max(/^d+$/.test(main_core.Loc.getMessage('phpMaxFileUploads')) ? main_core.Loc.getMessage('phpMaxFileUploads') : 20, 20),
+	          phpPostMaxSize: /^d+$/.test(main_core.Loc.getMessage('phpPostMaxSize')) ? main_core.Loc.getMessage('phpPostMaxSize') : 11 * 1024 * 1024,
 	          // Bytes
 	          estimatedTimeForUploadFile: 10 * 60,
 	          // in sec
@@ -205,10 +207,17 @@
 
 	          if (isFileTransfer) {
 	            _this.dndObject.DIV.classList.add('bxu-file-input-over');
+
+	            BX.onCustomEvent(_this, 'dragEnter', [e]); // compatibility event
 	          }
 	        },
-	        dragLeave: function dragLeave() {
+	        dragLeave: function dragLeave(_ref3) {
+	          var _ref3$compatData = babelHelpers.slicedToArray(_ref3.compatData, 1),
+	              e = _ref3$compatData[0];
+
 	          _this.dndObject.DIV.classList.remove('bxu-file-input-over');
+
+	          BX.onCustomEvent(_this, 'dragLeave', [e]); // compatibility event
 	        }
 	      };
 	      main_core_events.EventEmitter.subscribe(this.dndObject, 'dropFiles', handlers.dropFiles);
@@ -561,7 +570,13 @@
 	        result.data = result.data || {
 	          name: this.name
 	        };
-	        result.data[copyName] = currentBlob;
+
+	        if (currentBlob instanceof Blob) {
+	          result.data[copyName] = currentBlob;
+	        } else {
+	          result.data['files'] = result.data['files'] || {};
+	          result.data['files'][copyName] = currentBlob;
+	        }
 	      }
 
 	      if (result.data) {
@@ -729,7 +744,9 @@
 	    babelHelpers.defineProperty(babelHelpers.assertThisInitialized(_this), "makeAPackTimeout", 0);
 	    babelHelpers.defineProperty(babelHelpers.assertThisInitialized(_this), "uploadStatus", Options.uploadStatus.ready);
 	    babelHelpers.defineProperty(babelHelpers.assertThisInitialized(_this), "errors", []);
-	    babelHelpers.defineProperty(babelHelpers.assertThisInitialized(_this), "response", {});
+	    babelHelpers.defineProperty(babelHelpers.assertThisInitialized(_this), "response", {
+	      status: 'start'
+	    });
 
 	    _this.setEventNamespace(Options.getEventNamespace());
 
@@ -954,11 +971,19 @@
 	      this.filesInprogress.forEach(function (itemId) {
 	        var item = _this5.files.get(itemId);
 
+	        var currentPercent = percent * (item.packPercent || 0);
+
+	        if (!item['previousPackPercent']) {
+	          item['previousPackPercent'] = currentPercent;
+	        }
+
 	        _this5.emit('fileIsInProgress', {
 	          itemId: itemId,
 	          item: item.item,
-	          percent: Math.ceil(percent * (item.packPercent || 0) / 100)
+	          percent: Math.ceil(Math.max(item['previousPackPercent'], currentPercent) / 100)
 	        });
+
+	        item['previousPackPercent'] = currentPercent;
 	      });
 	    }
 	  }, {
@@ -1011,8 +1036,10 @@
 
 	      if (this.response['status'] === 'done') {
 	        this.done(stream);
-	      } else {
-	        console.log('this.response[\'status\']: ', this.response['status']);
+	      } else if (this.response['status'] === 'start') {
+	        this.error('Error with starting package.');
+	      } else if (this.response['status'] !== 'continue') {
+	        this.error('Unknown response');
 	      }
 	    }
 	  }, {
@@ -2517,7 +2544,7 @@
 
 	      check = check !== false;
 	      files = babelHelpers.toConsumableArray(files);
-	      nodes = nodes ? babelHelpers.toConsumableArray(nodes) : [];
+	      nodes = nodes && main_core.Type.isArray(nodes) ? babelHelpers.toConsumableArray(nodes) : [];
 	      BX.onCustomEvent(this, "onAttachFiles", [files, nodes, this]);
 	      var added = false;
 	      babelHelpers.toConsumableArray(files).forEach(function (file, index) {
@@ -2558,6 +2585,10 @@
 	          if (errors.length > 0) {
 	            return;
 	          }
+	        }
+
+	        if (String['normalize']) {
+	          file.name = String(file.name).normalize();
 	        }
 
 	        BX.onCustomEvent(_this2, "onItemIsAdded", [file, nodes[index] || null, _this2]);

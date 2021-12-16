@@ -103,7 +103,7 @@ require_once(__DIR__."/filter_tools.php");
 
 define('BX_AJAX_PARAM_ID', 'bxajaxid');
 
-/*ZDUyZmZMGUwOGFjMGI2OTExMzg2M2FiYmZhYmY4MWMxYTI5ZWU=*/$GLOBALS['____1072139050']= array(base64_decode('ZGVmaW5'.'l'));if(!function_exists(__NAMESPACE__.'\\___1173875096')){function ___1173875096($_1300458958){static $_790826444= false; if($_790826444 == false) $_790826444=array('RU5'.'DT0RF','WQ==');return base64_decode($_790826444[$_1300458958]);}};class CBXFeatures{ public static function IsFeatureEnabled($_781292549){ return true;} public static function IsFeatureEditable($_781292549){ return true;} public static function SetFeatureEnabled($_781292549, $_1041666243= true){} public static function SaveFeaturesSettings($_660053349, $_327390156){} public static function GetFeaturesList(){ return array();} public static function InitiateEditionsSettings($_273699699){} public static function ModifyFeaturesSettings($_273699699, $_1770298132){} public static function IsFeatureInstalled($_781292549){ return true;}} $GLOBALS['____1072139050'][0](___1173875096(0), ___1173875096(1));/**/			//Do not remove this
+/*ZDUyZmZMDY4YTE0NmRhNzIwZWE0Mzk1NDFjZThiNzM0MGMyYzk=*/$GLOBALS['____1873882599']= array(base64_decode(''.'ZGVmaW5l'));if(!function_exists(__NAMESPACE__.'\\___2120621212')){function ___2120621212($_611961785){static $_1986479811= false; if($_1986479811 == false) $_1986479811=array('RU'.'5DT'.'0'.'RF','WQ==');return base64_decode($_1986479811[$_611961785]);}};class CBXFeatures{ public static function IsFeatureEnabled($_2087292261){ return true;} public static function IsFeatureEditable($_2087292261){ return true;} public static function SetFeatureEnabled($_2087292261, $_479048328= true){} public static function SaveFeaturesSettings($_270699047, $_403140039){} public static function GetFeaturesList(){ return array();} public static function InitiateEditionsSettings($_1125292611){} public static function ModifyFeaturesSettings($_1125292611, $_1036560114){} public static function IsFeatureInstalled($_2087292261){ return true;}} $GLOBALS['____1873882599'][0](___2120621212(0), ___2120621212(1));/**/			//Do not remove this
 
 //component 2.0 template engines
 $GLOBALS["arCustomTemplateEngines"] = [];
@@ -145,7 +145,10 @@ header("X-Powered-CMS: Bitrix Site Manager (".(LICENSE_KEY == "DEMO"? "DEMO" : m
 if (COption::GetOptionString("main", "update_devsrv", "") == "Y")
 	header("X-DevSrv-CMS: Bitrix");
 
-define("BX_CRONTAB_SUPPORT", defined("BX_CRONTAB"));
+if (!defined("BX_CRONTAB_SUPPORT"))
+{
+	define("BX_CRONTAB_SUPPORT", defined("BX_CRONTAB"));
+}
 
 //agents
 if(COption::GetOptionString("main", "check_agents", "Y") == "Y")
@@ -224,7 +227,9 @@ elseif (($currTime - $kernelSession['SESS_TIME']) > 60)
 	$kernelSession['SESS_TIME'] = $currTime;
 }
 if(!isset($kernelSession["BX_SESSION_SIGN"]))
+{
 	$kernelSession["BX_SESSION_SIGN"] = bitrix_sess_sign();
+}
 
 //session control from security module
 if(
@@ -386,7 +391,7 @@ if(($applicationID = $GLOBALS["USER"]->GetParam("APPLICATION_ID")) !== null)
 if(!defined("ADMIN_SECTION") || ADMIN_SECTION !== true)
 {
 	$siteTemplate = "";
-	if(is_string($_REQUEST["bitrix_preview_site_template"]) && $_REQUEST["bitrix_preview_site_template"] <> "" && $GLOBALS["USER"]->CanDoOperation('view_other_settings'))
+	if(isset($_REQUEST["bitrix_preview_site_template"]) && is_string($_REQUEST["bitrix_preview_site_template"]) && $_REQUEST["bitrix_preview_site_template"] <> "" && $GLOBALS["USER"]->CanDoOperation('view_other_settings'))
 	{
 		//preview of site template
 		$signer = new Bitrix\Main\Security\Sign\Signer();

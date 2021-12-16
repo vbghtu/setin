@@ -17,7 +17,7 @@ export default class Package extends EventEmitter {
 
 	uploadStatus = Options.uploadStatus.ready;
 	errors = [];
-	response = {};
+	response = {status: 'start'};
 
 	constructor({id, formData, files, uploadFileUrl, uploadInputName})
 	{
@@ -230,12 +230,18 @@ export default class Package extends EventEmitter {
 	{
 		this.filesInprogress.forEach((itemId) => {
 			const item = this.files.get(itemId);
+			const currentPercent = percent * (item.packPercent || 0);
+			if (!item['previousPackPercent'])
+			{
+				item['previousPackPercent'] = currentPercent;
+			}
 			this.emit('fileIsInProgress',
 				{
 					itemId: itemId,
 					item: item.item,
-					percent: Math.ceil(percent * (item.packPercent || 0) / 100)
+					percent: Math.ceil(Math.max(item['previousPackPercent'], currentPercent) / 100)
 				});
+			item['previousPackPercent'] = currentPercent;
 		});
 	}
 
@@ -290,9 +296,13 @@ export default class Package extends EventEmitter {
 		{
 			this.done(stream);
 		}
-		else
+		else if (this.response['status'] === 'start')
 		{
-			console.log('this.response[\'status\']: ', this.response['status']);
+			this.error('Error with starting package.');
+		}
+		else if (this.response['status'] !== 'continue')
+		{
+			this.error('Unknown response');
 		}
 	}
 

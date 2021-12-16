@@ -1,1 +1,0 @@
-<?php $filesInfo = ["/bitrix/templates/setin_new/components/bitrix/menu/top_dop_multi/style.css" => "16371868313715","/bitrix/templates/setin_new/styles.css" => "163927010379422",]; ?>

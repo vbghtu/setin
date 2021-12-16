@@ -17,12 +17,20 @@ use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Web\Json;
 use Bitrix\Main\UI\Extension;
 
-	Extension::load(["ui.buttons", "ui.progressbar", "ui.notification", "ui.common", "ui.dialogs.messagebox"]);
+Extension::load(
+	[
+		'ui.buttons',
+		'ui.progressbar',
+		'ui.notification',
+		'ui.common',
+		'ui.dialogs.messagebox',
+	]
+);
 
 Loc::loadMessages(__FILE__);
 $descriptionPreInstallClose = '';
 $containerId = 'rest-configuration-import-install';
-if($arResult['PRE_INSTALL_APP_MODE'])
+if ($arResult['PRE_INSTALL_APP_MODE'])
 {
 	$appName = empty($arParams['APP']['APP_NAME']) ? "" : htmlspecialcharsbx($arParams['APP']['APP_NAME']);
 	$description = Loc::getMessage(
@@ -42,16 +50,20 @@ if($arResult['PRE_INSTALL_APP_MODE'])
 		]
 	);
 }
-elseif(!empty($arResult['MANIFEST']['IMPORT_DESCRIPTION_START']))
+elseif (!empty($arResult['MANIFEST']['IMPORT_DESCRIPTION_START']))
 {
 	$description = $arResult['MANIFEST']['IMPORT_DESCRIPTION_START'];
 }
 else
 {
-	$description = (!empty($arParams['APP']))?'REST_CONFIGURATION_IMPORT_INSTALL_APP_DESCRIPTION':'REST_CONFIGURATION_IMPORT_INSTALL_DESCRIPTION';
-	if($arParams['MODE'])
+	$description =
+		(!empty($arParams['APP']))
+		? 'REST_CONFIGURATION_IMPORT_INSTALL_APP_DESCRIPTION'
+		: 'REST_CONFIGURATION_IMPORT_INSTALL_DESCRIPTION'
+	;
+	if ($arParams['MODE'])
 	{
-		$description .= '_'.$arParams['MODE'];
+		$description .= '_' . $arParams['MODE'];
 	}
 	$description = Loc::getMessage($description);
 }
@@ -69,7 +81,7 @@ else
 		<div class="rest-configuration-start-icon"></div>
 		<div class="rest-configuration-start-icon-circle"></div>
 	</div>
-	<div class="rest-configuration-controls start_btn_block">
+	<div class="rest-configuration-controls start-btn-block">
 		<? if($arResult['NEED_START_BTN']): ?>
 			<span class="ui-btn ui-btn-lg ui-btn-primary start_btn"><?=Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_START_BTN')?></span>
 		<? endif;?>
@@ -85,12 +97,14 @@ else
 				'id' => $containerId,
 				'signedParameters' => $this->getComponent()->getSignedParameters(),
 				'needClearFull' => $arResult['NEED_CLEAR_FULL'],
-				'needClearFullConfirm' => $arResult['NEED_CLEAR_FULL_CONFIRM']
+				'needClearFullConfirm' => $arResult['NEED_CLEAR_FULL_CONFIRM'],
+				'importByProcessId' => $arResult['IMPORT_BY_PROCESS_ID'],
 			])?>);
 		});
 		BX.message(<?=Json::encode(
 				[
 					'REST_CONFIGURATION_IMPORT_INSTALL_FATAL_ERROR' => Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_FATAL_ERROR'),
+					'REST_CONFIGURATION_IMPORT_INSTALL_STEP_INIT_BACKGROUND' => Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_STEP_INIT_BACKGROUND'),
 					'REST_CONFIGURATION_IMPORT_INSTALL_STEP_START' => Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_STEP_START'),
 					'REST_CONFIGURATION_IMPORT_INSTALL_STEP_CLEAR' => Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_STEP_CLEAR'),
 					'REST_CONFIGURATION_IMPORT_INSTALL_STEP' => Loc::getMessage('REST_CONFIGURATION_IMPORT_INSTALL_STEP'),

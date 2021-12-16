@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CRM_ADS_RTG_ADD_AUDIENCE"] = "Zielgruppe erstellen";
 $MESS["CRM_ADS_RTG_ADD_CLIENT_BTN"] = "Account hinzufügen";
 $MESS["CRM_ADS_RTG_APPLY"] = "Starten";
@@ -29,6 +29,7 @@ $MESS["CRM_ADS_RTG_CREATE_LOOKALIKE_SIZE_HINT"] = "Eine kleinere Zielgruppenquel
 $MESS["CRM_ADS_RTG_ERROR_ACTION"] = "Aktion wurde abgebrochen, weil ein Fehler aufgetreten war.";
 $MESS["CRM_ADS_RTG_ERROR_NO_AUDIENCES"] = "Es wurden keine Zielgruppen gefunden. Wechseln Sie bitte in %name% um eine Zielgruppe zu erstellen.";
 $MESS["CRM_ADS_RTG_LOGIN"] = "Verbinden";
+$MESS["CRM_ADS_RTG_LOGIN_GOOGLE"] = "Mit Google anmelden";
 $MESS["CRM_ADS_RTG_LOGOUT"] = "Verbindung trennen";
 $MESS["CRM_ADS_RTG_NEW_AUDIENCE_NAME_LABEL"] = "Name der Zielgruppe";
 $MESS["CRM_ADS_RTG_REFRESH"] = "Aktualisieren";
@@ -40,4 +41,3 @@ $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA"] = "Telefon und E-Mail zu Segmenten hinz
 $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA_EMAIL"] = "E-Mail";
 $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA_PHONE"] = "Telefon";
 $MESS["CRM_ADS_RTG_TITLE"] = "Zielgruppe konfigurieren";
-?>

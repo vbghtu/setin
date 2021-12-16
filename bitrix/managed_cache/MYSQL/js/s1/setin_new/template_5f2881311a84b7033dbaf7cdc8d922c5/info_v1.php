@@ -1,1 +1,0 @@
-<?php $filesInfo = ["/bitrix/templates/setin_new/components/bitrix/menu/top_multi/script.js" => "1636671234407","/bitrix/templates/setin_new/components/bitrix/menu/top_dop_multi/script.js" => "1637186831407",]; ?>

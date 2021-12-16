@@ -414,7 +414,7 @@ BX["UI"].FileInput.prototype = {
 					result.push({tmp_url : BX.util.htmlspecialchars(data[ii]), real_url : decodeURIComponent(data[ii])});
 				}
 			}
-			this.agent.onAttach(result, {});
+			this.agent.onAttach(result);
 		}
 		else
 		{
@@ -1251,9 +1251,9 @@ filePath.prototype = {
 			}
 		}
 	},
-	delRow : function()
+	delRow : function(e)
 	{
-		var node = BX.proxy_context;
+		var node = e['currentTarget'] || e['target'];
 		if (BX(node))
 		{
 			var li = BX.findParent(node, {tagName : "LI"});
@@ -1520,9 +1520,9 @@ FramePreset = function() {
 			this.checkAddButton();
 			return false;
 		},
-		delRow : function()
+		delRow : function(e)
 		{
-			var node = BX.proxy_context;
+			var node = BX.proxy_context || e['currentTarget'] || e['target'];
 			if (BX(node))
 			{
 				var li = BX.findParent(node, {tagName : "LI"});
@@ -3854,7 +3854,7 @@ CanvasCrop.prototype = {
 	stretchStart : function(e)
 	{
 		BX.PreventDefault(e);
-		var div = BX.proxy_context;
+		var div = e['currentTarget'] || e['target'];
 		this.stretchPosition = div.className.replace("adm-photoeditor-crop-", "");
 		this.cursor = null;
 		if (this.stretchPosition == "left-bottom" ||

@@ -67,6 +67,8 @@ class AppTable extends Main\Entity\DataManager
 	const TYPE_CONFIGURATION = 'C';
 	const TYPE_SMART_ROBOTS = 'R';
 
+	const MODE_SITE = 'S';
+
 	const STATUS_LOCAL = 'L';
 	const STATUS_FREE = 'F';
 	const STATUS_PAID = 'P';
@@ -573,11 +575,17 @@ class AppTable extends Main\Entity\DataManager
 	{
 		$res = array();
 
-		if(!is_array($app) && intval($app) > 0)
+		if (
+			!empty($app)
+			&& (
+				is_string($app)
+				|| is_integer($app)
+			)
+		)
 		{
 			$appInfo = $app = static::getByClientId($app);
 		}
-		elseif ($app['CODE'])
+		elseif (isset($app['CODE']))
 		{
 			$appInfo = static::getByClientId($app['CODE']);
 		}

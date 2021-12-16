@@ -3,11 +3,28 @@
 if(!CModule::IncludeModule("iblock")){
      return;
 }
+CModule::IncludeModule("arturgolubev.mobiledetect");
+
+$detect = new \Arturgolubev\Mobiledetect\Detect();
+
+// if($detect->isMobile()){
+//     echo 'код только для мобильного';
+// }
+// if($detect->isTablet()){
+//      echo 'код только для планшета';
+// }
+// if(!$detect->isTablet() && !$detect->isMobile()){
+//      echo 'код только для пк';
+// }
+
+
 global $arProps;
 $rsElem = CIBlockElement::GetById(2833);
 $arElem = $rsElem->GetNextElement();
 $arProps = $arElem->GetProperties();
 ?>
+
+
 
 
 <!doctype html>
@@ -57,7 +74,7 @@ $APPLICATION->ShowMeta('keywords');
 <body>
 <index>
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
-
+<div class="wrapper">
 <header class="header">
     <div class="header__top">
         <div class="header__container">
@@ -99,6 +116,7 @@ $APPLICATION->ShowMeta('keywords');
                   )
                 );    ?>
             </div>
+            <? if(!$detect->isTablet() && !$detect->isMobile()){                ?>
             <div class="header__info">
                 <div class="work-time">
                     <?=$GLOBALS["arProps"]['work_time']["VALUE"]?>
@@ -118,315 +136,74 @@ $APPLICATION->ShowMeta('keywords');
                   </div>
                </div>
             </div>
+            <?}?>
          </div>
           <div class="header__bottom">
-                     <div class="header__container">
-                        <div class="header__bottom-body">
-                           <a href="#" class="logo">
-                           <? //CFile::GetPath($GLOBALS["arProps"]["logo"]["VALUE"])?>
-                              <img src="<?=SITE_TEMPLATE_PATH;?>/img/logo.png" alt="">
-                              <strong>СтройЭкспертНадзор</strong>
-                              <p>эксперты в строительстве</p>
-                           </a>
-                           <nav class="second-navigation header__second-navigation">
-                           <?$APPLICATION->IncludeComponent(
-                                   "bitrix:menu",
-                                   "top_dop_multi",
-                                   array(
-                                       "ALLOW_MULTI_SELECT" => "N",
-                                       "DELAY" => "N",
-                                       "MAX_LEVEL" => "2",
-                                       "MENU_CACHE_GET_VARS" => array(
-                                       ),
-                                       "MENU_CACHE_TIME" => "3600",
-                                       "MENU_CACHE_TYPE" => "N",
-                                       "MENU_CACHE_USE_GROUPS" => "Y",
-                                       "ROOT_MENU_TYPE" => "dop_top",
-                                       "USE_EXT" => "Y",
-                                       "MENU_THEME" => "site",
-                                       "COMPONENT_TEMPLATE" => "top_dop_multi",
-                                       "CHILD_MENU_TYPE" => "dop_menu"
-                                   ),
-                                   false,
-                                   array(
-                                       "ACTIVE_COMPONENT" => "Y"
-                                   )
-                               );?>
-                            <!--  <ul class="second-menu header__second-menu">
-                                 <li>
-                                    <a href="#">Обследование</a>
-                                    <ul class="sub-menu">
-                                       <li>
-                                          <a href="#">Обследование зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Лазерное сканирование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">3D Мониторинг зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Георадарное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Тепловизионное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование подвалов</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инструментальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование перекрытий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Визуальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование очистных сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инженерно-техническое обследование</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="#">Экспертиза</a>
-                                    <ul class="sub-menu">
-                                       <li>
-                                          <a href="#">Обследование зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Лазерное сканирование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">3D Мониторинг зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Георадарное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Тепловизионное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование подвалов</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инструментальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование перекрытий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Визуальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование очистных сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инженерно-техническое обследование</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="#">Строительный контроль</a>
-                                    <ul class="sub-menu">
-                                       <li>
-                                          <a href="#">Обследование зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Лазерное сканирование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">3D Мониторинг зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Георадарное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Тепловизионное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование подвалов</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инструментальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование перекрытий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Визуальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование очистных сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инженерно-техническое обследование</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="#">Технический заказчик</a>
-                                    <ul class="sub-menu">
-                                       <li>
-                                          <a href="#">Обследование зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Лазерное сканирование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">3D Мониторинг зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Георадарное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Тепловизионное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование подвалов</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инструментальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование перекрытий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Визуальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование очистных сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инженерно-техническое обследование</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="#">Другие услуги</a>
-                                    <ul class="sub-menu">
-                                       <li>
-                                          <a href="#">Обследование зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Лазерное сканирование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">3D Мониторинг зданий и сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Георадарное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Тепловизионное обследование</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование подвалов</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инструментальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование перекрытий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Визуальное обследование зданий</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Обследование очистных сооружений</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Инженерно-техническое обследование</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <div class="more">
-                                       Ещё
-                                       <span class="icon-arrow-down more__down"></span>
-                                       <ul class="second-menu second-menu-hidden">
-                                          <li>
-                                             <a href="#">Технический заказчик</a>
-                                          </li>
-                                          <li>
-                                             <a href="#">Другие услуги</a>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                 </li>
-                              </ul> -->
-                              <div class="header__info header__info-hidden">
-                                 <div class="work-time">
-                                    ПН–ПТ 9:00–19:00
-                                 </div>
-                                 <a href="info@seitn.ru" class="mail header__mail">
-                                    info@seitn.ru
-                                 </a>
-                                 <div class="phone header__phone">
+             <div class="header__container">
+                <div class="header__bottom-body">
+                   <a href="/" class="logo">
+                      <img src="<?=SITE_TEMPLATE_PATH;?>/img/logo.png" alt="">
+                      <strong>СтройЭкспертНадзор</strong>
+                      <p>эксперты в строительстве</p>
+                   </a>
+                   <nav class="second-navigation header__second-navigation">
+                   <?$APPLICATION->IncludeComponent(
+                           "bitrix:menu",
+                           "top_dop_multi",
+                           array(
+                               "ALLOW_MULTI_SELECT" => "N",
+                               "DELAY" => "N",
+                               "MAX_LEVEL" => "2",
+                               "MENU_CACHE_GET_VARS" => array(
+                               ),
+                               "MENU_CACHE_TIME" => "3600",
+                               "MENU_CACHE_TYPE" => "N",
+                               "MENU_CACHE_USE_GROUPS" => "Y",
+                               "ROOT_MENU_TYPE" => "dop_top",
+                               "USE_EXT" => "Y",
+                               "MENU_THEME" => "site",
+                               "COMPONENT_TEMPLATE" => "top_dop_multi",
+                               "CHILD_MENU_TYPE" => "dop_menu"
+                           ),
+                           false,
+                           array(
+                               "ACTIVE_COMPONENT" => "Y"
+                           )
+                       );?>
+                       <? if($detect->isMobile()){ ?>
 
-                                    <div class="phone__info">
-                                       <p>Бесплатно по России и Крыму</p>
-                                       <a href="tel:74998774496">
-                                          +7 (499) 877-44-96
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </nav>
-                           <div class="header__modal">
-                              <a href="#myModal" data-hystmodal="#myModal">Заказать звонок</a>
-                           </div>
-                           <div class="icon-menu-wrapper">
-                              <div class="icon-menu">
-                                 <span></span>
-                                 <span></span>
-                                 <span></span>
-                              </div>
-                           </div>
+                      <div class="header__info header__info-hidden">
+                         <div class="work-time">
+                             <?=$GLOBALS["arProps"]['work_time']["VALUE"]?>
+                         </div>
+                         <a href="email:<?=$GLOBALS["arProps"]['email']["VALUE"]?>" class="mail header__mail">
+                            <?=$GLOBALS["arProps"]['email']["VALUE"]?>
+                         </a>
+                         <div class="phone header__phone">
+                            <div class="phone__info">
+                               <p>Бесплатно по России и Крыму</p>
+                               <a href="tel:<?=$GLOBALS["arProps"]['phone']["VALUE"]?>">
+                                  <?=$GLOBALS["arProps"]['phone']["VALUE"]?>
+                               </a>
+                            </div>
+                         </div>
+                      </div>
+                      <?}?>
+                   </nav>
+                   <div class="header__modal">
+                      <a href="#myModal" data-hystmodal="#myModal">Заказать звонок</a>
+                   </div>
+                   <div class="icon-menu-wrapper">
+                      <div class="icon-menu">
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                      </div>
+                   </div>
 
-                        </div>
-                     </div>
-                  </div>
+                </div>
+             </div>
+          </div>
 
-                  <?=CLightHTMLEditor::IsMobileDevice();?>
-
-<!--
-    <section class="headerBottom">
-        <picture class="headerBottomLogo">
-            <img src="<?=CFile::GetPath($GLOBALS["arProps"]["logo"]["VALUE"])?>" alt="">
-        </picture>
-        <nav class="headerBottomMenu">
-           <?$APPLICATION->IncludeComponent(
-        "bitrix:menu",
-        "top_dop_multi",
-        array(
-            "ALLOW_MULTI_SELECT" => "N",
-            "DELAY" => "N",
-            "MAX_LEVEL" => "2",
-            "MENU_CACHE_GET_VARS" => array(
-            ),
-            "MENU_CACHE_TIME" => "3600",
-            "MENU_CACHE_TYPE" => "N",
-            "MENU_CACHE_USE_GROUPS" => "Y",
-            "ROOT_MENU_TYPE" => "dop_top",
-            "USE_EXT" => "Y",
-            "MENU_THEME" => "site",
-            "COMPONENT_TEMPLATE" => "top_dop_multi",
-            "CHILD_MENU_TYPE" => "dop_menu"
-        ),
-        false,
-        array(
-            "ACTIVE_COMPONENT" => "Y"
-        )
-    );?>
-        </nav>
-
-                <a class="headerBottomButton" href="#">
-                    Заказать звонок
-                </a>
-    </section> -->
 </header>
-
+<main class="main">

@@ -13,6 +13,7 @@ BX.Rest.Marketplace.Install =
 		this.installHash = params.INSTALL_HASH || false;
 		this.from = params.FROM || false;
 		this.iframe = params.IFRAME || false;
+		this.redirectPriority = params.REDIRECT_PRIORITY || false;
 
 		this.formNode = BX('rest_mp_install_form');
 		this.buttonInstallNode = BX.findChildByClassName(this.formNode, 'rest-btn-start-install');
@@ -84,25 +85,26 @@ BX.Rest.Marketplace.Install =
 				data: queryParam
 			}
 		).then(
-			function (result)
+			function (response)
 			{
-				if(!!result.error)
+				var result = !!response.data ? response.data : response;
+				if (!!result.error)
 				{
-					BX('mp_error').innerHTML = result.error
+					BX('rest_mp_install_error').innerHTML = result.error
 						+ (!!result.error_description
-							? '<br /><br />' + result.error_description
+							? '<br />' + result.error_description
 							: ''
 						);
 
-					BX.show(BX('mp_error'));
+					BX.show(BX('rest_mp_install_error'));
 				}
-				else if(!!result.redirect && params['REDIRECT_PRIORITY'] === true)
+				else if (!!result.redirect && this.redirectPriority === true)
 				{
 					top.location.href = result.redirect;
 				}
-				else if(!this.iframe)
+				else if (!this.iframe)
 				{
-					if(!!result.redirect)
+					if (!!result.redirect)
 					{
 						top.location.href = result.redirect;
 					}
@@ -113,13 +115,13 @@ BX.Rest.Marketplace.Install =
 				}
 				else
 				{
-					if(result.installed)
+					if (result.installed)
 					{
 						var eventResult = {};
 						top.BX.onCustomEvent(top, 'Rest:AppLayout:ApplicationInstall', [true, eventResult], false);
 					}
 
-					if(!!result.open)
+					if (!!result.open)
 					{
 						BX.SidePanel.Instance.reload();
 						top.BX.rest.AppLayout.openApplication(result.id, {});

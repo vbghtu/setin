@@ -7137,3 +7137,477 @@
 2021-12-12 03:43:27 -  - exec CUpdateClient::GetHTTPPage
 2021-12-12 03:43:27 -  - TIME GetUpdatesList(request) 0.504 sec
 2021-12-12 03:43:27 -  - exec CUpdateClient::ParseServerData
+2021-12-17 00:07:33 -  - exec CUpdateClient::GetUpdatesList
+2021-12-17 00:07:34 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 00:07:34 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.400&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.400&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 00:07:34 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 00:07:34 -  - TIME GetUpdatesList(request) 0.328 sec
+2021-12-17 00:07:34 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:54 -  - exec CUpdateClient::GetUpdatesList
+2021-12-17 01:22:54 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:22:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.400&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.400&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:22:54 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:22:54 -  - TIME GetUpdatesList(request) 0.241 sec
+2021-12-17 01:22:54 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:57 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:22:57 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:22:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.400&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.400&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:22:57 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:22:57 -  - TIME LoadModulesUpdates(request) 0.208 sec
+2021-12-17 01:22:57 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:57 - S - STEP
+2021-12-17 01:22:58 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:22:58 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:22:58 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:58 -  - loadFile
+2021-12-17 01:22:58 - U - RETURN
+2021-12-17 01:22:58 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:22:58 -  - TIME UnGzipArchive 0.007 sec
+2021-12-17 01:22:58 -  - TIME UpdateStepModules 0.013 sec
+2021-12-17 01:22:58 - UPD_SUCCESS - Updated: main (21.850.500)<br><li>Исправлена ошибка проверки системы (структура БД) на некоторых версиях MySQL. <li>Разработчикам: добавлен класс QueryHelper для декомпозиции запросов ORM.
+2021-12-17 01:22:58 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:22:58 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:22:58 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.500&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.500&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:22:58 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:22:59 -  - TIME LoadModulesUpdates(request) 0.231 sec
+2021-12-17 01:22:59 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:59 - S - STEP
+2021-12-17 01:22:59 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:22:59 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:22:59 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:22:59 -  - loadFile
+2021-12-17 01:23:00 - U - RETURN
+2021-12-17 01:23:00 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:00 -  - TIME UnGzipArchive 0.072 sec
+2021-12-17 01:23:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693380/main/updater21.850.600.php'
+2021-12-17 01:23:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693380/main/updater21.850.600.php': CopyFiles(install/js, js)
+2021-12-17 01:23:00 -  - TIME UpdateStepModules 0.05 sec
+2021-12-17 01:23:00 - UPD_SUCCESS - Updated: main (21.850.600)<br><li>Исправлена ошибка загрузки файла по ссылке (в инфоблоках). 
+2021-12-17 01:23:00 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:00 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.100&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:00 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:00 -  - TIME LoadModulesUpdates(request) 0.227 sec
+2021-12-17 01:23:00 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:01 - S - STEP
+2021-12-17 01:23:01 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:01 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:01 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:01 -  - loadFile
+2021-12-17 01:23:01 - U - RETURN
+2021-12-17 01:23:01 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:02 -  - TIME UnGzipArchive 0.518 sec
+2021-12-17 01:23:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693381/iblock/updater21.600.200.php'
+2021-12-17 01:23:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693381/iblock/updater21.600.200.php': CopyFiles(install/components, components)
+2021-12-17 01:23:03 -  - TIME UpdateStepModules 0.861 sec
+2021-12-17 01:23:03 - UPD_SUCCESS - Updated: iblock (21.600.200)<br><li>Добавлена возможность отправлять события на Facebook для создания рекламных аудиторий.
+2021-12-17 01:23:03 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:03 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:03 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.200&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:03 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:03 -  - TIME LoadModulesUpdates(request) 0.224 sec
+2021-12-17 01:23:03 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:03 - S - STEP
+2021-12-17 01:23:03 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:03 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:03 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:04 -  - loadFile
+2021-12-17 01:23:04 - U - RETURN
+2021-12-17 01:23:04 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:04 -  - TIME UnGzipArchive 0.011 sec
+2021-12-17 01:23:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693384/iblock/updater21.600.300.php'
+2021-12-17 01:23:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693384/iblock/updater21.600.300.php': CopyFiles(install/components, components)
+2021-12-17 01:23:04 -  - TIME UpdateStepModules 0.029 sec
+2021-12-17 01:23:04 - UPD_SUCCESS - Updated: iblock (21.600.300)<br><li>Компонент catalog.element не возвращал ID текущего элемента на детальной странице товара.
+2021-12-17 01:23:04 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:04 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.400.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:04 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:04 -  - TIME LoadModulesUpdates(request) 0.22 sec
+2021-12-17 01:23:04 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:04 - S - STEP
+2021-12-17 01:23:04 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:04 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:04 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:04 -  - loadFile
+2021-12-17 01:23:05 - U - RETURN
+2021-12-17 01:23:05 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:05 -  - TIME UnGzipArchive 0.084 sec
+2021-12-17 01:23:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693385/seo/updater21.500.0.php'
+2021-12-17 01:23:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693385/seo/updater21.500.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693385/seo/updater21.500.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:05 -  - TIME UpdateStepModules 0.123 sec
+2021-12-17 01:23:05 - UPD_SUCCESS - Updated: seo (21.500.0)<br><li>Добавлена поддержка обратной интеграции с формами Facebook и Вконтакте. <li>Незначительные изменения и улучшения.
+2021-12-17 01:23:05 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:05 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.500.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:06 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:06 -  - TIME LoadModulesUpdates(request) 0.219 sec
+2021-12-17 01:23:06 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:06 - S - STEP
+2021-12-17 01:23:06 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:06 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:06 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:06 -  - loadFile
+2021-12-17 01:23:06 - U - RETURN
+2021-12-17 01:23:06 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:06 -  - TIME UnGzipArchive 0.022 sec
+2021-12-17 01:23:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693386/seo/updater21.500.100.php'
+2021-12-17 01:23:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693386/seo/updater21.500.100.php': CopyFiles(install/components, components)
+2021-12-17 01:23:06 -  - TIME UpdateStepModules 0.041 sec
+2021-12-17 01:23:06 - UPD_SUCCESS - Updated: seo (21.500.100)<br><li>Изменен стиль кнопки подключения аккаунта Google для Аудиторий. 
+2021-12-17 01:23:06 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:06 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.500.100&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:07 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:07 -  - TIME LoadModulesUpdates(request) 0.204 sec
+2021-12-17 01:23:07 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:07 - S - STEP
+2021-12-17 01:23:07 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:07 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:07 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:07 -  - loadFile
+2021-12-17 01:23:07 - U - RETURN
+2021-12-17 01:23:07 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:07 -  - TIME UnGzipArchive 0.018 sec
+2021-12-17 01:23:07 -  - TIME UpdateStepModules 0.019 sec
+2021-12-17 01:23:07 - UPD_SUCCESS - Updated: seo (21.600.0)<br><li>Исправлены ошибки при подключении аккаунта Facebook.
+2021-12-17 01:23:07 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:07 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.300.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:07 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:08 -  - TIME LoadModulesUpdates(request) 0.227 sec
+2021-12-17 01:23:08 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:08 - S - STEP
+2021-12-17 01:23:08 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:08 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:08 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:08 -  - loadFile
+2021-12-17 01:23:08 - U - RETURN
+2021-12-17 01:23:08 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:09 -  - TIME UnGzipArchive 0.289 sec
+2021-12-17 01:23:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693388/rest/updater21.400.0.php'
+2021-12-17 01:23:09 -  - TIME UpdateStepModules 0.202 sec
+2021-12-17 01:23:09 - UPD_SUCCESS - Updated: rest (21.400.0)<br><li>Доработан механизм импорта отраслевых решений. <li>Новый скоуп configuration.import для импорта отраслевых решений через rest. <li>Новые методы импорта отраслевых решений через rest. <li>Улучшена работа скоупов для приложений. <li>Доработаны варианты возращения ошибок rest методами. <li>Доработан сценарий создания вебхуков с учётом тарифных ограничений. <li>В неоплаченные приложения больше не отправляются события. <li>Увеличен размер максимально загружаемого архива с отраслевым решением до 250мб. <li>Небольшие улучшения раздела для разработчиков. <li>Добавлено поле UF_DEPARTMENT в скоупы user_basic и user_brief.
+2021-12-17 01:23:09 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:09 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:09 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.400.0&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:09 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:09 -  - TIME LoadModulesUpdates(request) 0.226 sec
+2021-12-17 01:23:09 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:09 - S - STEP
+2021-12-17 01:23:09 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:10 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:10 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:10 -  - loadFile
+2021-12-17 01:23:10 - U - RETURN
+2021-12-17 01:23:10 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:10 -  - TIME UnGzipArchive 0.004 sec
+2021-12-17 01:23:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693390/rest/updater21.400.100.php'
+2021-12-17 01:23:10 -  - TIME UpdateStepModules 0.018 sec
+2021-12-17 01:23:10 - UPD_SUCCESS - Updated: rest (21.400.100)<br><li>Исправлена ошибка работы импорта отраслевых решений.
+2021-12-17 01:23:10 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:10 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.400.100&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:10 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:10 -  - TIME LoadModulesUpdates(request) 0.218 sec
+2021-12-17 01:23:10 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:10 - S - STEP
+2021-12-17 01:23:10 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:11 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:11 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:11 -  - loadFile
+2021-12-17 01:23:11 - U - RETURN
+2021-12-17 01:23:11 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:11 -  - TIME UnGzipArchive 0.004 sec
+2021-12-17 01:23:11 -  - TIME UpdateStepModules 0.006 sec
+2021-12-17 01:23:11 - UPD_SUCCESS - Updated: rest (21.400.200)<br><li>Исправлена ошибка работы импорта отраслевых решений.
+2021-12-17 01:23:11 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:11 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.200.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:11 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:11 -  - TIME LoadModulesUpdates(request) 0.207 sec
+2021-12-17 01:23:11 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:11 - S - STEP
+2021-12-17 01:23:11 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:11 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:11 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:11 -  - loadFile
+2021-12-17 01:23:12 - U - RETURN
+2021-12-17 01:23:12 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:12 -  - TIME UnGzipArchive 0.027 sec
+2021-12-17 01:23:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693392/messageservice/updater21.300.0.php'
+2021-12-17 01:23:12 -  - TIME UpdateStepModules 0.052 sec
+2021-12-17 01:23:12 - UPD_SUCCESS - Updated: messageservice (21.300.0)<br><li>Добавлена интеграция с Whatsapp через сервис Edna.ru. 
+2021-12-17 01:23:12 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:12 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:12 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:12 -  - TIME LoadModulesUpdates(request) 0.217 sec
+2021-12-17 01:23:12 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:12 - S - STEP
+2021-12-17 01:23:12 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:12 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:12 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:12 -  - loadFile
+2021-12-17 01:23:13 - U - RETURN
+2021-12-17 01:23:13 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:13 -  - TIME UnGzipArchive 0.344 sec
+2021-12-17 01:23:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693393/ui/updater21.700.100.php'
+2021-12-17 01:23:13 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693393/ui/updater21.700.100.php': CopyFiles(install/components, components)
+2021-12-17 01:23:13 -  - TIME UpdateStepModules 0.078 sec
+2021-12-17 01:23:13 - UPD_SUCCESS - Updated: ui (21.700.100)<br><li>Исправлена ошибка верстки в слайдерах. 
+2021-12-17 01:23:14 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:14 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:14 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.600&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.600&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:14 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:14 -  - TIME LoadModulesUpdates(request) 0.208 sec
+2021-12-17 01:23:14 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:14 - S - STEP
+2021-12-17 01:23:14 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:14 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:14 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:14 -  - loadFile
+2021-12-17 01:23:14 - U - RETURN
+2021-12-17 01:23:14 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:14 -  - TIME UnGzipArchive 0.009 sec
+2021-12-17 01:23:14 -  - TIME UpdateStepModules 0.022 sec
+2021-12-17 01:23:14 - UPD_SUCCESS - Updated: main (21.850.700)<br><li>Исправлена ошибка безусловного подключения стилей шаблона сайта. 
+2021-12-17 01:23:15 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:15 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.700&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.700&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:15 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:15 -  - TIME LoadModulesUpdates(request) 0.248 sec
+2021-12-17 01:23:15 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:15 - S - STEP
+2021-12-17 01:23:15 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:15 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:15 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:15 -  - loadFile
+2021-12-17 01:23:16 - U - RETURN
+2021-12-17 01:23:16 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:16 -  - TIME UnGzipArchive 0.151 sec
+2021-12-17 01:23:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693396/main/updater21.850.800.php'
+2021-12-17 01:23:16 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693396/main/updater21.850.800.php': CopyFiles(install/components, components)
+2021-12-17 01:23:16 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693396/main/updater21.850.800.php': CopyFiles(install/js, js)
+2021-12-17 01:23:16 -  - TIME UpdateStepModules 0.07 sec
+2021-12-17 01:23:16 - UPD_SUCCESS - Updated: main (21.850.800)<br><li>Исправлена ошибка загрузки файла. 
+2021-12-17 01:23:16 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:16 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.800&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.800&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:16 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:17 -  - TIME LoadModulesUpdates(request) 0.25 sec
+2021-12-17 01:23:17 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:17 - S - STEP
+2021-12-17 01:23:17 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:17 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:17 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:17 -  - loadFile
+2021-12-17 01:23:18 - U - RETURN
+2021-12-17 01:23:18 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:18 -  - TIME UnGzipArchive 0.035 sec
+2021-12-17 01:23:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693398/main/updater21.850.900.php'
+2021-12-17 01:23:18 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693398/main/updater21.850.900.php': CopyFiles(install/components, components)
+2021-12-17 01:23:18 -  - TIME UpdateStepModules 0.035 sec
+2021-12-17 01:23:18 - UPD_SUCCESS - Updated: main (21.850.900)<br><li>Исправлена ошибка открытия меню комментария вне ленты новостей. 
+2021-12-17 01:23:18 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:18 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:18 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.900&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.900&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:18 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:18 -  - TIME LoadModulesUpdates(request) 0.218 sec
+2021-12-17 01:23:18 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:18 - S - STEP
+2021-12-17 01:23:18 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:18 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:18 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:18 -  - loadFile
+2021-12-17 01:23:19 - U - RETURN
+2021-12-17 01:23:19 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:19 -  - TIME UnGzipArchive 0.022 sec
+2021-12-17 01:23:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693399/main/updater21.850.1000.php'
+2021-12-17 01:23:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693399/main/updater21.850.1000.php': CopyFiles(install/components, components)
+2021-12-17 01:23:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693399/main/updater21.850.1000.php': CopyFiles(install/panel, panel)
+2021-12-17 01:23:19 -  - TIME UpdateStepModules 0.051 sec
+2021-12-17 01:23:19 - UPD_SUCCESS - Updated: main (21.850.1000)<br><li>Добавлена возможность отправлять события на Facebook для создания рекламных аудиторий.
+2021-12-17 01:23:19 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:19 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:19 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.1000&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.1000&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:19 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:19 -  - TIME LoadModulesUpdates(request) 0.24 sec
+2021-12-17 01:23:19 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:19 - S - STEP
+2021-12-17 01:23:19 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:20 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:20 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:20 -  - loadFile
+2021-12-17 01:23:20 - U - RETURN
+2021-12-17 01:23:20 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:20 -  - TIME UnGzipArchive 0.003 sec
+2021-12-17 01:23:20 -  - TIME UpdateStepModules 0.011 sec
+2021-12-17 01:23:20 - UPD_SUCCESS - Updated: main (21.850.1100)<br><li>Исправлена ошибка создания резервной копии по расписанию. 
+2021-12-17 01:23:20 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:20 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:20 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.850.1100&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.850.1100&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:20 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:20 -  - TIME LoadModulesUpdates(request) 0.241 sec
+2021-12-17 01:23:20 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:20 - S - STEP
+2021-12-17 01:23:20 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:21 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:21 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:21 -  - loadFile
+2021-12-17 01:23:22 - U - RETURN
+2021-12-17 01:23:22 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:22 -  - TIME UnGzipArchive 0.135 sec
+2021-12-17 01:23:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693402/main/updater21.875.0.php'
+2021-12-17 01:23:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693402/main/updater21.875.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693402/main/updater21.875.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693402/main/updater21.875.0.php': CopyFiles(install/panel, panel)
+2021-12-17 01:23:22 -  - TIME UpdateStepModules 0.141 sec
+2021-12-17 01:23:22 - UPD_SUCCESS - Updated: main (21.875.0)<br><li>Незначительные изменения.
+2021-12-17 01:23:22 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:22 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:22 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.875.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.875.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:22 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:23 -  - TIME LoadModulesUpdates(request) 0.363 sec
+2021-12-17 01:23:23 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:23 - S - STEP
+2021-12-17 01:23:23 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:23 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:23 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:23 -  - loadFile
+2021-12-17 01:23:27 - U - RETURN
+2021-12-17 01:23:27 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:29 -  - TIME UnGzipArchive 1.506 sec
+2021-12-17 01:23:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693407/main/updater21.900.0.php'
+2021-12-17 01:23:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693407/main/updater21.900.0.php': CopyFiles(install/admin, admin)
+2021-12-17 01:23:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693407/main/updater21.900.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693407/main/updater21.900.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693407/main/updater21.900.0.php': CopyFiles(install/panel, panel)
+2021-12-17 01:23:30 -  - TIME UpdateStepModules 1.01 sec
+2021-12-17 01:23:30 - UPD_SUCCESS - Updated: main (21.900.0)<br><li>Добавлена возможность отправки писем при помощи локальных настроек smtp-сервера. <li>Добавлено ограничение количества отправляемых писем для конкретного ящика, добавлен редактор адресов отправителей. <li>Добавлена опция для указания количества агентов, выполняемых за один раз (по умолчанию 100). <li>Исправлен ряд интерфейсных ошибок. <li>Разработчикам: PSR-3: Logger Interface включен в поставку. <li>Разработчикам: HttpClient поддерживает логгеры PSR-3. <li>Разработчикам: ORM: Добавлена поддержка пользовательского поля \"Дата/Время\" с отключенным часовым поясом. <li>Разработчикам: ORM: Исправлены ошибки с приведением типов пользовательских полей в объектах. <li>Разработчикам: ORM: Исправлена ошибка формирования UNION в подзапросе. 
+2021-12-17 01:23:30 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:30 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:30 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.300.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:30 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:30 -  - TIME LoadModulesUpdates(request) 0.212 sec
+2021-12-17 01:23:30 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:30 - S - STEP
+2021-12-17 01:23:30 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:31 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:31 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:31 -  - loadFile
+2021-12-17 01:23:32 - U - RETURN
+2021-12-17 01:23:32 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:32 -  - TIME UnGzipArchive 0.222 sec
+2021-12-17 01:23:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693412/fileman/updater21.400.0.php'
+2021-12-17 01:23:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693412/fileman/updater21.400.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693412/fileman/updater21.400.0.php': CopyFiles(install/images, images)
+2021-12-17 01:23:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693412/fileman/updater21.400.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:32 -  - TIME UpdateStepModules 0.157 sec
+2021-12-17 01:23:32 - UPD_SUCCESS - Updated: fileman (21.400.0)<br><li>Исправлен ряд ошибок. 
+2021-12-17 01:23:33 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:33 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.400.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:33 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:33 -  - TIME LoadModulesUpdates(request) 0.227 sec
+2021-12-17 01:23:33 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:33 - S - STEP
+2021-12-17 01:23:33 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:33 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:33 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:33 -  - loadFile
+2021-12-17 01:23:34 - U - RETURN
+2021-12-17 01:23:34 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:34 -  - TIME UnGzipArchive 0.076 sec
+2021-12-17 01:23:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693414/fileman/updater21.500.0.php'
+2021-12-17 01:23:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693414/fileman/updater21.500.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693414/fileman/updater21.500.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:34 -  - TIME UpdateStepModules 0.075 sec
+2021-12-17 01:23:34 - UPD_SUCCESS - Updated: fileman (21.500.0)<br><li>Незначительные исправления и улучшения.
+2021-12-17 01:23:35 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:35 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.500.0&bitm_highloadblock=21.100.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:35 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:35 -  - TIME LoadModulesUpdates(request) 0.205 sec
+2021-12-17 01:23:35 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:35 - S - STEP
+2021-12-17 01:23:35 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:35 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:35 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:35 -  - loadFile
+2021-12-17 01:23:35 - U - RETURN
+2021-12-17 01:23:35 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:35 -  - TIME UnGzipArchive 0.007 sec
+2021-12-17 01:23:35 -  - TIME UpdateStepModules 0.009 sec
+2021-12-17 01:23:35 - UPD_SUCCESS - Updated: highloadblock (21.200.0)<br><li>Для пользовательских полей типа \"Привязка к элементам highload-блока\" добавлена возможность множественного значения по умолчанию.
+2021-12-17 01:23:36 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:36 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.500.0&bitm_highloadblock=21.200.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.700.100&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:36 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:36 -  - TIME LoadModulesUpdates(request) 0.259 sec
+2021-12-17 01:23:36 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:36 - S - STEP
+2021-12-17 01:23:36 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:36 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:36 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:36 -  - loadFile
+2021-12-17 01:23:38 - U - RETURN
+2021-12-17 01:23:38 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:38 -  - TIME UnGzipArchive 0.235 sec
+2021-12-17 01:23:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693418/ui/updater21.800.0.php'
+2021-12-17 01:23:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693418/ui/updater21.800.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693418/ui/updater21.800.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693418/ui/updater21.800.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693418/ui/updater21.800.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:38 -  - TIME UpdateStepModules 0.457 sec
+2021-12-17 01:23:38 - UPD_SUCCESS - Updated: ui (21.800.0)<br><li>Возможность принудительно установить представление выбранным пользователям при его создании в редакторе. <li>Незначительные изменения.
+2021-12-17 01:23:39 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:39 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.500.0&bitm_highloadblock=21.200.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.800.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:39 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:39 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2021-12-17 01:23:39 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:39 - S - STEP
+2021-12-17 01:23:39 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:39 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:39 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:39 -  - loadFile
+2021-12-17 01:23:41 - U - RETURN
+2021-12-17 01:23:41 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:41 -  - TIME UnGzipArchive 0.357 sec
+2021-12-17 01:23:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693421/ui/updater21.900.0.php'
+2021-12-17 01:23:41 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693421/ui/updater21.900.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:41 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693421/ui/updater21.900.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:42 -  - TIME UpdateStepModules 0.421 sec
+2021-12-17 01:23:42 - UPD_SUCCESS - Updated: ui (21.900.0)<br><li>Расширен функционал popupcomponentmaker. <li>Добавлены новые иконки. 
+2021-12-17 01:23:42 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:42 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.500.0&bitm_highloadblock=21.200.0&bitm_iblock=21.600.300&bitm_landing=21.600.100&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.900.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:42 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:42 -  - TIME LoadModulesUpdates(request) 0.306 sec
+2021-12-17 01:23:42 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:42 - S - STEP
+2021-12-17 01:23:42 - LMU01 - LoadModulesUpdates-Step
+2021-12-17 01:23:43 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:43 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:43 -  - loadFile
+2021-12-17 01:23:45 - U - RETURN
+2021-12-17 01:23:45 -  - exec CUpdateClient::UnGzipArchive
+2021-12-17 01:23:46 -  - TIME UnGzipArchive 0.94 sec
+2021-12-17 01:23:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php'
+2021-12-17 01:23:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php': CopyFiles(install/blocks, blocks)
+2021-12-17 01:23:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php': CopyFiles(install/components, components)
+2021-12-17 01:23:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php': CopyFiles(install/js, js)
+2021-12-17 01:23:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php': CopyFiles(install/images, images)
+2021-12-17 01:23:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1639693425/landing/updater21.700.0.php': CopyFiles(install/templates, templates)
+2021-12-17 01:23:47 -  - TIME UpdateStepModules 0.953 sec
+2021-12-17 01:23:47 - UPD_SUCCESS - Updated: landing (21.700.0)<br><li>Битрикс24: В базах знаний появилась возможность указывать в ссылках файл с \"Диска\" (пункт \"Выбрать\"). <li>Исправлены незначительные ошибки и оптимизация. 
+2021-12-17 01:23:47 -  - exec CUpdateClient::LoadModulesUpdates
+2021-12-17 01:23:47 -  - exec CUpdateClient::CollectRequestData
+2021-12-17 01:23:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.600.1&VERSION=21.900.0&TYPENC=E&SUPD_STS=2&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=setin.xxx&CHHB=setin.xxx&CSAB=127.0.0.1&SUID=859f2b6f6f9b36e37834349e733a04c8&CANGZIP=N&CLIENT_PHPVER=7.3.29&stable=N&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=21.900.0&bitm_b24connector=21.100.0&bitm_bitrixcloud=21.0.0&bitm_clouds=21.100.0&bitm_fileman=21.500.0&bitm_highloadblock=21.200.0&bitm_iblock=21.600.300&bitm_landing=21.700.0&bitm_messageservice=21.300.0&bitm_perfmon=21.0.0&bitm_rest=21.400.200&bitm_search=21.0.100&bitm_seo=21.600.0&bitm_socialservices=21.300.0&bitm_translate=21.100.0&bitm_ui=21.900.0&bitl_bg=20111111&bitl_en=20070905&bitl_fa=20100510&bitl_fr=20210727&bitl_la=20210727&bitl_lt=20140217&bitl_pl=20210727&bitl_ru=&bitl_th=20080204&bitl_tr=20090921&bitl_ua=20210727&bitl_vn=20080429&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license17_5_sign-Y
+2021-12-17 01:23:47 -  - exec CUpdateClient::GetHTTPPage
+2021-12-17 01:23:47 -  - TIME LoadModulesUpdates(request) 0.23 sec
+2021-12-17 01:23:47 -  - exec CUpdateClient::ParseServerData
+2021-12-17 01:23:47 - STEP - Finish - NOUPDATES
+2021-12-17 01:23:47 - STEP - Finish - NOUPDATES

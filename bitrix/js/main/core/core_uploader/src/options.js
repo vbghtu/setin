@@ -55,6 +55,10 @@ export default class Options {
 				Math.ceil(this.defaultSettings['currentPostSize'] / 2),
 				this.defaultSettings['phpPostMinSize']);
 		}
+		this.defaultSettings['currentPostSize'] = Math.max(
+			this.defaultSettings['currentPostSize'],
+			this.defaultSettings['phpPostMinSize']
+		);
 	}
 
 	static getUploadLimits(key: ?string)
@@ -64,9 +68,9 @@ export default class Options {
 			this.defaultSettings = {
 				currentPostSize: 5.5 * 1024 * 1024,
 				phpPostMinSize: 5.5 * 1024 * 1024, // Bytes
-				phpUploadMaxFilesize: Math.min((Loc.getMessage('phpUploadMaxFilesize') || 5 * 1024 * 1024), 5 * 1024 * 1024), // Bytes 5MB because of Cloud
-				phpMaxFileUploads: Math.max((Loc.getMessage('phpMaxFileUploads') || 20), 20),
-				phpPostMaxSize: (Loc.getMessage('phpPostMaxSize') || 11 * 1024 * 1024), // Bytes
+				phpUploadMaxFilesize: Math.min(/^d+$/.test(Loc.getMessage('phpUploadMaxFilesize')) ? Loc.getMessage('phpUploadMaxFilesize') : 5 * 1024 * 1024, 5 * 1024 * 1024), // Bytes 5MB because of Cloud
+				phpMaxFileUploads: Math.max((/^d+$/.test(Loc.getMessage('phpMaxFileUploads')) ? Loc.getMessage('phpMaxFileUploads') : 20), 20),
+				phpPostMaxSize: (/^d+$/.test(Loc.getMessage('phpPostMaxSize')) ? Loc.getMessage('phpPostMaxSize') : 11 * 1024 * 1024), // Bytes
 				estimatedTimeForUploadFile: 10 * 60, // in sec
 				maxSize: this.getMaxSize(),
 			};

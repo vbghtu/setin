@@ -138,7 +138,10 @@ class Application
 							}
 
 							//Configuration app
-							if ($appDetailInfo['TYPE'] === AppTable::TYPE_CONFIGURATION)
+							if (
+								$appDetailInfo['TYPE'] === AppTable::TYPE_CONFIGURATION
+								&& $appDetailInfo['MODE'] !== AppTable::MODE_SITE
+							)
 							{
 								$appFields['INSTALLED'] = AppTable::NOT_INSTALLED;
 							}
@@ -226,22 +229,28 @@ class Application
 
 								AppTable::install($appId);
 
-								$uriString = CRestUtil::getApplicationPage($appId);
-								$uri = new Uri($uriString);
-								$ver = (int) $version;
-								$uri->addParams(
-									[
-										'ver' => $ver,
-										'check_hash' => $checkHash,
-										'install_hash' => $installHash
-									]
-								);
-								$redirect = $uri->getUri();
+								$redirect = false;
+								$open = false;
+								if ($appDetailInfo['TYPE'] !== AppTable::TYPE_CONFIGURATION)
+								{
+									$uriString = CRestUtil::getApplicationPage($appId);
+									$uri = new Uri($uriString);
+									$ver = (int) $version;
+									$uri->addParams(
+										[
+											'ver' => $ver,
+											'check_hash' => $checkHash,
+											'install_hash' => $installHash
+										]
+									);
+									$redirect = $uri->getUri();
+									$open = $appDetailInfo['OPEN_API'] !== 'Y';
+								}
 
 								$result = [
 									'success' => 1,
 									'id' => $appId,
-									'open' => $appDetailInfo['OPEN_API'] !== 'Y',
+									'open' => $open,
 									'installed' => $appFields['INSTALLED'] === 'Y',
 									'redirect' => $redirect,
 								];

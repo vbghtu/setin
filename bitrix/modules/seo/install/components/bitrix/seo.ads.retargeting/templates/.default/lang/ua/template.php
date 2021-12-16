@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CRM_ADS_RTG_ADD_AUDIENCE"] = "Створити аудиторію";
 $MESS["CRM_ADS_RTG_ADD_CLIENT_BTN"] = "Додати акаунт";
 $MESS["CRM_ADS_RTG_APPLY"] = "Виконати";
@@ -29,6 +29,7 @@ $MESS["CRM_ADS_RTG_CREATE_LOOKALIKE_SIZE_HINT"] = "Малий відсоток �
 $MESS["CRM_ADS_RTG_ERROR_ACTION"] = "Виникла помилка. Дію скасовано.";
 $MESS["CRM_ADS_RTG_ERROR_NO_AUDIENCES"] = "Аудиторії не знайдені, перейдіть в %name% і створіть аудиторію.";
 $MESS["CRM_ADS_RTG_LOGIN"] = "Підключити";
+$MESS["CRM_ADS_RTG_LOGIN_GOOGLE"] = "Увійти з Google";
 $MESS["CRM_ADS_RTG_LOGOUT"] = "Відключити";
 $MESS["CRM_ADS_RTG_NEW_AUDIENCE_NAME_LABEL"] = "Назва аудиторії";
 $MESS["CRM_ADS_RTG_REFRESH"] = "Оновити";
@@ -40,4 +41,3 @@ $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA"] = "Додавати телефон/emai
 $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA_EMAIL"] = "e-mail";
 $MESS["CRM_ADS_RTG_SELECT_CONTACT_DATA_PHONE"] = "телефон";
 $MESS["CRM_ADS_RTG_TITLE"] = "Налаштувати рекламну аудиторію";
-?>

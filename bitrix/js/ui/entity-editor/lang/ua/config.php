@@ -10,6 +10,7 @@ $MESS["UI_ENTITY_EDITOR_COLLAPSE_HTML"] = "Згорнути";
 $MESS["UI_ENTITY_EDITOR_CONFIGURE"] = "Налаштувати";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_CANCEL"] = "Скасувати";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_COMMON"] = "Загальний вигляд картки";
+$MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_FORCE_INSTALL_TO_USERS"] = "Встановити подання обраним користувачам";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_MEMBERS"] = "Обрати тих, хто відноситься до подання:";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_NAME"] = "Назва подання:";
 $MESS["UI_ENTITY_EDITOR_CONFIG_SCOPE_NAME_PLACEHOLDER"] = "Введіть назву";

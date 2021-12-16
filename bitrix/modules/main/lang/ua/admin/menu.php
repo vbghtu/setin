@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_MENU_AGENT"] = "Агенти";
 $MESS["MAIN_MENU_AGENT_ALT"] = "Налаштування модуля";
 $MESS["MAIN_MENU_CACHE"] = "Автокешування";
@@ -86,6 +86,8 @@ $MESS["MAIN_MENU_SMILE_GALLERY_LIST"] = "Галереї та набори";
 $MESS["MAIN_MENU_SMILE_GALLERY_LIST_ALT"] = "Управління галереями і наборами смайлів";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST"] = "Імпорт смайлів";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST_ALT"] = "Виконання імпорту смайлів з підготовлених архівів";
+$MESS["MAIN_MENU_SMTP_CONFIG"] = "Налаштування SMTP";
+$MESS["MAIN_MENU_SMTP_CONFIG_TITLE"] = "Налаштування SMTP";
 $MESS["MAIN_MENU_SQL"] = "SQL-запит";
 $MESS["MAIN_MENU_SQL_ALT"] = "Виконання SQL-запиту до бази даних";
 $MESS["MAIN_MENU_SYSTEM_CHECKER"] = "Перевірка системи";
@@ -137,4 +139,3 @@ $MESS["main_menu_reg_sett_title"] = "Формати, кодування та і�
 $MESS["main_menu_sms_templates"] = "Шаблони СМС";
 $MESS["main_menu_sms_templates_title"] = "Шаблони СМС-повідомлень";
 $MESS["main_menu_urlrewrite_title"] = "Управління адресами сторінок";
-?>
