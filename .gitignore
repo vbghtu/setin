@@ -1,7 +1,10 @@
 bitrix/admin/
 bitrix/cache/
+bitrix/managed_cache/
 bitrix/backup/
 bitrix/themes/
+bitrix/modules/
+bitrix/components/
 mysql_debug.sql
 **/images
 **/img
