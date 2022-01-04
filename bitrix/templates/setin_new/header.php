@@ -1,5 +1,4 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die(); ?>
-<?
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 if(!CModule::IncludeModule("iblock")){
      return;
 }
@@ -23,9 +22,6 @@ $rsElem = CIBlockElement::GetById(2833);
 $arElem = $rsElem->GetNextElement();
 $arProps = $arElem->GetProperties();
 ?>
-
-
-
 
 <!doctype html>
 <html lang="ru">
@@ -55,7 +51,6 @@ $arProps = $arElem->GetProperties();
 <link rel="apple-touch-icon-precomposed" href="<?=SITE_TEMPLATE_PATH;?>/img/logo.jpg">
 <?php	$APPLICATION->ShowCSS();
 $APPLICATION->ShowHeadStrings();
-$APPLICATION->ShowHeadScripts();
 $APPLICATION->ShowMeta('keywords');
 ?>
 <meta name="yandex-verification" content="068e24a0719c4b51" />

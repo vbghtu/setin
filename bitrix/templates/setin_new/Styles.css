@@ -732,7 +732,7 @@ input::placeholder {
   justify-content: center;
   width: 338px;
   height: 408px;
-  background: url("../img/leaders__table.png");
+  background: url("img/leaders__table.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -754,7 +754,7 @@ input::placeholder {
   display: block;
   font-family: “FuturaPT-Medium”;
   font-size: 100px;
-  background: url("../img/leaders__table.png");
+  background: url("img/leaders__table.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1242,6 +1242,7 @@ input::placeholder {
   font-size: 10px;
   color: #333;
   transition: 0.2s;
+  cursor:pointer;
 }
 .clients__slider-icon:hover,
 .clients__slider-icon:focus {
