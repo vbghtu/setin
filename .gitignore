@@ -12,3 +12,4 @@ mysql_debug.sql
 *.jpeg
 *.png
 *.gif
+/bitrix/managed_cache/

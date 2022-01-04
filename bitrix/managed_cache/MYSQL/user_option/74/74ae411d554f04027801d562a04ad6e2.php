@@ -1,7 +1,0 @@
-<?
-if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001639695316';
-$dateexpire = '001639698916';
-$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:6:{s:48:"tbl_iblock_list_785285f64e37ef5f49047f68223e4bef";a:4:{s:7:"columns";s:56:"NAME,PROPERTY_47,PREVIEW_TEXT,PROPERTY_78,PROPERTY_79,ID";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:48:"tbl_iblock_list_8722dac86b2be0d9071474bbb3a17b4d";a:4:{s:7:"columns";s:43:"NAME,ACTIVE,SORT,TIMESTAMP_X,ID,PROPERTY_70";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:48:"tbl_iblock_list_2d7238b89bab389502f401062a8ef5c4";a:4:{s:7:"columns";s:59:"NAME,ACTIVE,SORT,TIMESTAMP_X,ID,PREVIEW_PICTURE,PROPERTY_77";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:48:"tbl_iblock_list_4b13b3697c56f08909318386e3db326e";a:4:{s:7:"columns";s:56:"NAME,ACTIVE,SORT,TIMESTAMP_X,ID,PREVIEW_TEXT,DETAIL_TEXT";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:48:"tbl_iblock_list_ab0a6941b80e06a01b45ec5615a9e3c0";a:4:{s:7:"columns";s:55:"NAME,ACTIVE,SORT,TIMESTAMP_X,ID,PROPERTY_23,PROPERTY_27";s:2:"by";s:6:"active";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}s:48:"tbl_iblock_list_ddfae078398b382bbf6348790cf576d8";a:4:{s:7:"columns";s:55:"NAME,PREVIEW_PICTURE,SORT,TIMESTAMP_X,PROPERTY_2,ACTIVE";s:2:"by";s:11:"timestamp_x";s:5:"order";s:4:"desc";s:9:"page_size";s:2:"20";}}}';
-return true;
-?>

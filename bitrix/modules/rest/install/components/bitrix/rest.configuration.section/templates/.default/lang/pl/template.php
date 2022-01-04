@@ -1,4 +1,0 @@
-<?
-$MESS["REST_CONFIGURATION_SECTION_LABEL"] = "Wybierz lejki sprzedażowe";
-$MESS["REST_CONFIGURATION_SECTION_LINK_NAME"] = "Otwórz";
-?>

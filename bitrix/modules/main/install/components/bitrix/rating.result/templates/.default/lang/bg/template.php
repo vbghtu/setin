@@ -1,5 +1,0 @@
-<?
-$MESS["RATING_COMPONENT_PROGRESS"] = "редактирано:";
-$MESS["RATING_COMPONENT_CURRENT_POSITION"] = "Място в рейтинга: ";
-$MESS["RATING_COMPONENT_PREVIOUS_POSITION"] = "предишно: ";
-?>
