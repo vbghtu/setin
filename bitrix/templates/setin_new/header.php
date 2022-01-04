@@ -14,7 +14,7 @@ $detect = new \Arturgolubev\Mobiledetect\Detect();
 //      echo 'код только для планшета';
 // }
 // if(!$detect->isTablet() && !$detect->isMobile()){
-//      echo 'код только для пк';
+//      echo 'код только для пк'; sdfs sd
 // }
 
 
