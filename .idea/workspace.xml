@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/setin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/landing24/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/landing24/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_clients.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

@@ -29,7 +29,7 @@ $language= \Bitrix\Landing\Manager::getLangISO();
 	$APPLICATION->ShowProperty('BeforeHeadClose');
 	?>
 </head>
-<body class="<?$APPLICATION->ShowProperty('BodyClass');?>" <?$APPLICATION->ShowProperty('BodyTag');?>>
+<body class="<?$APPLICATION->ShowProperty('BodyClass');?>" <? $APPLICATION->ShowProperty('BodyTag');?>>
 <?
 /*
 This is commented to avoid Project Quality Control warning
@@ -38,4 +38,4 @@ $APPLICATION->ShowPanel();
 ?>
 <?$APPLICATION->ShowProperty('Noscript');?>
 <?$APPLICATION->ShowProperty('AfterBodyOpen');?>
-<main class="w-100 <?$APPLICATION->ShowProperty('MainClass');?>" <?$APPLICATION->ShowProperty('MainTag');?>>
+<main class="w-100 <?$APPLICATION->ShowProperty('MainClass');?>" <? $APPLICATION->ShowProperty('MainTag');?>>

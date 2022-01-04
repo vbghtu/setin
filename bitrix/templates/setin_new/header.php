@@ -121,15 +121,15 @@ $APPLICATION->ShowMeta('keywords');
                 <div class="work-time">
                     <?=$GLOBALS["arProps"]['work_time']["VALUE"]?>
                 </div>
-                <a href="  <?=$GLOBALS["arProps"]['email']["VALUE"]?>" class="mail header__mail">
+                <a href="email:<?=$GLOBALS['arProps']['email']['VALUE']?>" class="mail header__mail">
                     <?=$GLOBALS["arProps"]['email']["VALUE"]?>
                 </a>
                 <div class="phone header__phone">
                     <span class="icon-phone"></span>
                     <div class="phone__info">
                         <p>Бесплатно по&nbsp;России и&nbsp;Крыму</p>
-                        <a href="tel: <?=$GLOBALS["arProps"]['phone']["VALUE"]?>">
-                            <?=$GLOBALS["arProps"]['phone']["VALUE"]?>
+                        <a href="tel: <?=$GLOBALS['arProps']['phone']['VALUE']?>">
+                            <?=$GLOBALS['arProps']['phone']['VALUE']?>
                         </a>
                         </div>
                      </div>
