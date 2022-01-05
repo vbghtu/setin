@@ -1,36 +1,30 @@
-	<section class="sect4">
-		<div class="container">
-			<div class="viewt" id="title_one">Получите профессиональную консультацию бесплатно</div>
-			<form id="one">
-				<div class="wrap-input">
-					<div class="label">Ваше имя</div>
-					<input type="text" name="name_one" id="name_one">
-				</div>
-				<div class="wrap-input">
-					<div class="label">Телефон *</div>
-					<input type="tel" name="phone_one" id="phone_one" required>
-				</div>
-				<input type="hidden" id="page_url" name="page_url" value="<?=$APPLICATION->GetCurPage();?>">
-				<div class="wrap-input for-chekbox">
-					<div class="checkbox">
-						<input id="check_one" type="checkbox" name="check_one" value="yes">
-						<label for="check_one">
-							Я согласен с правилами <a href="/agreement/">СтройЭкпертНадзора</a> <br>
-							по обработке и хранению <br>
-							персональных данных
-						</label>
-					</div>
-					
-				</div>
-				<div class="wrap-input">
-					<input type="submit" value="Заказать консультацию" id="zakazat2">
-				</div>
-			
-				<div class="clear"></div>
-				
-				<div align="center" id="check_form_one" style="color:#E0FFFF;"><b></b></div>
-				
-				<div class="clear"></div>
-			</form>
-		</div>
-	</section>
+<section class="section consultation">
+    <div class="container gallery__container">
+        <div class="gallery__label label">
+            <span></span>
+            <p>оставьте<strong> заявку</strong></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="consultation__body text">
+            <div class="consultation__body-item">
+                <div class="consultation__title title">
+                    <span></span>
+                    <h2>Получите профессиональную консультацию<strong> бесплатно.</strong></h2>
+                </div>
+                <p>Оставьте заявку, и наши менеджеры свяжутся с Вами для проведения консультации</p>
+            </div>
+
+            <form class="form consultation__form">
+                <i>Ваше имя</i>
+                <input type="text" name="name"  class="form-text" placeholder="Ваше имя" required>
+                <i>Ваш телефон</i>
+                <input type="tel" name="phone" id="" class="form-text" placeholder="+7(ХХХ) XXX-XX-XX" required>
+                <p>Нажимая на кнопку я подтверждаю, что ознакомлен и согласен с <a tarhet="_blank" href="/agreement/"> условиями политики  конфиденциальности</a></p>
+                <input type="submit" class="btn form-btn" value="отправить">
+                <input type="hidden" id="page_url" name="page_url" value="<?=$APPLICATION->GetCurPage();?>">
+
+            </form>
+        </div>
+    </div>
+</section>

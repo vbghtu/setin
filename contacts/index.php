@@ -1,5 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Компания СтройЭкспертНадзор. Услуги по техническому надзору и обследованию зданий и сооружений, более 7 лет в Москве, московской области и других регионах РФ.");
+$APPLICATION->SetPageProperty("title", "Конаткты");
+$APPLICATION->SetTitle("");
 
 CModule::IncludeModule("iblock");
 
@@ -12,39 +15,16 @@ while($ob = $res->GetNextElement()){
 } 
 
 $ipropValues = new \Bitrix\Iblock\InheritedProperty\ElementValues(26,1935); 
-
 $IPROPERTY = $ipropValues->getValues();
-
 $APPLICATION->SetTitle($IPROPERTY['ELEMENT_META_TITLE']);
 $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTION']);
 
-?> 
+?>
 
 
-	<section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 123">
-					<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1" /></span>
-					<span> / </span>
-					<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#"><span itemprop="name"><?=$row['PROPERTY_H1_VALUE'];?></span></a><meta itemprop="position" content="2" /></span>
-				</div>
-			</div>
-		</div>
-	</section>
+<? require($_SERVER["DOCUMENT_ROOT"]."/section/section_default_h.php");?>
+	<? //require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>
 
-	<span itemscope itemtype="http://schema.org/LocalBusiness">
-
-		<section class="cont-sect1">
-			<div class="container">
-				<h1 class="title"><?=$row['PROPERTY_H1_VALUE'];?></h1>
-				<?=$row['DETAIL_TEXT'];?>
-			</div>
-		</section>
-
-	</span>
-	
-	<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>
-
+<? require($_SERVER["DOCUMENT_ROOT"]."/section/section_form.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -250,10 +250,10 @@ input::placeholder {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 .search-form__close:hover span {
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3 5 rgba(0, 0, 0, 0.8);
 }
 .search-form__close:focus span {
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 3 5 rgba(0, 0, 0, 0.8);
 }
 
 .search-form__close:active {
@@ -1637,7 +1637,14 @@ input::placeholder {
   background: #f2fafe;
   padding: 60px;
 }
-.consultation__body p {
+.greenings{
+  display: grid;
+  padding: 60px;
+  background: #f2fafe;
+  font-size: 30px;
+  text-align:center;
+}
+.consultation__body p , .greenegs p {
   display: flex;
   align-items: center;
 }

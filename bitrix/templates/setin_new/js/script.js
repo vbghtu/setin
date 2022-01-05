@@ -571,3 +571,24 @@ if (stripTitles.length > 0) {
       }
    }
 };
+
+$(".consultation__form").submit(function (e) {
+    e.preventDefault();
+    let thet=this;
+    $.ajax({
+      type: "POST",
+      url: "/ajax/send/form_consult.php",
+      data: $(this).serializeArray(),
+      success: function () {
+         $(thet).parent().removeClass('consultation__body').addClass('greenings').html('<p>Спасибо, ваша заявка отправлена!<br> Наши менеджеры скоро свяжутся с вами</p>');
+         gtag("event", "submit", {
+            event_category: "form",
+            event_label: "orderconsultation"
+         });
+         yaCounter27025170.reachGoal("ORDERconsult");
+      }
+   })
+
+
+})
+

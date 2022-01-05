@@ -1,16 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/js/hystmodal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/js/swiper-bundle.min.js" afterDir="false" />
+    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="add lid form &amp; start bredcrumbs">
+      <change afterPath="$PROJECT_DIR$/ajax/send/form_consult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section/bredcrumbs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section/section_default_h.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/add_zayavka.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/add_zayavka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/portfolio_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/portfolio_result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/eight.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/eight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/five.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/five.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/four.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/four.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/one.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/one.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/seven.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/seven.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/six.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/six.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/ten.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/ten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/three.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/three.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/send/two.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/two.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/component.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section_clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_main_h.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_main_h.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +84,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +110,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/setin_new/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\setin.xxx\bitrix\templates\setin_new\components\bitrix" />
       <recent name="C:\OpenServer\domains\setin.xxx\bitrix\templates\setin_new\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\setin.xxx\bitrix\templates\setin_new\components\bitrix\breadcrumb" />
+      <recent name="C:\OpenServer\domains\setin.xxx\ajax\OLD" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +135,22 @@
       <option name="project" value="LOCAL" />
       <updated>1641290717001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add module portfolio &amp; main text">
+      <created>1641296936175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641296936175</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="" />
+      <created>1641375611921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641375611921</updated>
+      <workItem from="1641375615867" duration="10239000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="move to phpshtorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="move to phpshtorm" />
+    <MESSAGE value="add module portfolio &amp; main text" />
+    <MESSAGE value="add lid form &amp; start bredcrumbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lid form &amp; start bredcrumbs" />
   </component>
 </project>

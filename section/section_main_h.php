@@ -1,5 +1,4 @@
 
-<title>Обследование зданий, сооружений и&amp;nbsp;строительный контроль</title>
 <section class="fullscreen">
     <div class="fullscreen__body">
        <div class="fullscreen__img active">

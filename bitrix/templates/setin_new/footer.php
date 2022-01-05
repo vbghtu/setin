@@ -86,6 +86,7 @@
      </div>
   </footer>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/hystmodal.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/swiper-bundle.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/script.js"></script>
