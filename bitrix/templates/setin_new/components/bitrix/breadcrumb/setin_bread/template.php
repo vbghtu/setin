@@ -26,22 +26,7 @@ if(empty($arResult))
 $main=array('TITLE'=>'Главная','LINK'=>'/');
 array_unshift($arResult, $main);
 
-//$queue = array("orange", "banana");
-//array_unshift($queue, "apple", "raspberry");
-//print_r($queue);
-
-//echo '<pre>';
-//print_r($arResult);
-//echo '</pre>';
-//exit();
 $strReturn = '';
-
-//we can't use $APPLICATION->SetAdditionalCSS() here because we are inside the buffered function GetNavChain()
-//$css = $APPLICATION->GetCSSArray();
-//if(!is_array($css) || !in_array("/bitrix/css/main/font-awesome.css", $css))
-//{
-//    $strReturn .= '<link href="'.CUtil::GetAdditionalFileURL("/bitrix/css/main/font-awesome.css").'" type="text/css" rel="stylesheet" />'."\n";
-//}
 
 $strReturn .= '<ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">';
 
@@ -49,7 +34,6 @@ $itemSize = count($arResult);
 for($index = 0; $index < $itemSize; $index++)
 {
     $title = htmlspecialcharsex($arResult[$index]["TITLE"]);
-//    $arrow = ($index > 0? '<i class="fa fa-angle-right"></i>' : '');
 
     if($arResult[$index]["LINK"] <> "" && $index != $itemSize-1)
     {

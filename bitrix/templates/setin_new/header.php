@@ -27,12 +27,18 @@ $arProps = $arElem->GetProperties();
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<?php	$numpagex = (int) $_GET['PAGEN_1'];	if($APPLICATION->GetCurPage() == "/news/") {	?>
+<?php	$numpagex = (int) $_GET['PAGEN_1'];
+if($APPLICATION->GetCurPage() == "/news/") {	?>
 <title>Новости компании СтройЭкспертНадзор<?=(!empty($numpagex) ? " - страница " . $numpagex : "");?></title>
 	<?php	} else {	?>
 <title><?=$APPLICATION->ShowTitle();?></title> <?php	}	if(!empty($mypage)) {	?>
-<meta name="yandex" content="noindex, follow"/>	<meta name="googlebot" content="index, follow"/>
-    <?php	}	$APPLICATION->ShowMeta("description");	$APPLICATION->ShowProperty('prev');	$APPLICATION->ShowProperty('next');	?>
+<meta name="yandex" content="noindex, follow"/>
+<meta name="googlebot" content="index, follow"/>
+    <?php	}
+$APPLICATION->ShowMeta("description");
+//$APPLICATION->ShowProperty('prev');
+//$APPLICATION->ShowProperty('next');
+?>
 <!-- Картинка появляющаяся в социальных сетях, при отправке ссылки на сайт в сообщении или на стену -->
 <meta property="og:image" content="<?=SITE_TEMPLATE_PATH;?>/img/logo.jpg">
 <!-- init viewport -->
@@ -51,7 +57,7 @@ $arProps = $arElem->GetProperties();
 <link rel="apple-touch-icon-precomposed" href="<?=SITE_TEMPLATE_PATH;?>/img/logo.jpg">
 <?php	$APPLICATION->ShowCSS();
 $APPLICATION->ShowHeadStrings();
-$APPLICATION->ShowMeta('keywords');
+//$APPLICATION->ShowMeta('keywords');
 ?>
 <meta name="yandex-verification" content="068e24a0719c4b51" />
 <!-- stylesheets -->

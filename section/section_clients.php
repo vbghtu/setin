@@ -9,10 +9,6 @@ $GLOBALS["APPLICATION"]->AddHeadString('<link rel="stylesheet" type="text/css" h
 $r=0;
 $index=1;
 while($row = $res->GetNext()) {
-//    echo '<pre>';
-//    print_r($row);
-//    echo '</pre>';
-//    exit;
     if(!empty($row['PROPERTY_IMG_VALUE'])) {
         if($r%9==0){
             $index++;

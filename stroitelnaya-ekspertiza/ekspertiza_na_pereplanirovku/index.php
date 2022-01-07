@@ -239,7 +239,7 @@ $APPLICATION->SetPageProperty("description", "Чтобы узаконить пе
 		</div>
 	</section>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_form_two.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form_two.php");?>
 	
 <?require($_SERVER["DOCUMENT_ROOT"]."/section/section_popular.php");?>
 
@@ -253,6 +253,6 @@ $APPLICATION->SetPageProperty("description", "Чтобы узаконить пе
 	</section>
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -42,6 +42,6 @@ $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTIO
 		  
 <?=$row['DETAIL_TEXT'];?>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>			
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
 
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

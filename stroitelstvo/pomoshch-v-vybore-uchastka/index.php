@@ -60,6 +60,6 @@ $APPLICATION->SetTitle("Экспертиза, обследование и пом
 
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>			
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
 
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

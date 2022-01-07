@@ -36,6 +36,6 @@ $APPLICATION->SetTitle("Вопрос-ответ");
  	</div>	</div>
 </div></section>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>			
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
 
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

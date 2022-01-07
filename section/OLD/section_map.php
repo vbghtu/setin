@@ -13,7 +13,7 @@
 				<div class="checkbox">
 					<input id="check2" type="checkbox" name="check_three" value="yes">
 					<label for="check2">
-						Я согласен с правилами <a href="/agreement/">СтройЭкпертНадзора</a> по обработке и хранению персональных данных
+						Я согласен с правилами <a href="/agreement">СтройЭкпертНадзора</a> по обработке и хранению персональных данных
 					</label>
 				</div>
 				<input type="submit" value="Заказать консультацию" id="zakazat3">

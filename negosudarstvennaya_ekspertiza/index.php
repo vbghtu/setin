@@ -119,7 +119,7 @@ $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTIO
 	</div>
 </section>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_form_two.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form_two.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/section/section_popular.php");?>
 
@@ -133,6 +133,6 @@ $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTIO
 </section>
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

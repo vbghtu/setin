@@ -1,0 +1,45 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.breadcrumb li {
+    font-family: “FuturaPT-Medium”;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #e0e1e2;
+    position: relative;
+    margin-right: 16px;
+}
+.breadcrumb li a {
+    display: inline-block;
+    font-family: “FuturaPT-Medium”;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #e0e1e2;
+    cursor: pointer;
+}
+.breadcrumb li p {
+    display: flex;
+    align-items: center;
+    font-family: “FuturaPT-Medium”;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #e0e1e2;
+    text-decoration: underline;
+}
+.breadcrumb li:not(:last-child):after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #e0e1e2;
+    margin: 0 5px;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(50% / 2);
+}
+.breadcrumb.breadcrumb-special li a, .breadcrumb.breadcrumb-special li p, .breadcrumb.breadcrumb-special li span{
+    color: #323348;
+}

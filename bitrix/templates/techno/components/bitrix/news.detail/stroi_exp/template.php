@@ -88,7 +88,7 @@ echo $arResult['PROPERTIES']['vibor']['~VALUE']['TEXT'];
 	</div>
 </section>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_form_two.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form_two.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/section/section_popular.php");?>
 
@@ -102,4 +102,4 @@ echo $arResult['PROPERTIES']['vibor']['~VALUE']['TEXT'];
 </section>
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_map.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>

@@ -2,80 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="add lid form &amp; start bredcrumbs">
-      <change afterPath="$PROJECT_DIR$/ajax/send/form_consult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section/bredcrumbs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section/section_default_h.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/.section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/add_zayavka.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/add_zayavka.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/portfolio_result.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/portfolio_result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/eight.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/eight.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/five.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/five.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/four.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/four.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/one.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/one.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/seven.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/seven.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/six.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/six.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/ten.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/ten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/three.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/three.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/send/two.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/OLD/two.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agreement/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/agreement/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/bg/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/en/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fa/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/fr/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/la/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/lt/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/pl/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ru/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/tr/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/ua/help/.tooltips.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/.description.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/search.form/lang/vn/component.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/catalog/portfolio/bitrix/catalog.element/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/catalog/portfolio/bitrix/catalog.element/.default/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_exp/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_exp/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_sud/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_sud/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_tehnadzor/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/techno/components/bitrix/news.detail/stroi_tehnadzor/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_exp/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_exp/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_sud/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_sud/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_tehnadzor/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/tmp/templates/__bx_preview/components/bitrix/news.detail/stroi_tehnadzor/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section_main_h.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_main_h.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exspertiza_dokumentacii/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/exspertiza_dokumentacii/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inzhenerno_tekhnicheskoe_obsledovanie/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/inzhenerno_tekhnicheskoe_obsledovanie/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratorija_nerazrushajushhego_kontrolya/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/laboratorija_nerazrushajushhego_kontrolya/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lazernoe-skanirovanie-3d/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lazernoe-skanirovanie-3d/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring-zdanij/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring-zdanij/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nashi-raboti-na-karte-rossii/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nashi-raboti-na-karte-rossii/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nashi_partnery/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nashi_partnery/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nashi_zakazchiki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nashi_zakazchiki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/negosudarstvennaya_ekspertiza/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/negosudarstvennaya_ekspertiza/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oborudovanie/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oborudovanie/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsledovanie-zdanii.php" beforeDir="false" afterPath="$PROJECT_DIR$/obsledovanie-zdanii.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsledovanie-zdanij/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/obsledovanie-zdanij/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oral-consultations/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oral-consultations/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oral-consultations/the-expert-opinion.php" beforeDir="false" afterPath="$PROJECT_DIR$/oral-consultations/the-expert-opinion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oral-consultations/the-work-includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/oral-consultations/the-work-includes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oral-consultations/what-i-will-give-construction-expertise.php" beforeDir="false" afterPath="$PROJECT_DIR$/oral-consultations/what-i-will-give-construction-expertise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-documents/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/our-documents/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pereplanirovka/ekspertiza_na_pereplanirovku/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pereplanirovka/ekspertiza_na_pereplanirovku/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pereplanirovka/exspertiza_pereplanirovki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pereplanirovka/exspertiza_pereplanirovki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pereplanirovka/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pereplanirovka/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pereplanirovka/soglasovanie_pereplanirovki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pereplanirovka/soglasovanie_pereplanirovki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pereplanirovka/soglasovanie_pereplanirovki/price/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pereplanirovka/soglasovanie_pereplanirovki/price/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polezno/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/polezno/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polezno/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/polezno/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proverka_i_razrabotka_smet/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proverka_i_razrabotka_smet/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/review/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/review/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/search/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_default_h.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_default_h.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_form_two.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/OLD/section_form_two.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_map.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/OLD/section_map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stoimost_uslug/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stoimost_uslug/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelnaya-ekspertiza/ekspertiza_na_pereplanirovku/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelnaya-ekspertiza/ekspertiza_na_pereplanirovku/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelnaya-ekspertiza/exspertiza_pereplanirovki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelnaya-ekspertiza/exspertiza_pereplanirovki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelnaya-ekspertiza/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelnaya-ekspertiza/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/dizayn-intererov/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/dizayn-intererov/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/garantiynye-sroki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/garantiynye-sroki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/informatsiya/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/informatsiya/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/inzhenernye-seti/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/inzhenernye-seti/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/kreditnaya-programma/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/kreditnaya-programma/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/landshaft-diz/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/landshaft-diz/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/materialy/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/materialy/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/otdelka-pomeshcheniy/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/otdelka-pomeshcheniy/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/pomoshch-v-vybore-uchastka/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/pomoshch-v-vybore-uchastka/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/proektirovanie-kottedzhey/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/proektirovanie-kottedzhey/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/projects/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/projects/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/prozrachnost-raboty-kompanii/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/prozrachnost-raboty-kompanii/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/rekonstruktsiya-kottedzhey/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/rekonstruktsiya-kottedzhey/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/sluzhba-tekhnicheskogo-nadzora/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/sluzhba-tekhnicheskogo-nadzora/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/soglasovanie_pereplanirovki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/soglasovanie_pereplanirovki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/stroitelnye-brigady/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/stroitelnye-brigady/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/tehnadzor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/tehnadzor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/tehnadzor/stroitelnyy-kontrol.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/tehnadzor/stroitelnyy-kontrol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/tekhnologii/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/tekhnologii/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/tekhnologiya-stroitelstva/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/tekhnologiya-stroitelstva/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stroitelstvo/vopros-otvet/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/stroitelstvo/vopros-otvet/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudebnaya_ekspertiza/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sudebnaya_ekspertiza/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tehnadzor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tehnadzor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tehnicheskij_zakazchik/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tehnicheskij_zakazchik/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tipovye_dogovory/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tipovye_dogovory/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urlrewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uslugi-georadara/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/uslugi-georadara/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuridicheskaya-podderzhka/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/yuridicheskaya-podderzhka/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +133,7 @@
       <recent name="C:\OpenServer\domains\setin.xxx\bitrix\templates\setin_new\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\setin.xxx\section\OLD" />
       <recent name="C:\OpenServer\domains\setin.xxx\bitrix\templates\setin_new\components\bitrix\breadcrumb" />
       <recent name="C:\OpenServer\domains\setin.xxx\ajax\OLD" />
     </key>
@@ -148,9 +160,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641375611921</updated>
-      <workItem from="1641375615867" duration="10239000" />
+      <workItem from="1641375615867" duration="10464000" />
+      <workItem from="1641476587633" duration="10632000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add lid form &amp; start bredcrumbs">
+      <created>1641386114587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641386114587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

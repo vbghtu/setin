@@ -72,14 +72,6 @@ $arUrlRewrite=array (
     'PATH' => '/site_fo/lp/index.php',
     'SORT' => 100,
   ),
-  8 => 
-  array (
-    'CONDITION' => '#^/portfolio/#',
-    'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/portfolio/index.php',
-    'SORT' => 100,
-  ),
   9 => 
   array (
     'CONDITION' => '#^/article/#',

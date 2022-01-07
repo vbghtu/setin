@@ -17,7 +17,7 @@
 					<div class="checkbox">
 						<input id="check_ten" type="checkbox" name="check_ten" value="yes">
 						<label for="check_ten">
-							Я согласен с правилами <a href="/agreement/">СтройЭкпертНадзора</a> <br>
+							Я согласен с правилами <a href="/agreement">СтройЭкпертНадзора</a> <br>
 							по обработке и хранению <br>
 							персональных данных
 						</label>
