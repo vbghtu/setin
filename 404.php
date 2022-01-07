@@ -15,7 +15,7 @@ CHTTP::SetStatus("404 Not Found");
 
 
 
-<?$APPLICATION->IncludeComponent("bitrix:menu",".default",Array(
+$APPLICATION->IncludeComponent("bitrix:menu",".default",Array(
         "ROOT_MENU_TYPE" => "top", 
         "MAX_LEVEL" => "1", 
         "CHILD_MENU_TYPE" => "top", 
@@ -27,7 +27,7 @@ CHTTP::SetStatus("404 Not Found");
         "MENU_CACHE_USE_GROUPS" => "Y", 
         "MENU_CACHE_GET_VARS" => "" 
     )
-);?>
+);
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 

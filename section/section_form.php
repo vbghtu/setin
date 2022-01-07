@@ -20,7 +20,7 @@
                 <input type="text" name="name"  class="form-text" placeholder="Ваше имя" required>
                 <i>Ваш телефон</i>
                 <input type="tel" name="phone" id="" class="form-text" placeholder="+7(ХХХ) XXX-XX-XX" required>
-                <p>Нажимая на кнопку я подтверждаю, что ознакомлен и согласен с <a tarhet="_blank" href="/agreement/"> условиями политики  конфиденциальности</a></p>
+                <p>Нажимая на кнопку я подтверждаю, что ознакомлен и согласен с <a target="_blank" href="/agreement/"> условиями политики  конфиденциальности</a></p>
                 <input type="submit" class="btn form-btn" value="отправить">
                 <input type="hidden" id="page_url" name="page_url" value="<?=$APPLICATION->GetCurPage();?>">
 

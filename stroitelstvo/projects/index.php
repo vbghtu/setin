@@ -67,6 +67,6 @@ $text = substr($text, 0, strrpos($text, ' '));
 
 
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
 
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

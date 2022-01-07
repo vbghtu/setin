@@ -31,4 +31,6 @@ $APPLICATION->SetTitle("Портфолио");
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_default_h.php"); ?>
 <?//require($_SERVER["DOCUMENT_ROOT"]."/section/section_popular.php");?>
-<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_clients.php");?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_clients.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php"); ?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

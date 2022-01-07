@@ -26,6 +26,7 @@ $arProps = $arElem->GetProperties();
 <!doctype html>
 <html lang="ru">
 <head>
+
 <meta charset="UTF-8">
 <?php	$numpagex = (int) $_GET['PAGEN_1'];
 if($APPLICATION->GetCurPage() == "/news/") {	?>
@@ -35,7 +36,8 @@ if($APPLICATION->GetCurPage() == "/news/") {	?>
 <meta name="yandex" content="noindex, follow"/>
 <meta name="googlebot" content="index, follow"/>
     <?php	}
-$APPLICATION->ShowMeta("description");
+$APPLICATION->ShowHead();
+//$APPLICATION->ShowMeta("description");
 //$APPLICATION->ShowProperty('prev');
 //$APPLICATION->ShowProperty('next');
 ?>

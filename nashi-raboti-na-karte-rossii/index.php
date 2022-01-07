@@ -38,6 +38,6 @@ $APPLICATION->SetPageProperty("description", "Компания СтройЭкс�
 	  
 	<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_projects.php");?>
 	
-	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
+	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -297,6 +297,6 @@ $APPLICATION->SetTitle("Проекты: cтроительства загород
 
 
 
-	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
+	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
 
 	<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

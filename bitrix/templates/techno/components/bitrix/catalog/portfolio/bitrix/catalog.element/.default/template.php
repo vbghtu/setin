@@ -251,4 +251,4 @@ if($row['IBLOCK_SECTION_ID'] == 9) {
 
 	<?require($_SERVER["DOCUMENT_ROOT"]."/section/section_popular.php");?>
 
-	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
+	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>

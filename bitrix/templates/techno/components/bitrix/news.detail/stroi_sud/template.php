@@ -102,4 +102,4 @@ echo $arResult['PROPERTIES']['vibor']['~VALUE']['TEXT'];
 </section>
 
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_map.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
