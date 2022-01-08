@@ -1276,8 +1276,8 @@ input::placeholder {
   cursor: pointer;
   transition: 0.2s;
 }
-.clients__slider-img:hover,
-.clients__slider-img:focus {
+.clients__slider-img.hidden{
+  display:none;
 }
 .clients__slider-img img {
   display: block;

@@ -3,8 +3,7 @@ CModule::IncludeModule("iblock");
 $arSelect = Array("ID", "NAME", "PROPERTY_TIP", "PROPERTY_KOD", "PROPERTY_IMG", "PROPERTY_URL", "PROPERTY_SITE", "PROPERTY_PISMO");
 $res = CIBlockElement::GetList (Array("sort"=>"ASC"), Array("IBLOCK_ID" => 2), false, false, $arSelect);
 $GLOBALS["APPLICATION"]->AddHeadString('<link rel="stylesheet" type="text/css" href="'.SITE_TEMPLATE_PATH.'/css/swiper-bundle.min.css" />');
-//$GLOBALS["APPLICATION"]->AddHeadString('<script src="'.SITE_TEMPLATE_PATH.'/js/swiper-bundle.min.js" />');
-//$GLOBALS["APPLICATION"]->AddHeadString('<script src="'.SITE_TEMPLATE_PATH.'/js/swiper-bundle.min.js" />');
+
 
 $r=0;
 $index=1;

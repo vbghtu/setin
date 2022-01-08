@@ -588,7 +588,10 @@ $(".consultation__form").submit(function (e) {
          yaCounter27025170.reachGoal("ORDERconsult");
       }
    })
+});
 
-
+$('.btnmore').click(function(){
+   $(this).parent().remove();
+   $('.clients__slider-img').removeClass('hidden');
 })
 
