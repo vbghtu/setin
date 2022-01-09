@@ -1,0 +1,12 @@
+.pagination{
+    text-align:center;
+}
+.pagination a{
+   color: #00a8fa;
+    padding: 0 8px;
+}
+.pagination span.active{
+    background: #00a8fa;
+    color:#fff;
+    padding: 0 8px;
+}

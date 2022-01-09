@@ -1153,12 +1153,6 @@ input::placeholder {
 .swiper-pagination-current {
   font-size: 36px;
 }
-.tabs__slider-next {
-}
-.next {
-}
-.icon-arrow-rigth {
-}
 .slider-icon {
   display: inline-flex;
   align-items: center;
@@ -1180,9 +1174,6 @@ input::placeholder {
 .slider-icon:active {
   background: rgba(0, 168, 250, 0.1);
   border: 1px solid #00a8fa;
-}
-
-.clients {
 }
 .clients-wrapper {
   box-sizing: border-box;
@@ -2011,7 +2002,21 @@ input::placeholder {
   margin-right: 14px;
   position: relative;
 }
-
+.not_found{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.not_found span:not(.text){
+  font-size: 20rem;
+  font-family: “Gilroy-Semibold”;
+  color:#00a8fa;
+  display: flex;
+}
+.not_found span.text{
+  font-size: 64px;
+}
 
 
 .information ul li p ,  .container__text ul li p{

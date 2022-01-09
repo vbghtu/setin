@@ -1,10 +1,48 @@
 <?
 require_once($_SERVER["DOCUMENT_ROOT"]. "/bitrix/modules/main/include/prolog_before.php");
+/**
+ * @global CMain $APPLICATION
+ */
+CModule::IncludeModule("iblock");
+$arSelect = array(
+    'ID',    'NAME',    'PROPERTY_ONE',
+    'PROPERTY_TWO',    'PROPERTY_THREE',
+    'PROPERTY_SEVEN',    'PROPERTY_FIVE',
+    'PROPERTY_FOURTEEN',    'PREVIEW_PICTURE',
+    'DETAIL_PAGE_URL',    'PREVIEW_PICTURE',
+);
+
+$numpage = (int) $_GET['PAGEN_1'];
+if(empty($numpage)) {
+    $numpage = 1;
+}
+
+$rsElement = CIBlockElement::GetList(
+    array("ID" => "DESC"),
+    Array("IBLOCK_ID" => 1,
+        'ACTIVE' => 'Y',
+        "SECTION_ID" => array(9, 2)),
+    false,
+    Array("nTopCount" => false,"nPageSize"=> 10, "iNumPage" => $numpage, 'checkOutOfRange' => true),
+    $arSelect );
+if($numpage>1){
+    $APPLICATION->AddChainItem("Страница ".$numpage, "");
+}else{
+
+}
+
+if($numpage > $rsElement->NavPageCount ){
+    include($_SERVER["DOCUMENT_ROOT"]."/404.php");
+    return;
+}
+
+
+
 $APPLICATION->SetPageProperty("title", "Наши работы");
 $APPLICATION->SetPageProperty("description", "Наши работы");
 
 
-CModule::IncludeModule("iblock");
+
 $arSelect = Array("ID", "NAME", "PROPERTY_TIP", "PROPERTY_KOD", "PROPERTY_IMG", "PROPERTY_URL", "PROPERTY_SITE", "PROPERTY_PISMO");
 $iclients = CIBlockElement::GetList (Array("sort"=>"ASC"), Array("IBLOCK_ID" => 2), false, false, $arSelect);
 //$GLOBALS["APPLICATION"]->AddHeadString('<link rel="stylesheet" type="text/css" href="'.SITE_TEMPLATE_PATH.'/css/swiper-bundle.min.css" />');
@@ -19,7 +57,7 @@ while($row = $iclients->GetNext()) {
 }
 
 
-
+//!todo каталог- отдельная тсраница  , разобратьс яоткуда идет редирект с 1 0 и 10 страницы
 //$page = $APPLICATION->GetCurPage();
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
@@ -84,68 +122,12 @@ $APPLICATION->SetTitle("Портфолио");
         </div>
 
 <?php
-//echo  $_SERVER["DOCUMENT_ROOT"];
-//$nav = new \Bitrix\Main\UI\PageNavigation("nav-more-news");
-//$nav->allowAllRecords(true)
-//    ->setPageSize(5)
-//    ->initFromUri();
-//
-//
-//$APPLICATION->IncludeComponent(
-//    "bitrix:main.pagenavigation",
-//    "",
-//    array(
-//        "NAV_OBJECT" => $nav,
-//        "SEF_MODE" => "Y",
-//    ),
-//    false
-//);
-        $arSelect = array(
-            'ID',
-            'NAME',
-            'PROPERTY_ONE',
-            'PROPERTY_TWO',
-            'PROPERTY_THREE',
-            'PROPERTY_SEVEN',
-            'PROPERTY_FIVE',
-            'PROPERTY_FOURTEEN',
-            'PREVIEW_PICTURE',
-            'DETAIL_PAGE_URL',
-            'PREVIEW_PICTURE',
 
-        );
 
-        $numpage = (int) $_GET['PAGEN_1'];
 
-        if(empty($numpage)) {
-            $numpage = 1;
-        }
-
-        $rsElement = CIBlockElement::GetList(
-                array("ID" => "DESC"),
-                Array("IBLOCK_ID" => 1,
-                    'ACTIVE' => 'Y',
-                    "SECTION_ID" => array(9, 2)),
-                false,
-                Array("nTopCount" => false,"nPageSize"=> 6, "iNumPage" => $numpage, 'checkOutOfRange' => true),
-                $arSelect );
-
-ob_start(); // начинаем буферизацию вывода
-$APPLICATION->IncludeComponent(
-    'bitrix:system.pagenavigation',
-    'modern',
-    array(
-        'NAV_TITLE'   => 'Элементы', // поясняющий текст для постраничной навигации
-        'NAV_RESULT'  => $rsElement,  // результаты выборки из базы данных
-        'SHOW_ALWAYS' => false       // показывать постраничную навигацию всегда?
-    )
-);
-$navString = ob_get_clean();
-// выводим постраничную навигацию
-echo $navString;
 while( $row = $rsElement->GetNext()){
-            $img_obj = CFile::ResizeImageGet($row['PREVIEW_PICTURE'], array('width'=>407, 'height'=>734), BX_RESIZE_IMAGE_EXACT, true);
-            $obj['IMAGE'] = $img_obj['src'];
+    $img_obj = CFile::ResizeImageGet($row['PREVIEW_PICTURE'], array('width'=>407, 'height'=>734), BX_RESIZE_IMAGE_EXACT, true);
+    $obj['IMAGE'] = $img_obj['src'];
 ?>
         <div class="examples__card">
             <div class="examples__card-img">
@@ -162,7 +144,13 @@ while( $row = $rsElement->GetNext()){
                     </div>
                     <div class="examples__card-item text">
                         <i>Задача:</i>
-                        <p><?=htmlspecialchars_decode($row['PROPERTY_FIVE_VALUE']['TEXT'])?></p>
+                        <p><?if(!empty($row['PROPERTY_FIVE_VALUE']['TEXT'])):?>
+                               <?=htmlspecialchars_decode($row['PROPERTY_FIVE_VALUE']['TEXT'])?>
+                            <?else:?>
+                                Оценка технического состояния и определение несущей способности несущих
+                                конструкций
+                            <?endif;?>
+                        </p>
                     </div>
                     <div class="examples__card-item text">
                         <i>Решение:</i>
@@ -184,8 +172,19 @@ while( $row = $rsElement->GetNext()){
             </div>
         </div>
     <?    }   ?>
-
+        <?
+        $APPLICATION->IncludeComponent(
+            'bitrix:system.pagenavigation',
+            'pagi',
+            array(
+                'NAV_TITLE'   => 'Элементы', // поясняющий текст для постраничной навигации
+                'NAV_RESULT'  => $rsElement,  // результаты выборки из базы данных
+                'SHOW_ALWAYS' => false ,      // показывать постраничную навигацию всегда?
+            )
+        );
+        ?>
     </div>
+
 </section>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php"); ?>
