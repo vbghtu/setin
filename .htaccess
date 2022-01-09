@@ -23,11 +23,28 @@ ErrorDocument 404 /404.php
   php_value mbstring.func_overload 2
   php_value mbstring.internal_encoding UTF-8
 </IfModule>
- 
+
+#php_value auto_prepend_file "C:/OpenServer/domains/setin.xxx/bitrix/templates/setin_new/include/pagen.php"
+
+
 <IfModule mod_rewrite.c>
-   # Options +FollowSymLinks
-    #RewriteEngine On
- 
+    Options +FollowSymLinks
+    RewriteEngine On
+    RewriteRule ^(.*)/page/([\d]+) /$1/?PAGEN_1=$2 [L,QSA]
+
+
+    #RewriteCond %{REQUEST_URI} ^portfolio/page/1$
+    #RewriteRule ^(.*)$ http://setin.xxx/$1? [R=301,L]
+
+
+    #RewriteCond %{THE_REQUEST} ^(.*)/page/1
+    #RewriteRule ^(.*)/page/1  /$1 [R=301,L]
+
+    #RewriteRule ^(.*)/page/1  /$1 [R=301,L]
+
+   # RewriteEngine On
+   # RewriteRule ^(.*)/page([\d]+)/ /$1/?PAGEN_1=$2 [L,QSA]
+    #RewriteRule ^(.*)/page(.*)/ /$1/?PAGEN_1=$2 [L,QSA]
 
    # RewriteBase /
    # RewriteCond %{REQUEST_FILENAME} !-f
@@ -60,12 +77,12 @@ ErrorDocument 404 /404.php
    #   RewriteCond %{HTTP_HOST} ^www\.seitn\.ru$ [NC]
    #   RewriteRule ^(.*)$ http://seitn.ru/$1 [R=301,L]
 
-   #   RewriteCond %{REQUEST_FILENAME} !-f
-   #   RewriteCond %{REQUEST_FILENAME} !-l
-   #   RewriteCond %{REQUEST_FILENAME} !-d
-  #    RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
-   #   RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
-   #   RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+      RewriteCond %{REQUEST_FILENAME} !-f
+      RewriteCond %{REQUEST_FILENAME} !-l
+      RewriteCond %{REQUEST_FILENAME} !-d
+      RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+      RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+      RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
 </IfModule>
 
 #Redirect 301 /nashi_raboti_na_karte_Rossii/ https://seitn.ru/nashi-raboti-na-karte-rossii/
@@ -88,9 +105,9 @@ ErrorDocument 404 /404.php
   ExpiresByType image/gif "access plus 3 day"
 </IfModule>
 
-#RewriteCond %{QUERY_STRING} ^SHOWALL_1=1
-#RewriteRule (.*) /$1? [L,R=301]
-#RewriteCond %{QUERY_STRING} ^SHOWALL_1=0
-#RewriteRule (.*) /$1? [L,R=301]
+RewriteCond %{QUERY_STRING} ^SHOWALL_1=1
+RewriteRule (.*) /$1? [L,R=301]
+RewriteCond %{QUERY_STRING} ^SHOWALL_1=0
+RewriteRule (.*) /$1? [L,R=301]
 
 

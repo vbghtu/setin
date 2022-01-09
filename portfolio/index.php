@@ -82,7 +82,24 @@ $APPLICATION->SetTitle("Портфолио");
         <div class="specialization__title title">
             <h2>Примеры работ<strong>.</strong></h2>
         </div>
+
 <?php
+//echo  $_SERVER["DOCUMENT_ROOT"];
+//$nav = new \Bitrix\Main\UI\PageNavigation("nav-more-news");
+//$nav->allowAllRecords(true)
+//    ->setPageSize(5)
+//    ->initFromUri();
+//
+//
+//$APPLICATION->IncludeComponent(
+//    "bitrix:main.pagenavigation",
+//    "",
+//    array(
+//        "NAV_OBJECT" => $nav,
+//        "SEF_MODE" => "Y",
+//    ),
+//    false
+//);
         $arSelect = array(
             'ID',
             'NAME',
@@ -98,21 +115,35 @@ $APPLICATION->SetTitle("Портфолио");
 
         );
 
-        $numpage = (int) $_GET['page'];
+        $numpage = (int) $_GET['PAGEN_1'];
 
         if(empty($numpage)) {
             $numpage = 1;
         }
 
-        $rsElement = CIBlockElement::GetList( array("ID" => "DESC"), Array("IBLOCK_ID" => 1, 'ACTIVE' => 'Y', "SECTION_ID" => array(9, 2)), false,Array("nPageSize"=> 6, "iNumPage" => $numpage), $arSelect );
+        $rsElement = CIBlockElement::GetList(
+                array("ID" => "DESC"),
+                Array("IBLOCK_ID" => 1,
+                    'ACTIVE' => 'Y',
+                    "SECTION_ID" => array(9, 2)),
+                false,
+                Array("nTopCount" => false,"nPageSize"=> 6, "iNumPage" => $numpage, 'checkOutOfRange' => true),
+                $arSelect );
 
-//        echo $pagertop . '<div class="wrap-items">';
-
-        while( $row = $rsElement->GetNext()){
-//            echo '<pre>';
-//            print_r($row);
-//            echo '</pre>';
-
+ob_start(); // начинаем буферизацию вывода
+$APPLICATION->IncludeComponent(
+    'bitrix:system.pagenavigation',
+    'modern',
+    array(
+        'NAV_TITLE'   => 'Элементы', // поясняющий текст для постраничной навигации
+        'NAV_RESULT'  => $rsElement,  // результаты выборки из базы данных
+        'SHOW_ALWAYS' => false       // показывать постраничную навигацию всегда?
+    )
+);
+$navString = ob_get_clean();
+// выводим постраничную навигацию
+echo $navString;
+while( $row = $rsElement->GetNext()){
             $img_obj = CFile::ResizeImageGet($row['PREVIEW_PICTURE'], array('width'=>407, 'height'=>734), BX_RESIZE_IMAGE_EXACT, true);
             $obj['IMAGE'] = $img_obj['src'];
 ?>
@@ -131,7 +162,7 @@ $APPLICATION->SetTitle("Портфолио");
                     </div>
                     <div class="examples__card-item text">
                         <i>Задача:</i>
-                        <p><?=strip_tags($row['PROPERTY_FIVE_VALUE']['TEXT'])?></p>
+                        <p><?=htmlspecialchars_decode($row['PROPERTY_FIVE_VALUE']['TEXT'])?></p>
                     </div>
                     <div class="examples__card-item text">
                         <i>Решение:</i>
@@ -146,7 +177,7 @@ $APPLICATION->SetTitle("Портфолио");
                                 </li>
                             </ul>
                         <?else:
-                           echo strip_tags($row['PROPERTY_FOURTEEN_VALUE']['TEXT']);
+                           echo htmlspecialchars_decode($row['PROPERTY_FOURTEEN_VALUE']['TEXT']);
                         endif;?>
                     </div>
                 </div>
