@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="pagination add. 404 add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/styles.css" afterDir="false" />
+    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obsledovanie-zdanij/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/obsledovanie-zdanij/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <workItem from="1641597596487" duration="6468000" />
       <workItem from="1641680693384" duration="6655000" />
       <workItem from="1641750168379" duration="15585000" />
-      <workItem from="1641848210730" duration="1225000" />
+      <workItem from="1641848210730" duration="1434000" />
     </task>
     <task id="LOCAL-00003" summary="add lid form &amp; start bredcrumbs">
       <created>1641386114587</created>
@@ -134,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641765141059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <created>1641850735579</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641850735579</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +163,7 @@
     <MESSAGE value="portfolio objects" />
     <MESSAGE value="portfolio pagination add" />
     <MESSAGE value="pagination add. 404 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination add. 404 add" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

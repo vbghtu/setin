@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Независимая строительно-техни
     <div class="container">
         <div class="leaders-title-wrapper">
             <div class="leaders__title title">
-                <h2><strong>Лидеры!!! </strong>рынка услуг строительного контроля и&nbsp;обследования зданий и&nbsp;сооружений. </h2>
+                <h2><strong>Лидеры!!!!  </strong>рынка услуг строительного контроля и&nbsp;обследования зданий и&nbsp;сооружений. </h2>
             </div>
             <div class="leaders__label label">
                 <p>
