@@ -1,4 +1,7 @@
 <?
+/**
+ * @global CMain $APPLICATION
+ */
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 CModule::IncludeModule("iblock");
 
@@ -38,7 +41,12 @@ $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTIO
 
 
 <style>
-
+.thumb{
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .thumb figure {
   width: 23%;
   margin: 1%;

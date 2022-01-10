@@ -45,7 +45,7 @@ $APPLICATION->SetPageProperty("description", "Наши работы");
 
 $arSelect = Array("ID", "NAME", "PROPERTY_TIP", "PROPERTY_KOD", "PROPERTY_IMG", "PROPERTY_URL", "PROPERTY_SITE", "PROPERTY_PISMO");
 $iclients = CIBlockElement::GetList (Array("sort"=>"ASC"), Array("IBLOCK_ID" => 2), false, false, $arSelect);
-//$GLOBALS["APPLICATION"]->AddHeadString('<link rel="stylesheet" type="text/css" href="'.SITE_TEMPLATE_PATH.'/css/swiper-bundle.min.css" />');
+
 
 while($row = $iclients->GetNext()) {
     if(!empty($row['PROPERTY_IMG_VALUE'])) {
