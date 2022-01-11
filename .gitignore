@@ -13,3 +13,5 @@ mysql_debug.sql
 *.png
 *.gif
 /bitrix/managed_cache/
+/bitrix/js/
+/bitrix/updates/

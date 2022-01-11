@@ -1,15 +1,21 @@
 <?
-$page = $APPLICATION->GetCurPage();
+/**
+ * @global CMain $APPLICATION
+ */
 
-if(isset($row['PROPERTY_H1_VALUE']) and !empty($row['PROPERTY_H1_VALUE'])){
+$page = $APPLICATION->GetCurPage();
+$h1=$APPLICATION->GetPageProperty('H1');
+
+if(isset($row['PROPERTY_H1_VALUE']) and !empty($row['PROPERTY_H1_VALUE']) ){
     $name=$row['PROPERTY_H1_VALUE'];
+}else if(isset($h1) and !empty($h1)){
+    $name=$h1;
 }else{
     $name='';
 }
 ?>
 <section class="top-section">
     <div class="container">
-        <? //require($_SERVER["DOCUMENT_ROOT"]."/section/bredcrumbs.php");?>
         <?php $APPLICATION->IncludeComponent(
             "bitrix:breadcrumb",
             "setin_bread",

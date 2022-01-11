@@ -32,7 +32,7 @@ while($row = $res->GetNext()) {
                 <h2>Клиенты<strong>.</strong></h2>
              </div>
              <p>Компании, которые доверили нам свою репутацию</p>
-             <a href="/portfolio" class="btn fullscreen__btn fullscreen__btn-main">
+             <a href="/nashi_zakazchiki" class="btn fullscreen__btn fullscreen__btn-main">
                 все компании
              </a>
              <div class="clients__slider-controls">

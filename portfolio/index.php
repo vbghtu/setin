@@ -37,15 +37,20 @@ if($numpage > $rsElement->NavPageCount ){
 }
 
 
+$APPLICATION->SetPageProperty('H1','Наши работы');
 
-$APPLICATION->SetPageProperty("title", "Наши работы");
-$APPLICATION->SetPageProperty("description", "Наши работы");
-
+if($numpage>1){
+    $APPLICATION->AddChainItem("Страница ".$numpage, "");
+    $APPLICATION->SetTitle("Наши работы - Страница ".$numpage);
+    $APPLICATION->SetPageProperty("description", "Наши работы - Страница ".$numpage);
+}else{
+    $APPLICATION->SetTitle("Наши работы");
+    $APPLICATION->SetPageProperty("title", "Наши работы");
+}
 
 
 $arSelect = Array("ID", "NAME", "PROPERTY_TIP", "PROPERTY_KOD", "PROPERTY_IMG", "PROPERTY_URL", "PROPERTY_SITE", "PROPERTY_PISMO");
 $iclients = CIBlockElement::GetList (Array("sort"=>"ASC"), Array("IBLOCK_ID" => 2), false, false, $arSelect);
-//$GLOBALS["APPLICATION"]->AddHeadString('<link rel="stylesheet" type="text/css" href="'.SITE_TEMPLATE_PATH.'/css/swiper-bundle.min.css" />');
 
 while($row = $iclients->GetNext()) {
     if(!empty($row['PROPERTY_IMG_VALUE'])) {
@@ -62,25 +67,6 @@ while($row = $iclients->GetNext()) {
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Портфолио");
-//$APPLICATION->AddChainItem("Наши работы", "/portfolio/");
-
-//while ($ob = $res->GetNextElement()) {
-//    $row = $ob->GetFields();
-//}
-//$page = $APPLICATION->GetCurPage();
-
-
-
-//$arSelect = Array("ID", "PROPERTY_SEVEN");
-// $res = CIBlockElement::GetList ( array("ID" => "DESC"), Array("IBLOCK_ID" => 1, 'ACTIVE' => 'Y', "!PROPERTY_SEVEN"=>false, "SECTION_ID" => array(2)), false, false, $arSelect);
-//$row = array();
-//$i_count = 0;
-//while($row = $res->GetNext()){
-//	$i_count++;
-//    $array_i[$row['ID']] = array("i" => $i_count);
-//}
-//var_dump($res);
-//exit;
 
 ?>
 
@@ -122,16 +108,13 @@ $APPLICATION->SetTitle("Портфолио");
         </div>
 
 <?php
-
-
-
 while( $row = $rsElement->GetNext()){
     $img_obj = CFile::ResizeImageGet($row['PREVIEW_PICTURE'], array('width'=>407, 'height'=>734), BX_RESIZE_IMAGE_EXACT, true);
     $obj['IMAGE'] = $img_obj['src'];
 ?>
         <div class="examples__card">
             <div class="examples__card-img">
-                <img src="<?=$obj['IMAGE']?>" alt="">
+                <img src="<?=$obj['IMAGE']?>" alt="<?=$row['NAME']?>">
             </div>
             <div class="examples__card-content">
                 <div class="examples__card-title">

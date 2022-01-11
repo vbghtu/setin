@@ -24,7 +24,7 @@ ErrorDocument 404 /404.php
   php_value mbstring.internal_encoding UTF-8
 </IfModule>
 
-php_value auto_prepend_file C:/OpenServer/domains/setin.xxx/bitrix/templates/setin_new/pagen.php
+#php_value auto_prepend_file C:/OpenServer/domains/setin.xxx/bitrix/templates/setin_new/pagen.php
 
 
 <IfModule mod_rewrite.c>
@@ -32,13 +32,8 @@ php_value auto_prepend_file C:/OpenServer/domains/setin.xxx/bitrix/templates/set
     RewriteEngine On
     RewriteRule ^(.*)/page/([\d]+) /$1/?PAGEN_1=$2 [L,QSA]
 
-
-    #RewriteCond %{REQUEST_URI} ^portfolio/page/1$
-    #RewriteRule ^(.*)$ http://setin.xxx/$1? [R=301,L]
-
-
-    #RewriteCond %{THE_REQUEST} ^(.*)/page/1
-    #RewriteRule ^(.*)/page/1  /$1 [R=301,L]
+    RewriteCond %{THE_REQUEST} ^(.*)/page/1
+    RewriteRule ^(.*)/page/1  /$1 [R=301,L]
 
     #RewriteRule ^(.*)/page/1  /$1 [R=301,L]
 

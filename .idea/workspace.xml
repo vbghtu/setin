@@ -1,145 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="portfolio pagination add">
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/templates.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/pagi/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/pagen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polezno/.section.php" afterDir="false" />
+    <list default="true" id="18f6ed3e-1dde-48dd-831a-581437526fb7" name="Changes" comment="mm">
+      <change afterPath="$PROJECT_DIR$/portfolio/.access.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/cottage-towns/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/stroitelnaya-ekspertiza/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/tehnadzor/.section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dop_top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.dop_top.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/setin.xxx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/setin.xxx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/breadcrumb/setin_bread/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/bg/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/fa/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/lt/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/pl/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/tr/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/tr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/lang/vn/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/.default/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/bg/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/fa/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/arrows_adm/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/bootstrap_v4/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/grid/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/bg/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/bg/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/fr/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/la/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/lt/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/pl/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/ua/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/js/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/bg/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/fa/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/modern/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/bg/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/fa/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/lt/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/pl/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/tr/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/tr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/lang/vn/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/orange/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/round/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/de/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/de/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/en/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/en/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/fr/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/fr/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/la/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/la/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/lt/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/pl/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/pl/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/ru/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/ru/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/ua/.parameters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/lang/ua/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/result_modifier.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation/visual/template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polezno/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/polezno/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/site_checker_04808666ddd45708c2b7dc0c1fd34da0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/setin_new/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/setin_new/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nashi_zakazchiki/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/nashi_zakazchiki/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/cottage-towns/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/cottage-towns/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/stroitelnaya-ekspertiza/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/stroitelnaya-ekspertiza/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/tehnadzor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tehnadzor/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section_default_h.php" beforeDir="false" afterPath="$PROJECT_DIR$/section/section_default_h.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urlrewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="try" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -176,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/setin_new/components/bitrix/system.pagenavigation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -223,6 +109,8 @@
       <workItem from="1641597596487" duration="6468000" />
       <workItem from="1641680693384" duration="6655000" />
       <workItem from="1641750168379" duration="14570000" />
+      <workItem from="1641929453858" duration="627000" />
+      <workItem from="1641930088898" duration="11362000" />
     </task>
     <task id="LOCAL-00003" summary="add lid form &amp; start bredcrumbs">
       <created>1641386114587</created>
@@ -259,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641689009557</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mm">
+      <created>1641929592497</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641929592497</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +180,7 @@
     <MESSAGE value="breadcrumbs fix ? some statik pages done" />
     <MESSAGE value="portfolio objects" />
     <MESSAGE value="portfolio pagination add" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio pagination add" />
+    <MESSAGE value="mm" />
+    <option name="LAST_COMMIT_MESSAGE" value="mm" />
   </component>
 </project>

@@ -1,5 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+/**
+ * @global CMain $APPLICATION
+ */
 
 CModule::IncludeModule("iblock");
 
@@ -10,46 +13,23 @@ $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
 while($ob = $res->GetNextElement()){
    $row = $ob->GetFields();  
 } 
-
-$ipropValues = new \Bitrix\Iblock\InheritedProperty\ElementValues(26,1941); 
+$ipropValues = new \Bitrix\Iblock\InheritedProperty\ElementValues(26,1941);
 
 $IPROPERTY = $ipropValues->getValues();
 
+$APPLICATION->AddChainItem("Наши Заказчики","");
 $APPLICATION->SetTitle($IPROPERTY['ELEMENT_META_TITLE']);
 $APPLICATION->SetPageProperty("description", $IPROPERTY['ELEMENT_META_DESCRIPTION']);
 
-?> 
-
-
-	<section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1" /></span>
-					<span> / </span>
-					<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#"><span itemprop="name"><?=$row['PROPERTY_H1_VALUE'];?></span></a><meta itemprop="position" content="2" /></span>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="stat-sect1 nashi_zakazchiki">
-		<div class="container">
-		<h1><?=$row['PROPERTY_H1_VALUE'];?></h1>
-			<div class="row">
-				<div class="col-md-12">
-				
-					
-
-	<?=$row['DETAIL_TEXT'];?>
-				
-					
+?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_default_h.php"); ?>
+<div class="container">
+    <div class="container__text">
+	    <?=$row['DETAIL_TEXT'];?>
+    </div>
 </div>
-		
-			
-			</div><br />
-			<div class="row wrap-items">
-			
+<section>
+    <div class="container ourclients">
 <?php
 
 CModule::IncludeModule("iblock");
@@ -58,17 +38,21 @@ $arSelect = Array("ID", "NAME", "PROPERTY_TIP", "PROPERTY_KOD", "PROPERTY_IMG", 
 $res = CIBlockElement::GetList (Array("sort"=>"ASC"), Array("IBLOCK_ID" => 2), false, false, $arSelect);
 
 while($row = $res->GetNext()) {
-	
-$img_src = CFile::ResizeImageGet($row['PROPERTY_IMG_VALUE'], array('width'=>200, 'height'=>120), BX_RESIZE_IMAGE_EXACT, true);
-
+	$img_src = CFile::ResizeImageGet($row['PROPERTY_IMG_VALUE'], array('width'=>200, 'height'=>120), BX_RESIZE_IMAGE_EXACT, true);
 ?>
 
-<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-<div align="center" class="item">
-<p><a href="<?=$row['PROPERTY_SITE_VALUE']?>" target="_blank" rel="nofollow"><img src="<?=$img_src['src'];?>"></a></p>
-<p><a href="<?=$row['PROPERTY_SITE_VALUE']?>" target="_blank" rel="nofollow"><?=$row['NAME'];?></a></p><br />
-</div>
-</div>
+    <div class="clients__slider-img">
+        <img src="<?=$img_src['src'];?>" alt="<?=$row['NAME'];?>">
+        <a href="<?=$row['PROPERTY_SITE_VALUE']?>" target="_blank" rel="nofollow" class="clients__slider-hidden">
+            <div class="tabs__item small-text">
+                <i><?=$row['NAME'];?></i>
+                <p><?=$row['PROPERTY_KOD_VALUE']['TEXT']?></p>
+                <span class="icon-arrow-rigth clients__slider-arrow"></span>
+            </div>
+        </a>
+    </div>
+
+
 
 <?php
 	
@@ -78,10 +62,9 @@ $img_src = CFile::ResizeImageGet($row['PROPERTY_IMG_VALUE'], array('width'=>200,
 
 ?>			
 
-			</div>
+
 		</div>
 	</section>
 
-	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
-
- <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
