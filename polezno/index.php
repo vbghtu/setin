@@ -3,15 +3,28 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 $APPLICATION->SetPageProperty("title", "Полезная информация о строительном надзоре и экспертизах | Компания СтройЭкспертНадзор");
 $APPLICATION->SetPageProperty("description", "Публикации на тему технического надзора и строительной экспертизы от специалистов компании СтройЭкспертНадзор.");
+$APPLICATION->AddChainItem("Полезно знать", "/polezno/");
 
-
-require($_SERVER["DOCUMENT_ROOT"] . "/section/section_default_h.php");
 ?>
 
-<div class="container">
+		<section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1" /></span>
+          <span>/</span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="#"><span itemprop="name">Полезно знать</span></a><meta itemprop="position" content="2" /></span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-<?$APPLICATION->IncludeComponent("bitrix:news.list", "polezno", array(
+<section class="stat-sect1">
+		<div class="container">
+		
+		<h1>Полезная информация</h1>
+	 
+	                <?$APPLICATION->IncludeComponent("bitrix:news.list", "polezno", array(
 	"IBLOCK_TYPE" => "1",
 	"IBLOCK_ID" => "25",
 	"NEWS_COUNT" => "",
@@ -91,54 +104,41 @@ require($_SERVER["DOCUMENT_ROOT"] . "/section/section_default_h.php");
 	)
 	),
 	false
-);
-
-$APPLICATION->IncludeComponent(
-    'bitrix:system.pagenavigation',
-    'modern',
-    array(
-        'NAV_TITLE'   => 'Элементы', // поясняющий текст для постраничной навигации
-        'NAV_RESULT'  => $rsElement,  // результаты выборки из базы данных
-        'SHOW_ALWAYS' => false       // показывать постраничную навигацию всегда?
-    )
-);
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+);?> 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+       
+        
+        
 </div></section>
 
     	<? require($_SERVER["DOCUMENT_ROOT"] . "/section/section_form.php");?>

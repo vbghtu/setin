@@ -24,7 +24,11 @@ ErrorDocument 404 /404.php
   php_value mbstring.internal_encoding UTF-8
 </IfModule>
 
+<<<<<<< HEAD
 #php_value auto_prepend_file C:/OpenServer/domains/setin.xxx/bitrix/templates/setin_new/pagen.php
+=======
+#php_value auto_prepend_file "C:/OpenServer/domains/setin.xxx/bitrix/templates/setin_new/include/pagen.php"
+>>>>>>> parent of 31a97eb05 (pagination add. 404 add)
 
 
 <IfModule mod_rewrite.c>
