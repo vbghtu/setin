@@ -17,4 +17,3 @@ jobs:
         username: cu87343_main
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /setin/public_html/
-        dry-run: true
